@@ -1,0 +1,2 @@
+requests>=2.34
+python-vlc>=3.0.21203

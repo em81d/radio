@@ -2,3 +2,5 @@ SPOTIFY_EXPORT_PLAN.md
 .env
 config.toml
 lastfmdetails.txt
+.venv/
+__pycache__/
