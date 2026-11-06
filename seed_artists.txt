@@ -1,0 +1,9 @@
+# Seed taste profile: used until your Spotify export arrives.
+# One artist per line. Optionally add a weight from 0 to 1 after a "|" (default 1.0).
+# To favor one exact song, write "Artist - Title" (it gets the top score).
+# Lines starting with # are ignored.
+#
+# Examples:
+# Phoebe Bridgers
+# Grouplove | 0.8
+# Fleetwood Mac - Dreams

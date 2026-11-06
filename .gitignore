@@ -4,3 +4,6 @@ config.toml
 lastfmdetails.txt
 .venv/
 __pycache__/
+*.db
+*.log
+taste_radio/pool.json

@@ -1,0 +1,3 @@
+# Stations that play clean (radio-edit) versions of songs.
+# One station name or stream URL per line. Songs on these stations skip the explicit lookup.
+# US FM/AM broadcast stations (K/W call letters) are detected automatically; list others here.

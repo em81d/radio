@@ -1,0 +1,2 @@
+# Stations that turned out to play uncensored songs, even though they look like clean broadcast stations.
+# One station name or stream URL per line. These override clean_stations.txt and the call-letter rule.
