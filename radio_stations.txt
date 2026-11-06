@@ -1,0 +1,1706 @@
+FREE ONLINE RADIO CANDIDATES FOR TASTE RADIO
+Generated 2026-11-05. Every stream below was connected to live on that date.
+
+How big is the pool? The Radio Browser directory (radio-browser.info, which
+stations.py will use) lists about 62,600 stations. Plenty of them are news, talk,
+sports or religious, but thousands are music. This file has three parts:
+  PART 1: my top 50 picks: mostly music, few or no ads, wide variety, and they send song titles
+  PART 2: more hand-picked stations, including great ones that DON'T send song titles
+  PART 3: a big verified directory: 772 more music stations grouped by genre,
+          kept only if they returned a real 'Artist - Title' during the test
+
+'song info: YES' means the stream sends ICY StreamTitle metadata, which
+nowplaying.py needs in order to score the current song. Stations without it can still
+be listened to, but Taste Radio can't tell what they're playing.
+Stream URLs change sometimes. If one dies, search the station name on radio-browser.info.
+
+==============================================================================
+PART 1: TOP 50 PICKS
+==============================================================================
+ 1. Radio Paradise Main Mix
+      Eclectic — Eclectic rock/indie/world/electronic, hand-curated, no ads
+      stream: http://stream.radioparadise.com/mp3-192
+      song info: YES  (e.g. "Tom Petty & The Heartbreakers - Sins of My Youth")
+
+ 2. Radio Paradise Mellow Mix
+      Eclectic — The softer side of the main mix
+      stream: http://stream.radioparadise.com/mellow-192
+      song info: YES  (e.g. "Turin Brakes - Goodbye")
+
+ 3. Radio Paradise Rock Mix
+      Rock — Classic and modern rock, hand-curated
+      stream: http://stream.radioparadise.com/rock-192
+      song info: YES  (e.g. "The Pineapple Thief - Last to Run")
+
+ 4. Radio Paradise Global Mix
+      World — World / eclectic / chill
+      stream: http://stream.radioparadise.com/global-192
+      song info: YES  (e.g. "Mista Savona - 410 San Miguel (feat. Ernest Ranglin)")
+
+ 5. SomaFM Groove Salad
+      Chill/downtempo — Ambient/downtempo grooves; SomaFM's flagship
+      stream: https://ice1.somafm.com/groovesalad-128-mp3
+      song info: YES  (e.g. "Leggo Beast - Skanked")
+
+ 6. SomaFM Indie Pop Rocks!
+      Indie — Indie pop and rock, new and classic
+      stream: https://ice1.somafm.com/indiepop-128-mp3
+      song info: YES  (e.g. "Grouplove - Francine")
+
+ 7. BAGeL Radio
+      Indie/alt rock — Alternative/indie rock; independent, listener-supported, no ads
+      stream: https://ais-sa3.cdnstream1.com/2606_128.aac
+      site:   https://www.bagelradio.com/
+      song info: YES  (e.g. "Juliana Hatfield - When You're A Star")
+
+ 8. SomaFM Lush
+      Dreamy vocal electronic — Sensuous female vocals, mostly electronic-influenced
+      stream: https://ice1.somafm.com/lush-128-mp3
+      song info: YES  (e.g. "NAVVI - Polychrome")
+
+ 9. SomaFM Underground 80s
+      80s new wave — Early 80s UK synthpop and new wave
+      stream: https://ice1.somafm.com/u80s-128-mp3
+      song info: YES  (e.g. "Tears For Fears - Change")
+
+10. SomaFM Left Coast 70s
+      70s rock — Mellow album rock from the 70s
+      stream: https://ice1.somafm.com/seventies-128-mp3
+      song info: YES  (e.g. "America - Tin Man")
+
+11. SomaFM Folk Forward
+      Indie folk — Indie folk, alt-folk, classic folk
+      stream: https://ice1.somafm.com/folkfwd-128-mp3
+      song info: YES  (e.g. "Lonesome Animals - Sunrise")
+
+12. SomaFM Boot Liquor
+      Americana — Americana / alt-country / roots
+      stream: https://ice1.somafm.com/bootliquor-128-mp3
+      song info: YES  (e.g. "Kit And The Branded Men - That's Too Bad For Me")
+
+13. SomaFM Secret Agent
+      Lounge/soundtrack — Spy-movie lounge, bossa, soundtrack grooves
+      stream: https://ice1.somafm.com/secretagent-128-mp3
+      song info: YES  (e.g. "The Mighty Bop - Peau D' Ane")
+
+14. SomaFM Seven Inch Soul
+      Vintage soul — Vintage soul 45s
+      stream: https://ice1.somafm.com/7soul-128-mp3
+      song info: YES  (e.g. "The Trammps - Hold Back The Night")
+
+15. SomaFM Sonic Universe
+      Jazz — Nu-jazz, avant-garde jazz, eclectic
+      stream: https://ice1.somafm.com/sonicuniverse-128-mp3
+      song info: YES  (e.g. "Miles Davis - Maiysha")
+
+16. SomaFM Fluid
+      Instrumental hip-hop — Instrumental hip-hop, future soul, liquid trap
+      stream: https://ice1.somafm.com/fluid-128-mp3
+      song info: YES  (e.g. "Virtual 420 - i'd throw it all away [for you]")
+
+17. SomaFM Beat Blender
+      Deep house — Deep house and downtempo chill
+      stream: https://ice1.somafm.com/beatblender-128-mp3
+      song info: YES  (e.g. "Overtone - Big Mutha (Patillo De La Risa)")
+
+18. SomaFM PopTron
+      Electropop — Electropop and indie dance
+      stream: https://ice1.somafm.com/poptron-128-mp3
+      song info: YES  (e.g. "Ry, Frank Wiedemann - Howling")
+
+19. SomaFM Covers
+      Covers — Just covers of songs you know
+      stream: https://ice1.somafm.com/covers-128-mp3
+      song info: YES  (e.g. "Thao with the Get Down Stay Down - You've Really Got A Hold On Me")
+
+20. SomaFM Heavyweight Reggae
+      Reggae — Reggae, ska, rocksteady classics
+      stream: https://ice1.somafm.com/reggae-128-mp3
+      song info: YES  (e.g. "I Roy & Dennis Walks - The Drifter")
+
+21. SomaFM Metal Detector
+      Metal — Heavy metal, from black to doom to thrash
+      stream: https://ice1.somafm.com/metal-128-mp3
+      song info: YES  (e.g. "137 - 14 One Too Many")
+
+22. SomaFM Suburbs of Goa
+      World/Asian beats — Desi-influenced Asian world beats
+      stream: https://ice1.somafm.com/suburbsofgoa-128-mp3
+      song info: YES  (e.g. "Metasurfing - Grains Of Light")
+
+23. SomaFM Bossa Beyond
+      Bossa nova — Silky bossa nova, samba and Brazilian
+      stream: https://ice1.somafm.com/bossa-128-mp3
+      song info: YES  (e.g. "Greyboy Featuring Elgin Park - Mastered the Art (Nicola Conte Jet Sounds Remix) ")
+
+24. SomaFM Drone Zone
+      Ambient — Atmospheric ambient, no beats
+      stream: https://ice1.somafm.com/dronezone-128-mp3
+      song info: YES  (e.g. "synkrotron - DRONE Part Three")
+
+25. SomaFM Thistle Radio
+      Celtic — Celtic roots music
+      stream: https://ice1.somafm.com/thistle-128-mp3
+      song info: YES  (e.g. "Cathy Jordan - The River Field Waltz")
+
+26. The Current (MPR)  [listed as: MPR The Current]
+      Indie/alt — Minnesota Public Radio's indie/alt station
+      stream: http://current.stream.publicradio.org/kcmp.mp3
+      site:   http://www.thecurrent.org/
+      song info: YES  (e.g. "Most Likely You Go Your Way (And I'll Go Mine)-Bob Dylan")
+
+27. Radio Milwaukee 88Nine  [listed as: WYMS 88Nine Radio Milwaukee]
+      Indie/alt — Eclectic public radio
+      stream: https://wyms.streamguys1.com/live?platform=NPR
+      site:   https://radiomilwaukee.org/
+      song info: YES  (e.g. "Kings Of Leon - My Whole World")
+
+28. ByteFM  [listed as: ByteFM (192k)]
+      Eclectic — Hamburg; ad-free music radio
+      stream: https://bytefm.cast.addradio.de/bytefm/main/high/stream
+      site:   https://www.byte.fm/
+      song info: YES  (e.g. "Michael Turtle - Village Voice")
+
+29. Radio Swiss Pop
+      Pop
+      stream: http://stream.srg-ssr.ch/m/rsp/mp3_128
+      site:   http://www.radioswisspop.ch/
+      song info: YES  (e.g. "All-4-One - I Swear")
+
+30. Radio Swiss Jazz
+      Jazz — Jazz/soul/blues, no ads, no talk
+      stream: http://stream.srg-ssr.ch/m/rsj/mp3_128
+      site:   http://www.radioswissjazz.ch/
+      song info: YES  (e.g. "Radio Swiss Jazz - www.radioswissjazz.ch")
+
+31. Radio Swiss Classic  [listed as: Radio Swiss Classic German]
+      Classical — Classical, no ads, minimal talk
+      stream: http://stream.srg-ssr.ch/m/rsc_de/mp3_128
+      site:   http://www.radioswissclassic.ch/
+      song info: YES  (e.g. "Heinrich Joseph Baermann - Andante und Menuetto aus dem Klarinettenquintett Es-D")
+
+32. Jazz24
+      Jazz — Straight-ahead jazz 24/7
+      stream: https://knkx-live-a.edge.audiocdn.com/6285_256k
+      site:   https://www.jazz24.org/
+      song info: YES  (e.g. "Ben Paterson - Chitlins Con Carne")
+
+33. WBGO Jazz 88.3  [listed as: WBGO Jazz 88.3 FM]
+      Jazz — Newark/NYC jazz
+      stream: https://ais-sa8.cdnstream1.com/3629_128.mp3
+      site:   https://www.wbgo.org/
+      song info: YES  (e.g. "THIS STATION WILL CONTINUE AFTER THIS BREAK")
+
+34. Linn Jazz
+      Jazz — High-quality jazz stream
+      stream: http://radio.linn.co.uk:8000/autodj
+      site:   https://www.linn.co.uk/linn-radio
+      song info: YES  (e.g. "David Newton - Eye Witness [2u]")
+
+35. Blues Radio
+      Blues — Blues
+      stream: http://cast3.radiohost.ovh:8352/
+      site:   http://bluesradio.gr/
+      song info: YES  (e.g. "Wyland Blues Planet Band - Days Gone By (feat.Taj Mahal)")
+
+36. Linn Classical
+      Classical — Hi-fi classical
+      stream: http://radio.linn.co.uk:8004/autodj
+      site:   https://www.linn.co.uk/linn-radio
+      song info: YES  (e.g. "Scottish Chamber Orchestra - 02 - Clarinet Concerto No 1 in F Minor Op 73 J 114 ")
+
+37. Le Mellotron  [listed as: LaMellotron]
+      Jazz/soul/hip-hop — Paris; jazz/soul/hip-hop/world
+      stream: https://listen.radioking.com/radio/477719/stream/534044
+      site:   https://www.lemellotron.com/
+      song info: YES  (e.g. "21 Savage & Metro Boomin - Rich Nigga Shit (feat. Young Thug)")
+
+38. Worldwide FM
+      Global/eclectic — Gilles Peterson's global music station
+      stream: https://worldwide-fm.radiocult.fm/stream
+      site:   https://www.worldwidefm.net/
+      song info: YES  (e.g. "Love, Warmth & Affection feat. Ralph Weeks - Expression of Affection")
+
+39. Chillsynth FM  [listed as: Nightride FM - Chillsynth]
+      Synthwave — Chill synthwave (Nightride network)
+      stream: https://stream.nightride.fm/chillsynth.mp3
+      site:   https://nightride.fm/
+      song info: YES  (e.g. "Last Day Dreaming - why is it so hard to sleep at night?")
+
+40. Nightwave Plaza  [listed as: Nightwave Plaza MP3 182]
+      Vaporwave — Vaporwave/future funk
+      stream: http://radio.plaza.one/mp3
+      site:   https://plaza.one/
+      song info: YES  (e.g. "Phoenix #2772 - Dude, You're Dead! You Can't Do Shit About It!")
+
+41. Café del Mar Radio  [listed as: Café del Mar]
+      Balearic chill — Balearic chill
+      stream: https://streams.radio.co/se1a320b47/listen
+      site:   https://cafedelmar.com/radio/
+      song info: YES  (e.g. "A Man Called Adam - Easter Song")
+
+42. 181.fm The Buzz (Alt Rock)  [listed as: 181.FM - The Buzz (Alt. Rock)]
+      Alt rock
+      stream: http://listen.181fm.com/181-buzz_128k.mp3
+      site:   http://www.181.fm/
+      song info: YES  (e.g. "Fuel - Hemorrhage (In My Hands)")
+
+43. 181.fm Old School Hip Hop  [listed as: 181.FM - Old School HipHop/RnB]
+      Hip-hop/R&B
+      stream: http://listen.181fm.com/181-oldschool_128k.mp3
+      site:   http://www.181.fm/
+      song info: YES  (e.g. "Rob Base & DJ E-Z Rock - It Takes Two")
+
+44. 1.FM Jamz  [listed as: 1.FM - Jamz Radio]
+      Hip-hop/R&B — Hip-hop/R&B
+      stream: http://strm112.1.fm/jamz_mobile_mp3
+      site:   http://www.1.fm/
+      song info: YES  (e.g. "Hurricane Wisdo, Gunna - YK Where It`s Goin")
+
+45. 181.fm Classic Hits  [listed as: 181.FM - Classic Hits 181]
+      Classic hits
+      stream: https://listen.181fm.com/181-greatoldies_128k.mp3
+      site:   http://www.181.fm/
+      song info: YES  (e.g. "Michael Jackson - Wanna Be Startin` Somethin` (Single Edit)")
+
+46. 181.fm Kickin' Country  [listed as: 181.FM - Kickin' Country]
+      Country
+      stream: https://listen.181fm.com/181-kickincountry_128k.mp3
+      site:   http://www.181.fm/
+      song info: YES  (e.g. "Luke Combs - Rethink Some Things")
+
+47. Outlaw Country (Big R)  [listed as: Outlaw Country Radio]
+      Country — Outlaw/classic country
+      stream: https://usa17.fastcast4u.com/proxy/kievradio?mp=/1
+      site:   https://www.outlaw.fm/
+      song info: YES  (e.g. "Brooks and Dunn - My Maria")
+
+48. Bluegrass Country / WAMU  [listed as: Bluegrass Country]
+      Bluegrass — Bluegrass 24/7
+      stream: https://ice24.securenetsystems.net/WAMU
+      site:   https://bluegrasscountry.org/
+      song info: YES  (e.g. "Fred Bartenstein - Banks of the Ohio")
+
+49. Big B Radio K-pop  [listed as: Big B Radio - Kpop]
+      K-pop — K-pop
+      stream: https://antares.dribbcast.com/proxy/kpop?mp=/s
+      site:   https://bigbradio.net/kpop
+      song info: YES  (e.g. "CLEO - Always In My Heart")
+
+50. Radio Disney Latin / Latin pop  [listed as: Top Latino]
+      Latin — Latin pop
+      stream: http://online.radiodifusion.net:8020/stream
+      site:   https://www.toplatino.net/
+      song info: YES  (e.g. "HENRY SANTOS - My Way")
+
+==============================================================================
+PART 2: MORE HAND-PICKED STATIONS
+==============================================================================
+
+--- SomaFM (listener-supported, no ads, 30+ channels) ---
+  * SomaFM Groove Salad Classic
+      Late-90s/early-00s downtempo
+      stream: https://ice1.somafm.com/gsclassic-128-mp3
+      song info: YES  (e.g. "Samnambulism - Roupe")
+  * SomaFM Deep Space One
+      Deep ambient / space music
+      stream: https://ice1.somafm.com/deepspaceone-128-mp3
+      song info: YES  (e.g. "Steve Brand - Climbing A Mountain That Never Was")
+  * SomaFM Space Station Soma
+      Spaced-out ambient + mid-tempo electronica
+      stream: https://ice1.somafm.com/spacestation-128-mp3
+      song info: YES  (e.g. "Strawberry Girl - Poesie")
+  * SomaFM Illinois Street Lounge
+      Classic bachelor-pad, exotica, vintage lounge
+      stream: https://ice1.somafm.com/illstreet-128-mp3
+      song info: YES  (e.g. "Percussion & Guitars - Jazz Pizzicato")
+  * SomaFM cliqhop idm
+      IDM / glitch / blips'n'beeps
+      stream: https://ice1.somafm.com/cliqhop-128-mp3
+      song info: YES  (e.g. "Elephant And Castle - Rgb")
+  * SomaFM Dub Step Beyond
+      Dubstep, dub and deep bass
+      stream: https://ice1.somafm.com/dubstep-128-mp3
+      song info: YES  (e.g. "Desert Dwellers - I Dropped It")
+  * SomaFM DEF CON Radio
+      Dark electronic music for hacking
+      stream: https://ice1.somafm.com/defcon-128-mp3
+      song info: YES  (e.g. "s8jfou - Keep Coming Back")
+  * SomaFM The Trip
+      Progressive house / trance
+      stream: https://ice1.somafm.com/thetrip-128-mp3
+      song info: YES  (e.g. "Purepath, Natlife And Amex Feat. Tiff Lacey - Clockworks (Elekktrocore Mix)")
+  * SomaFM Vaporwaves
+      Vaporwave
+      stream: https://ice1.somafm.com/vaporwaves-128-mp3
+      song info: YES  (e.g. "Tokyo Wanderer - Yume")
+  * SomaFM Synphaera
+      Modern electronic ambient & space music
+      stream: https://ice1.somafm.com/synphaera-128-mp3
+      song info: YES  (e.g. "Echo Season - Deuterium Ratio")
+  * SomaFM n5MD Radio
+      Emotional experiments: ambient, post-rock, IDM
+      stream: https://ice1.somafm.com/n5md-128-mp3
+      song info: YES  (e.g. "subtractiveLAD - filament")
+  * SomaFM Digitalis
+      Digitally affected analog rock
+      stream: https://ice1.somafm.com/digitalis-128-mp3
+      song info: YES  (e.g. "L'Altra - Bring On Happiness")
+  * SomaFM Black Rock FM
+      Burning Man radio, eclectic (some talk)
+      stream: https://ice1.somafm.com/brfm-128-mp3
+      song info: YES  (e.g. "Bassnectar - West Coast Lo-Fi Rides Again")
+  * SomaFM Chillits Radio
+      Chill electronic
+      stream: https://ice1.somafm.com/chillits-128-mp3
+      song info: YES  (e.g. "Mike Bee - Chillits 2007")
+
+--- Radio Paradise (listener-supported, no ads) ---
+  * Radio Paradise Serenity
+      Ambient/chill (may need different URL)
+      stream: http://stream.radioparadise.com/radio2050-192
+      song info: YES  (e.g. "Radio 2050")
+
+--- FIP / Radio France (public, no ads, famously eclectic) ---
+  * FIP
+      French public radio; almost all music, no ads
+      stream: https://icecast.radiofrance.fr/fip-midfi.mp3
+      song info: NO (no-metadata)
+  * FIP Rock
+      French public radio; almost all music, no ads
+      stream: https://icecast.radiofrance.fr/fiprock-midfi.mp3
+      song info: NO (no-metadata)
+  * FIP Jazz
+      French public radio; almost all music, no ads
+      stream: https://icecast.radiofrance.fr/fipjazz-midfi.mp3
+      song info: NO (no-metadata)
+  * FIP Groove
+      French public radio; almost all music, no ads
+      stream: https://icecast.radiofrance.fr/fipgroove-midfi.mp3
+      song info: NO (no-metadata)
+  * FIP Monde (World)
+      French public radio; almost all music, no ads
+      stream: https://icecast.radiofrance.fr/fipworld-midfi.mp3
+      song info: NO (no-metadata)
+  * FIP Nouveautés (New)
+      French public radio; almost all music, no ads
+      stream: https://icecast.radiofrance.fr/fipnouveautes-midfi.mp3
+      song info: NO (no-metadata)
+  * FIP Reggae
+      French public radio; almost all music, no ads
+      stream: https://icecast.radiofrance.fr/fipreggae-midfi.mp3
+      song info: NO (no-metadata)
+  * FIP Electro
+      French public radio; almost all music, no ads
+      stream: https://icecast.radiofrance.fr/fipelectro-midfi.mp3
+      song info: NO (no-metadata)
+  * FIP Pop
+      French public radio; almost all music, no ads
+      stream: https://icecast.radiofrance.fr/fippop-midfi.mp3
+      song info: NO (no-metadata)
+  * FIP Metal
+      French public radio; almost all music, no ads
+      stream: https://icecast.radiofrance.fr/fipmetal-midfi.mp3
+      song info: NO (no-metadata)
+  * FIP Hip-Hop
+      French public radio; almost all music, no ads
+      stream: https://icecast.radiofrance.fr/fiphiphop-midfi.mp3
+      song info: NO (no-metadata)
+
+--- Public / non-commercial eclectic & indie ---
+  * KEXP 90.3 Seattle  [listed as: KEXP 90.3 Seattle, WA]
+      Legendary indie/alt station; DJs talk briefly between sets
+      stream: http://live-mp3-128.kexp.org/kexp128.mp3
+      site:   http://www.kexp.org/
+      song info: none seen during test (may only send show names)
+  * KCRW Eclectic 24
+      24/7 music-only stream from KCRW Santa Monica
+      stream: https://streams.kcrw.com/e24_mp3
+      site:   https://www.kcrw.com/music/shows/eclectic24
+      song info: none seen during test (may only send show names)
+  * WXPN XPoNential Radio  [listed as: WXPN HD2 - XPoNential ]
+      Philly public radio, adult alternative
+      stream: https://wxpn.xpn.org/xpn2mp3hi
+      site:   https://xpn.org/
+      song info: none seen during test (may only send show names)
+  * WFUV  [listed as: WFUV 90.7 Fordham University - New York, NY]
+      NYC public radio, adult alternative
+      stream: http://wfuv-onair.streamguys.org/onair-hi
+      site:   http://www.wfuv.org/
+      song info: none seen during test (may only send show names)
+  * KUTX 98.9 Austin  [listed as: KUTX 98.9 (2024 Stream, 192 kbps mp3)]
+      Austin public radio, eclectic
+      stream: https://streams.kut.org/4428_192.mp3
+      site:   https://kut.org/
+      song info: YES  (e.g. "THIS STATION WILL CONTINUE AFTER THIS BREAK")
+  * WFMU  [listed as: WFMU 91.1 East Orange, NJ]
+      Freeform legend; very eclectic but lots of DJ talk
+      stream: http://stream0.wfmu.org/freeform-high.aac
+      site:   https://wfmu.org/
+      song info: YES  (e.g. ""Raga Kaunsi Kanada" by Annapurna devi on India's Show on WFMU")
+  * Double J (ABC Australia)  [listed as: Double J QLD]
+      Australian public radio, adult alternative
+      stream: https://mediaserviceslive.akamaized.net/hls/live/2038342/doublejqld/index.m3u8
+      site:   https://www.abc.net.au/listen/doublej
+      song info: HLS stream, can't read ICY titles
+  * triple j Unearthed  [listed as: ABC triple j Unearthed]
+      Australian new/unsigned music
+      stream: https://streaming.abc-cdn.net.au/audio/hls/triplejunearthed.m3u8?source=web
+      site:   https://www.triplejunearthed.com/
+      song info: HLS stream, can't read ICY titles
+  * Radio Nova
+      Paris; eclectic hip-hop/soul/electronic/world
+      stream: http://novazz.ice.infomaniak.ch/novazz-128.mp3
+      site:   http://www.nova.fr/radionova/radio-nova
+      song info: none seen during test (may only send show names)
+  * Radio Meuh
+      French Alps; eclectic, groovy, no ads
+      stream: http://radiomeuh.ice.infomaniak.ch/radiomeuh-128.mp3
+      site:   http://www.radiomeuh.com/
+      song info: YES  (e.g. "y S - y O")
+  * Dublab
+      LA non-profit; experimental/eclectic
+      stream: http://dublab.out.airtime.pro:8000/dublab_a
+      site:   https://www.dublab.com/
+      song info: YES  (e.g. "Moniquea, DJ PartyP - Jammin' Croquettes (11.05.26)")
+  * NTS Radio 1
+      London; huge range, show-based (metadata = show names)
+      stream: http://stream-relay-geo.ntslive.net/stream
+      site:   http://www.nts.live/
+      song info: none seen during test (may only send show names)
+  * NTS Radio 2
+      London; second channel
+      stream: http://stream-relay-geo.ntslive.net/stream2
+      site:   http://www.nts.live/
+      song info: none seen during test (may only send show names)
+  * Kiosk Radio
+      Brussels; underground electronic/eclectic
+      stream: https://kioskradiobxl.out.airtime.pro/kioskradiobxl_b
+      site:   https://kioskradio.com/
+      song info: YES  (e.g. "- Toverberg w/ Floridada & Daniël Paul @ Kiosk Radio 08.09.2025")
+  * Radio 1190 KVCU  [listed as: KVCU Radio 1190]
+      Boulder college radio
+      stream: https://radio.garden/api/ara/content/listen/vxqa6HTr/channel.mp3?1730758410709
+      site:   https://1190.radio/
+      song info: none seen during test (may only send show names)
+  * KALX Berkeley  [listed as: KALX 90.7FM Berkeley]
+      Student radio; eclectic
+      stream: https://stream.kalx.berkeley.edu:8443/kalx-320.aac
+      site:   https://www.kalx.berkeley.edu/
+      song info: none seen during test (may only send show names)
+  * WMBR  [listed as: WMBR 88.1 - Cambridge, MA]
+      MIT student radio
+      stream: http://wmbr.org:8000/hi
+      site:   http://wmbr.org/
+      song info: YES  (e.g. "Lost Futures (rebroadcast of Oct 6, 2026)")
+  * Radio K (KUOM)  [listed as: Radio K - Real College Radio (KUOM)]
+      U of Minnesota student radio
+      stream: https://radiok.broadcasttool.stream/play_256
+      site:   https://radiok.org/
+      song info: YES  (e.g. ""Thoroughfare" by Ethel Cain from "Preacher’s Daughter"")
+  * FluxFM
+      Berlin indie/alternative
+      stream: http://streams.fluxfm.de/live/mp3-320/audio/
+      site:   https://www.fluxfm.de/
+      song info: YES  (e.g. "FluxFM - Livestream")
+  * Radio Eins  [listed as: Radioeins]
+      Berlin public; music-heavy
+      stream: http://f121.rndfnk.com/ard/rbb/radioeins/live/mp3/128/stream.mp3?cid=01FC1WH12KJ93TCQPDSE2E5PZ9&sid=3LVapGtSjVs9RfzKdZ2uLqVGPMy&token=0Md_77CDxxiOZaRfJ0HSK3JlY_sGd_QAXMmFeaYVn_Y&tvf=fVbfHHkE5BhmMTIxLnJuZGZuay5jb20
+      site:   http://www.radioeins.de/
+      song info: YES  (e.g. ""Eanie Meany " von Jim Noir")
+
+--- Jazz, soul & blues ---
+  * KJAZZ 88.1  [listed as: KJazz 88.1 HD2 The Bebop Channel]
+      LA jazz & blues
+      stream: https://streaming.live365.com/a45189_2
+      site:   https://kkjz.org/
+      song info: YES  (e.g. "Unknown")
+  * WWOZ New Orleans  [listed as: WWOZ 90.7 New Orleans, LA]
+      Jazz, blues, funk, New Orleans music
+      stream: http://wwoz-sc.streamguys.com/wwoz-hi.mp3
+      site:   http://www.wwoz.org/
+      song info: none seen during test (may only send show names)
+  * TSF Jazz
+      Paris jazz station
+      stream: http://tsfjazz.ice.infomaniak.ch/tsfjazz-high.mp3
+      site:   https://www.tsfjazz.com/
+      song info: none seen during test (may only send show names)
+  * Jazz Radio (FR)  [listed as: Jazz Radio Blues]
+      French jazz/soul network
+      stream: http://jazzblues.ice.infomaniak.ch/jazzblues-high.mp3
+      site:   http://www.jazzradio.fr/radio/webradio/3/blues
+      song info: YES  (e.g. "Catfish blues - IKE TURNER")
+  * SmoothJazz.com  [listed as: SmoothJazz.com 128k mp3]
+      Smooth jazz
+      stream: https://smoothjazz.cdnstream1.com/2585_128.mp3
+      site:   https://www.smoothjazz.com/
+      song info: YES  (e.g. "Mike Di Lorenzo - Ooh, Aha")
+  * Soul Radio  [listed as: London Soul Radio]
+      Soul / R&B
+      stream: http://londonsoulradio.out.airtime.pro:8000/londonsoulradio_a
+      site:   http://www.thesouloflondonradio.com/
+      song info: YES  (e.g. "STEVE HART | CHRIS DA SHIRT - Jennifer Hudson - Don't Look Down (Produced By Ali")
+
+--- Classical & ambient ---
+  * Venice Classic Radio  [listed as: Venice Classic Radio *LIVE]
+      Classical/early music
+      stream: http://116.202.241.212:8020/
+      site:   https://www.veniceclassicradio.eu/
+      song info: YES  (e.g. "Andrea Luchesi (1741-1801) - Sonata per pianoforte in fa Maggiore No.4 (11:51) (")
+  * WQXR  [listed as: WQXR New York Public Radio "Operavore" Stream]
+      NYC classical
+      stream: http://opera-stream.wqxr.org/operavore-tunein
+      site:   http://www.wqxr.org/#!/blogs/operavore/
+      song info: none seen during test (may only send show names)
+  * KUSC  [listed as: Classical KUSC MP3 256]
+      LA classical
+      stream: https://playerservices.streamtheworld.com/api/livestream-redirect/KUSCMP256.mp3
+      site:   https://www.kusc.org/
+      song info: YES  (e.g. "Mateo Albeniz - Sonata in D")
+  * YourClassical MPR
+      MPR classical
+      stream: https://ycradio.stream.publicradio.org/ycradio.mp3
+      site:   https://www.yourclassical.org/playlist/classical-mpr
+      song info: YES  (e.g. "Quintet for Piano and Winds-Andre Caplet")
+  * ABC Classic  [listed as: ABC Classic 2 HLS]
+      Australian classical
+      stream: https://mediaserviceslive.akamaized.net/hls/live/2038317/classic2/index.m3u8
+      site:   https://www.abc.net.au/classic
+      song info: HLS stream, can't read ICY titles
+  * BR-Klassik
+      German public classical
+      stream: https://dispatcher.rndfnk.com/br/brklassik/live/mp3/high
+      site:   https://www.br-klassik.de/index.html
+      song info: YES  (e.g. "Musica Antiqua; Reinhard Goebel - 2. Satz aus: Konzert A-Dur")
+  * Ambient Sleeping Pill
+      Beatless ambient
+      stream: http://radio.stereoscenic.com/asp-h
+      site:   http://ambientsleepingpill.com/
+      song info: YES  (e.g. "Ambienteer - Juno")
+  * Dark Ambient Radio  [listed as: Dark Ambient Radio (96k AAC+)]
+      Dark ambient
+      stream: http://s3.viastreaming.net:8835/
+      site:   http://www.darkambientradio.de/news.php
+      song info: YES  (e.g. "Wolfskin - Unmanifested Void")
+
+--- Electronic, chill & lo-fi ---
+  * Nightride FM  [listed as: Nightride FM - Spacesynth]
+      Synthwave/retrowave
+      stream: https://stream.nightride.fm/spacesynth.mp3
+      site:   https://nightride.fm/
+      song info: YES  (e.g. "Space Project - Alien Voices")
+  * Intergalactic FM  [listed as: INTERGALACTIC FM - Disco Fetish]
+      The Hague; italo/electro/disco
+      stream: http://radio.intergalactic.fm/2
+      site:   https://www.intergalactic.fm/
+      song info: YES  (e.g. "Riccardo Cioni - Cassetta n.8 | No Station Such Dedication |  | 1980 | IT | DISC")
+  * Frisky Radio
+      Progressive house/techno DJ mixes
+      stream: https://stream.frisky.friskyradio.com/mp3_low
+      site:   https://www.friskyradio.com/
+      song info: YES  (e.g. "Hassan Rassmy - FRISKY | Passage - HassanRassmy | FRISKY.fm for track titles and")
+  * Ibiza Global Radio
+      House/techno from Ibiza
+      stream: http://ibizaglobalradio.streaming-pro.com:8024/
+      site:   http://www.ibizaglobalradio.com/
+      song info: none seen during test (may only send show names)
+  * Chillhop Radio  [listed as: FLUX FM ChillHop – Chill Beats and LoFi HipHop]
+      Lo-fi hip-hop / chillhop
+      stream: http://streams.fluxfm.de/Chillhop/mp3-320
+      site:   https://www.fluxfm.de/radio-livestream/#
+      song info: YES  (e.g. "ChillHop")
+  * Lofi hip-hop radio  [listed as: CLIAMP Lofi Hip Hop Radio]
+      Lo-fi beats
+      stream: https://radio.cliamp.stream/lofi/stream
+      site:   https://www.cliamp.stream/
+      song info: YES  (e.g. "AurosonMusic - Lo-Fi - Chill LoFi Beat")
+  * Radio Record  [listed as: Radio Record - Russian Mix]
+      Russian EDM/dance
+      stream: https://radiorecord.hostingradio.ru/rus96.aacp
+      site:   https://www.radiorecord.ru/station/rus
+      song info: YES  (e.g. "FILATOV & KARAS - Движ (Denis Bravo rmx)")
+  * Deep House Radio  [listed as: 1.FM - Deep House Radio]
+      Deep house
+      stream: http://strm112.1.fm/deephouse_mobile_mp3
+      site:   http://www.1.fm/
+      song info: YES  (e.g. "Ivan Ronovski - Deep In My Soul 018")
+  * Datafruits
+      Netlabel/vaporwave community radio
+      stream: https://streampusher-relay.club/datafruits.mp3
+      site:   http://www.datafruits.fm/
+      song info: YES  (e.g. "Caius Nocturne - LIVE -- djnameko")
+  * Radio Caprice Ambient  [listed as: Radio Caprice - Ambient Dub]
+      Radio Caprice runs 300+ single-genre channels
+      stream: http://79.111.14.76:9037/
+      site:   http://radcap.ru/
+      song info: NO (error)
+
+--- Rock, alternative, metal & punk ---
+  * Radio Bob!  [listed as: RADIO BOB! BOBs Metal]
+      German rock station
+      stream: http://streams.radiobob.de/bob-metal/mp3-192/streams.radiobob.de/
+      site:   http://www.radiobob.de/
+      song info: YES  (e.g. "RADIO BOB - Metal")
+  * Rock Antenne  [listed as: Rock Antenne - Heavy Metal]
+      German rock
+      stream: http://mp3channels.webradio.rockantenne.de/heavy-metal
+      site:   http://www.rockantenne.de/
+      song info: YES  (e.g. "Danzig - Mother")
+  * Radio X
+      UK indie/alt rock (ads)
+      stream: http://media-the.musicradio.com/RadioXUK
+      site:   http://www.radiox.co.uk/
+      song info: YES  (e.g. "Shed Seven - Chasing Rainbows")
+  * 181.fm The Rock!  [listed as: 181.FM - The Rock! (HardRock)]
+      181.fm has ~80 free genre channels
+      stream: http://listen.181fm.com/181-hardrock_128k.mp3
+      site:   http://www.181.fm/
+      song info: YES  (e.g. "181.fm - Music Promo30")
+  * 181.fm True Blues  [listed as: 181.FM - True Blues]
+
+      stream: https://listen.181fm.com/181-blues_128k.mp3
+      site:   http://www.181.fm/
+      song info: YES  (e.g. "Samantha Fish - Road Runner")
+  * 181.fm 80s Hairband  [listed as: 181.FM - 80's HairBand]
+
+      stream: https://listen.181fm.com/181-hairband_128k.mp3
+      site:   http://www.181.fm/
+      song info: YES  (e.g. "Rainbow - Street Of Dreams")
+  * Hard Radio
+      Hard rock/metal
+      stream: http://144.217.29.205/
+      site:   http://www.hardradio.com/
+      song info: YES  (e.g. "Judas Priest - Locked in")
+  * Punk FM  [listed as: Punk FM Brasil]
+      Punk rock
+      stream: https://radio.punkfm.com.br/listen/punkfmbrasil/punkfmbrasil.mp3
+      site:   https://punkfm.com.br/
+      song info: YES  (e.g. "Lixomania - Fugitivo")
+  * Big R Radio Alt Rock  [listed as: Big R Radio - 80s Metal FM]
+      Big R Radio has many genre channels
+      stream: http://bigrradio.cdnstream1.com/5186_128
+      site:   http://www.bigrradio.com/
+      song info: YES  (e.g. "Scorpions - Still Loving You")
+
+--- Decades & oldies ---
+  * 80s80s
+      German network; pure 80s
+      stream: http://streams.80s80s.de/web/mp3-192/streams.80s80s.de/
+      site:   http://80s80s.de/
+      song info: YES  (e.g. "80s80s Digital Web")
+  * 1.FM Blues  [listed as: 1.FM - Blues Radio]
+
+      stream: http://strm112.1.fm/blues_mobile_mp3
+      site:   https://www.1.fm/
+      song info: YES  (e.g. "Kenny Blue Ray - Pull the Strings")
+  * Absolute Radio 90s
+      UK 90s (ads, may be geo-limited)
+      stream: http://stream-ar.planetradio.co.uk/absolute90shigh.aac?direct=true&aw_0_1st.playerid=BMUK_Airable&aw_0_1st.skey=6778249992&aw_0_1st.bauer_loggedin=true
+      site:   https://www.hellorayo.co.uk/absolute-radio-90s
+      song info: YES  (e.g. "Going For Gold - Shed Seven")
+  * Oldies Radio / Majestic Jukebox  [listed as: Majestic Jukebox Radio]
+      50s/60s oldies
+      stream: https://uk3.internet-radio.com/proxy/majesticjukebox/live
+      site:   https://www.majesticjukeboxradio.com/
+      song info: YES  (e.g. "Jan & Dean - Drag City")
+
+--- Hip-hop, R&B & Black music ---
+  * Hot 97  [listed as: WQHT Hot 97]
+      NYC hip-hop (commercial, ads)
+      stream: http://26253.live.streamtheworld.com/WQHTFMAAC_SC
+      site:   https://www.hot97.com/
+      song info: YES  (e.g. "Drake - Janice STFU")
+  * Power 105.1
+      NYC hip-hop (commercial)
+      stream: https://stream.revma.ihrhls.com/zc1481
+      site:   https://power1051.iheart.com/
+      song info: YES  (e.g. "New York's Hip Hop and R&B - text="Power 105.1" song_spot="T" MediaBaseId="0" it")
+  * 1LIVE DIGGI  [listed as: WDR 1Live Diggi]
+      German public; hip-hop/urban
+      stream: http://wdr-1live-diggi.icecast.wdr.de/wdr/1live/diggi/mp3/128/stream.mp3
+      site:   https://www1.wdr.de/radio/1live-diggi/
+      song info: YES  (e.g. "Olivia Rodrigo feat. Chappell Roan - expectations")
+  * bigFM Hip-Hop  [listed as: bigFM Hip-Hop Radio]
+      German hip-hop stream
+      stream: https://stream.bigfm.de/hiphop/mp3-128/radio-browser
+      site:   https://www.bigfm.de/
+      song info: YES  (e.g. "bigFM HipHop")
+  * Urban Hitz / Hip Hop Radio  [listed as: i love radio - US Only Rap&HipHop Radio]
+      Hip-hop
+      stream: https://ilm.stream12.radiohost.de/ilm_iloveusonlyrapradio_mp3-192?upd-meta&upd-scheme=https&_art=dD0xNzkzOTI0ODU2JmQ9YjdjNTQxMzg0OWU0YTJlM2UwYmE
+      site:   https://www.iloveradio.de/iloveusonlyrapradio/
+      song info: YES  (e.g. "DOJA CAT - WOMAN")
+
+--- Country, folk & roots ---
+  * WSM 650 AM  [listed as: WSM 650 Nashville, TN]
+      Home of the Grand Ole Opry
+      stream: http://stream01048.westreamradio.com/wsm-am-mp3
+      site:   http://www.wsm650online.com/
+      song info: YES  (e.g. "Patsy Cline - Walkin' After Midnight")
+  * Folk Alley  [listed as: Folk Alley Irish]
+      Folk/acoustic, non-profit
+      stream: https://freshgrass.streamguys1.com/irish-128mp3
+      site:   https://www.folkalley.com/music/playlist/today/irish
+      song info: YES  (e.g. "Tell Me Truly - Heidi Talbot - The Last Star")
+
+--- World, Latin, K-pop & J-pop ---
+  * LISTEN.moe J-pop  [listed as: Listen.Moe JPop Vorbis]
+      J-pop / anime, fan-run
+      stream: https://listen.moe/stream
+      site:   https://listen.moe/
+      song info: NO (no-metadata)
+  * LISTEN.moe K-pop  [listed as: Listen.moe Kpop]
+      K-pop, fan-run
+      stream: https://listen.moe/kpop/stream
+      site:   https://listen.moe/kpop
+      song info: NO (no-metadata)
+  * Afrobeats / Afro Radio  [listed as: Afrobeats Gospel Radio]
+      Afrobeats
+      stream: https://stream.zeno.fm/zyd9stmdlnlvv
+      site:   https://www.afrobeatsgospel.com/
+      song info: YES  (e.g. "Timi Phoenix, Nolly, Monaze - Promise")
+  * Radio Mirchi / Bollywood  [listed as: Bollywood Gaane Purane]
+      Bollywood hits
+      stream: https://stream.zeno.fm/6n6ewddtad0uv
+      site:   https://gaanepurane.my-free.website/
+      song info: YES  (e.g. "mohammad rafi ke super hit gaane muhammad rafi song 2700055897123487631")
+  * Los 40  [listed as: LOS40 Classic]
+      Spanish-language pop (commercial)
+      stream: https://playerservices.streamtheworld.com/api/livestream-redirect/LOS40_CLASSIC.mp3
+      site:   https://play.los40.com/emisora/los40_classic/
+      song info: YES  (e.g. "Hombres G - Venezia")
+  * Salsa Radio  [listed as: Latina Salsa]
+      Salsa
+      stream: http://latinasalsa.ice.infomaniak.ch/latinasalsa.mp3
+      site:   http://www.latina.fr/
+      song info: YES  (e.g. "6 AM                                               - Danaes")
+  * Reggaeton  [listed as: Latina Reggaeton]
+      Reggaeton
+      stream: http://latinareggaeton.ice.infomaniak.ch/latinareggaeton.mp3
+      site:   http://www.latina.fr/
+      song info: YES  (e.g. "Atr?vete Te Te                                     - Calle 13")
+  * Bossa Nova Brazil  [listed as: Rádio Bossa Nova Brazil]
+      Bossa nova
+      stream: http://54.38.43.201:8009/stream-128kmp3-BossaNovaBrazil
+      site:   http://www.vip-radios.fm/station/bossa-nova-brazil/
+      song info: YES  (e.g. "LEILA PINHEIRO - PRO DIA NASCER FELIZ")
+
+Not reachable during the test (try their websites): 1.FM Absolute 80s, Radio Africa / Afropop, Reggae 141, AccuRadio (free with light ads; app/web only), Nightride FM main channel.
+
+==============================================================================
+PART 3: VERIFIED DIRECTORY (772 stations, all sent song titles during the test)
+Grouped by the genre tag they were found under, most popular first (votes on radio-browser).
+Format: name | country | bitrate | sample song | stream URL
+==============================================================================
+
+--- 60S (12) ---
+  Chante France 60's | France | 128k | "MICHEL FUGAIN - JE N'AURAI PAS LE TEMPS" | http://stream.chantefrance.com/cf-60
+  - 0 N - 60s on Radio | Germany | 128k | "Steam - Na Na Hey Hey Kiss Him Goodbye" | https://0n-60s.radionetz.de/0n-60s.mp3
+  # 100 GREATEST HEAVY METAL | Canada | 192k | "Dark Quarterer - Gates of Hell" | https://cast1.torontocast.com:4660/stream
+  Radiostorm - Rock 104 - Classic Rock | The United States Of America | 192k | "Judas Priest - You`ve Got Another Thing Comin`" | http://streaming.live365.com/b47785_128mp3
+  Bobs Ska Radio | The United States Of America | 128k | "Derrick Harriott - Reach Out I'll Be There" | http://51.255.235.165:5528/stream
+  laut.fm Sound | Germany | 128k | "Bob Dylan With Happy Traum - Only A Hobo" | http://stream.laut.fm/sound
+  1.FM - Back To The 50's & 60's Radio | Switzerland | 256k | "Death Valley - Herminator" | http://strm112.1.fm/60s_70s_mobile_mp3
+  192 Radio (HQ) | The Netherlands | 320k | "Love Unlimited Orchestra - Love's theme  '74" | http://server-27.stream-server.nl:8192/stream
+  SOUL RADIO Only Classic Soul | The United Kingdom Of Great Britain And Northern Ireland | 194k | "Lou Rawls - Season Of The Witch (1969)" | https://listen.soulradio.uk/uk
+  - 1 A - Oldies von 1A Radio | Germany | 128k | "Bobby Pickett, The Crypt-Kickers - Monster Mash" | https://1a-oldies.radionetz.de/1a-oldies.mp3
+  - 0 N - Oldies on Radio | Germany | 128k | "The Rubettes - Juke Box Jive" | https://0n-oldies.radionetz.de/0n-oldies.mp3
+  __GOLDIES__ by rautemusik (rm.fm) | Germany | 192k | "CCR - Travelin' Band" | https://goldies-high.rautemusik.fm/?ref=radiobrowser
+
+--- 70S (10) ---
+  Ретро FM 70e | The Russian Federation | 128k | "Dalida - Besame Mucho" | http://retro70.hostingradio.ru:8025/retro70-128.mp3
+  - 0 N - 70s on Radio | Germany | 128k | "Oliver Onions - Flying Through The Air" | https://0n-70s.radionetz.de/0n-70s.mp3
+  Laut.FM 1000 Oldies | Germany | 128k | "George Michael - A Different Corner" | http://1000oldies.stream.laut.fm/1000oldies?t302=2018-01-16_15-40-29&uuid=37780fea-d865-4439-9a4a-66f3ec1715a0
+  Antenne Bayern - Oldies but Goldies | Germany | 128k | "Fine Young Cannibals - Good thing (1989)" | http://mp3channels.webradio.antenne.de/oldies-but-goldies
+  My70sRadio | The United States Of America | 320k | "Rod Stewart - Da Ya Think I'm Sexy" | http://usa14.fastcast4u.com:5132/stream
+  1000 Discohits | Germany | 128k | "Grace Jones - Nipple to the Bottle" | http://stream.laut.fm/1000discohits
+  1.FM - Disco Ball 70's-80's Radio | Switzerland | 256k | "Candi Staton - Nights on Broadway" | http://strm112.1.fm/disco_mobile_mp3
+  Chante France 70's | France | 128k | "CHARLES AZNAVOUR - NON JE N'AI RIEN OUBLIE" | http://stream.chantefrance.com/cf-70
+  70 80 90 Vibrazioni Rock Radio | Canada | 128k | "Nirvana - About A Girl" | https://maggie.torontocast.com:2020/stream/vibrazionirockradio
+  Radio Italia Anni 60 - Trentino Alto Adige | Italy | 64k | "Tel. 0461 828990 - WhatsApp/SMS 393 6060602" | http://ice10.fluidstream.net/anni60tn.aac
+
+--- 80S (13) ---
+  .977 The Mix | The United States Of America | 128k | "Maroon 5 - Animals (feat. J. Cole)" | http://26343.live.streamtheworld.com:3690/977_MIX_SC
+  LOVE RADIO Only Love Songs 70s80s90s - www.love.radio | The United States Of America | 192k | "Culture Club - Victims (1984)" | http://shoutcast3.streamingmedia.it:3162/
+  SomaFM Underground 80s (128k MP3) | The United States Of America | 128k | "Our Daughter's Wedding - Lawnchairs" | https://ice5.somafm.com/u80s-128-mp3
+  1000 HITS 80s | Spain | 128k | "Sheena Easton - For Your Eyes Only" | http://c2.auracast.net:8048/stream
+  The Big 80s Station | The United States Of America | 128k | "Billy Idol - Mony Mony" | http://158.69.114.190:8065/;
+  _80 EXITOS | Spain | 128k | "Steve Winwood - While You See A Chance" | https://80sexitos.stream.laut.fm/80sexitos
+  FUNKY RADIO - Only Funk Music (60's 70's) | The United States Of America | 320k | "Al King - I Can’t Understand (1970)" | https://funkyradio.streamingmedia.it/play.mp3
+  Chante France 80's | France | 128k | "ALAIN SOUCHON - FOULE SENTIMENTALE" | http://stream1.chantefrance.com/cf-80
+  181.FM - 80's Country | The United States Of America | 128k | "Mel McDaniel - Stand Up" | http://listen.181fm.com/181-80scountry_128k.mp3
+  Oxygen The 80s Hits | Hungary | 320k | "Twisted Sister - We're Not Gonna Take It" | https://oxygenmusic.hu:8443/oxygenthe80shits
+  Rádio Disco Funk BR | Brazil | 64k | "Sister Sledge - We Are Family (Album Version)" | http://streaming12.hstbr.net:8084/live
+  Sláger FM | Hungary | 256k | "Taylor Swift - The Fate of Ophelia" | http://92.61.114.159:7812/slagerfm256.mp3
+  70s 80s Disco Funk ModernSoul Boogie | The United States Of America | 192k | "Kool & The Gang - Funky Stuff" | https://discofunk.streamingmedia.it/usa
+
+--- 90S (10) ---
+  Play 90's | Romania | 192k | "Alexia Feat. Double You - Me And You (Ceruta pe playradio.or" | http://live.playradio.org:9090/90HD
+  Radio 90s Eurodance | Kazakhstan | 192k | "Imperio - The Night Is Magic" | https://listen1.myradio24.com/5967
+  Heart 90s | The United Kingdom Of Great Britain And Northern Ireland | 128k | "Another Level - Be Alone No More" | https://media-ssl.musicradio.com/Heart90sMP3
+  RMF 90s | Poland | 64k | "Quit Playing Games With My Heart - Backstreet Boys" | http://31.192.216.7/90S
+  My 90s Bengali | India | 64k | "R.D. Burman - Deke Deke Kato" | http://stream.zeno.fm/2k6xfu1pvs8uv
+  Radio Cumbia 90s | Bolivia | 128k | "Artista de Pista - Pista 6" | https://emiteradio.com/proxy/cumbia90s?mp=/stream
+  - 0 N - 90s on Radio | Germany | 128k | "The Cranberries - Dreams" | https://0n-90s.radionetz.de/0n-90s.mp3
+  100hitz The Mix - 80s 90s & Today's Hits | The United States Of America | 128k | "Fastball - The Way" | http://pureplay.cdnstream1.com/6038_128.mp3?DIST=TuneIn&TGT=TuneIn&maxServers=2&gdpr=0&us_privacy=1YNY&partnertok=eyJhbGciOiJIUzI1NiIsImtpZCI6InR1bmVpbiIsInR5cCI6IkpXVCJ9.eyJ0cnVzdGVkX3BhcnRuZXIiOnRydWUsImlhdCI6MTYzMzk1Nzc4NCwiaXNzIjoidGlzcnYifQ.pcgS3hF5YBvvbD9rJO3OMBWPgEGE037nPVwPu4hamPY%22
+  # TOP 100 CLUB CHARTS - DANCE & DJ MIX RADIO - 24 HOURS NON-STOP MUSIC @ TikTok Hits, Ibiza House, Sunset Lounge, Melodic Music, EDM, Deep House, Dance Music, Techno & Hypertechno, Rave Charts, Top 40 Charts, Latin, Reggaeton Music, Moombahton, Urban Hits, HipHop, Party & Clubbing Radio, Trending Chartmusic, R&B, Urban, Mixtape - & LIVE DJ SET | Germany | 192k | "NF - Let You Down  (Proppa Remix)" | https://breakz-2012-high.rautemusik.fm/?ref=radiobrowser-top100-clubcharts
+  Fantasy Italo Dance 90s radio | The Netherlands | 256k | "Lumy - Touch Me Baby (Italian Style)" | https://mscp2.live-streams.nl:8152/italodance
+
+--- ACOUSTIC (13) ---
+  Radio Caprice - Acoustic Guitar | The Russian Federation | 320k | "Shahin & Sepehr - Eastwest Highway" | http://79.120.39.202:8000/acousticguitar
+  Radio Art Acoustic Blues | The United States Of America | 96k | "Stefan Grossman - Memories of Perls" | https://live.radioart.com/fAcoustic_blues.mp3
+  OUI FM ACOUSTIC | France | 128k | "REDEMPTION SONG - JOHNNY CASH" | https://ouifmacoustic.ice.infomaniak.ch/ouifmacoustic.mp3
+  Spoon Radio - Acoustic Rock | Switzerland | 128k | "Boone, Benson - Pretty Slowly - Single - Pretty Slowly" | https://spoonradioacousticrock.ice.infomaniak.ch/spoon-acousticrock-hd.aac
+  Lounge FM Acoustic | Ukraine | 320k | "Ben Howard - Only Love" | https://cast.mediaonline.net.ua/acoustic320
+  Outpost Radio - The Acoustic Outpost (VIP) | The United States Of America | 128k | "Ann Reed - Somethin' To Do With You" | http://acousticoutpost.com/pvt102
+  Outpost Radio - Folk Frontier (VIP) | The United States Of America | 128k | "Steve Madewell - One Thing At A Time" | http://folkfrontier.com/pvt102
+  Championshipvinyl | Germany | 128k | "Travis - Writing to Reach You" | http://championshipvinyl.stream.laut.fm/championshipvinyl
+  BENFM | Germany | 128k | "Biffy Clyro - Who's Got A Match" | http://stream.laut.fm/benfm
+  Stumble In The Dark Radio | The United States Of America | 320k | "Nick Lowe - Heart of the City" | https://a2.asurahosting.com:6920/radio.mp3
+  105.9 United Heart FM | Saudi Arabia | 128k | "John Farnham - Please Don't Ask Me" | https://radio.905heartfm.com:8000/radio.mp3
+  DREAMPOP-RADIO (https) | Germany | 128k | "M83 - Skin Of The Night" | https://dreampopradio.stream.laut.fm/dreampopradio
+  Clearjet | Greece | 320k | "AutoDJ: Κυριάκος Κυανός - 'Οχι δεν τρελάθηκα - Official Audi" | http://fra-pioneer01.dedicateware.com:1090/stream
+
+--- AFROBEAT (11) ---
+  Afrobeat international | Coted Ivoire | 128k | "Tocky Vibes - Ndoda Kudiwa" | https://listen.radioking.com/radio/397789/stream/449770
+  Skyrock Abidjan | Coted Ivoire | 128k | "Tiakola - Caméléon §6993061" | https://icecast.skyrock.net/s/abidjan_aac_64k
+  Afrobeat / Afrobeats - Radio Caprice | The Russian Federation | 320k | "The Lafayette Afro Rock Band - Nicky ''First One''" | http://79.120.39.202:8000/afrobeat
+  World Music Radio - Afrobeats | The United Arab Emirates | 128k | "Fireboy DML - iseoluwa" | https://streaming.exclusive.radio/er/afrobeats/icecast.audio
+  Afrobeat N1 FM | South Africa | 128k | "AMAPIANO MIX  13 MAY 2022  Murumba Pitch - Nkosazana Daughte" | https://streamer.radio.co/s919e54210/listen
+  XL:UK Radio | The United Kingdom Of Great Britain And Northern Ireland | 192k | "Mark Ronson - Ooh Wee" | https://s3.radio.co/s113a5dc46/listen
+  RauteMusik - CARRIBEAN WAVE | Germany | 192k | "Stylo G - Soundbwoy" | https://streams.rautemusik.fm/caribbean-wave/mp3-192/?ref=radiobrowser
+  Mustbe5 Radio | The United States Of America | 192k | "Mustbe5Radio - The Love Zone" | https://stream.radio.co/sf2ed5928f/listen
+  International Rare Groove | The United Kingdom Of Great Britain And Northern Ireland | 64k | "san francisco t.k.o.s - acid lady" | https://s131.radiolize.com/radio/8110/radio.mp3
+  WaveMaster Radio | Coted Ivoire | 192k | "Patrick Saint-Eloi - Ay Pwan Van" | https://wavemaster.diskstation.me/listen/wavemaster_radio/radio.mp3
+  Dale Radio | Spain | 192k | "Eyes For You - Miguel Migs, Martin Luther Mccoy (Migs Retro " | https://radio.daleradio.es/listen/dale_radio/radio.mp3
+
+--- ALTERNATIVE (10) ---
+  Radio Paradise Rock Mix 320k AAC | The United States Of America | 320k | "The Pineapple Thief - Last to Run" | http://stream.radioparadise.com/rock-320
+  Radio Paradise Mellow Mix 320k AAC | The United States Of America | 320k | "Turin Brakes - Goodbye" | http://stream.radioparadise.com/mellow-320
+  Tilos Rádió | Hungary | 256k | "Cherrie Bothner - Distant Ghost :: Technologie und das Unhei" | http://stream.tilos.hu/tilos
+  181.FM - 90's Alternative | The United States Of America | 128k | "Wallflowers - 6th Avenue Heartache (Radio Edit)" | http://listen.181fm.com/181-90salt_128k.mp3
+  80's New Wave Radio | Canada | 192k | "Jimmy Somerville - Never Can Say Goodbye" | https://puma.streemlion.com:2910/stream
+  ROCK ANTENNE Alternative | Germany | 128k | "Marilyn Manson - Heart-shaped glasses" | http://stream.rockantenne.de/alternative
+  SRo3: Rádio Devín | Slovakia | 128k | "Radio Devin - Umenie pocuvat" | http://icecast.stv.livebox.sk/devin_128.mp3
+  Radio Free Phoenix | The United States Of America | 128k | "Genesis - Happy the Man" | http://69.162.73.34:8124/;stream.nsv
+  Exclusively The Cure | The United Arab Emirates | 128k | "The Cure - Close To Me" | https://streaming.exclusive.radio/er/thecure/icecast.audio
+  BKK.FM | Thailand | 64k | "Disturbed - Hey You" | https://rsas.bkk.fm/radio
+
+--- AMBIENT (15) ---
+  SomaFM Groove Salad (128k MP3) | The United States Of America | 128k | "Leggo Beast - Skanked" | https://ice2.somafm.com/groovesalad-128-mp3
+  Cryosleep | The United States Of America | 128k | "Liquid Mind - Ambience Minimus - 01 - Zero Degrees Zero" | http://streams.echoesofbluemars.org:8000/cryosleep
+  SomaFM Space Station Soma (128k AAC) | The United States Of America | 128k | "Strawberry Girl - Poesie" | https://ice6.somafm.com/spacestation-128-aac
+  dinamo.fm sleep | Türkiye | 320k | "Morek - Pan" | http://channels.dinamo.fm/sleep-mp3
+  - 0 N - Chillout on Radio | Germany | 64k | "Blank & Jones - Happiness (Milchbar Terrace Mix)" | https://0n-chillout.radionetz.de/0n-chillout.aac
+  Enigmatic 3 - Magnetic Chillout | The Russian Federation | 64k | "Koan - Orpheus and Eurydice" | http://radio.enigmatic.su:8050/radio
+  SomaFM Drone Zone (128k MP3) | The United States Of America | 128k | "synkrotron - DRONE Part Three" | https://ice2.somafm.com/dronezone-128-mp3
+  Ambient Modern | The United States Of America | 256k | "Rahikka - Elegy II" | http://radio.stereoscenic.com/mod-h
+  Nature Radio Rain | Canada | 128k | "White Noise Zone - Stormy Night: Rain & Thunder, Peaceful Na" | https://maggie.torontocast.com:2020/stream/natureradiorain
+  Radio Art - Meditation | Greece | 96k | "Patrick Bernhardt - Harmony of the om spheres" | http://air-tunein.radioart.com/fMeditation.mp3
+  雨声轻音乐 | China | 128k | "July - 비오는 소리 (Intro)" | https://stream.zeno.fm/689zc32y4x8uv
+  Costa del Mar - Zen | ? | 96k | "The Relaxation Collection - Spa (CDM Edit)" | http://stream.cdm-zen.com:8004/stream-mp3-Zen
+  SomaFM Groove Salad (128k AAC) | The United States Of America | 128k | "Leggo Beast - Skanked" | https://ice5.somafm.com/groovesalad-128-aac
+  MyNoise Pure Nature | Belgium | 160k | "myNoise.net - Magic Nature [1TfP]" | https://purenature-mynoise.radioca.st/stream
+  SomaFM DEF CON Radio (128k AAC) | The United States Of America | 128k | "Craset - Forme Gravity" | https://ice2.somafm.com/defcon-128-aac
+
+--- AMERICANA (12) ---
+  SomaFM Boot Liquor (128k AAC) | The United States Of America | 128k | "BR5-49 - Ain't Got Time" | https://ice5.somafm.com/bootliquor-128-aac
+  Radio Free Texas | The United States Of America | 128k | "Craig Cook and The Marauders - Tomorrow" | https://server10.reliastream.com/proxy/damiller?mp=/stream
+  __COUNTRYHITS.FM__ by rautemusik (rm.fm) | Germany | 192k | "Rachael Turner - Hurts Don't It" | https://country-high.rautemusik.fm/?ref=radiobrowser
+  KOKE 99.3 & 98.5 FM - Austin, TX | The United States Of America | 64k | "Randy Travis - Diggin' Up Bones" | https://arn.leanstream.co/KOKEFM
+  Radio Free Americana [64kbps AAC+] | The United States Of America | 64k | "New Stream URL - Update your bookmark - contact us for help" | http://janus.cdnstream.com:5140/live
+  East Tennessee's Own WDVX 89.9 FM | ? | 128k | "Foy Vance - Don't Move - Don't Move" | http://wdvx.streamguys1.com/live
+  EarGlow Radio | The United States Of America | 128k | "Jack Kaye - The Weight" | https://cast1.asurahosting.com/proxy/earglowr/stream
+  Americana Boogie Radio | The United States Of America | 128k | "This Frontier Needs Heroes - Homage to Catalonia" | http://us2.internet-radio.com:8416/
+  [laut.fm] Freakquency | Germany | 128k | "Lloyd Cole & The Commotions - Perfect Skin" | http://freakquency.stream.laut.fm/freakquency
+  thegreatiamb Kids | The United States Of America | 128k | "Boris Karloff - The Travellers And The Bear; The Gnat And Th" | https://stream.zeno.fm/fwcpjdir9o1uv
+  CC - Classical Americana | The United States Of America | 96k | "Ferde Grofe - Grand Canyon Suite" | https://playerservices.streamtheworld.com/api/livestream-redirect/CC5_S01AAC_96.aac
+  WUMB 91.9 FM Boston, MA | The United States Of America | 128k | "Casting Me Away From You - Neil Young & The Chrome Hearts - " | http://wumb.streamguys1.com/wumb919fast
+
+--- ANIME (11) ---
+  Radio Anime24 | Poland | 320k | "Uchida Maaya - Kami no Shizuku" | http://91.232.4.33:7028/;
+  Vocaloid Radio (320kbps) | The United States Of America | 320k | "keerosah - [初音ミク] Migratory [Clean Tears] [1MRl]" | https://vocaloid.radioca.st/stream
+  Greek Otaku Radio | Greece | 320k | "Tackey & Tsubasa - Crazy Rainbow [aKgJ]" | http://usa2.fastcast4u.com:3684/;
+  AnimeNfo Radio | The United States Of America | 192k | "Otani Kou - Kaze wa Yasashiku Hoho wo Naderu (Haibane Renmei" | https://stream.zenolive.com/xwa8ckz7mzzuv
+  Anison.FM | ? | 320k | "Blassreiter (Itou Kanako) - DD" | http://pool.anison.fm:9000/AniSonFM(320)
+  Pandu Musik Radio | Indonesia | 96k | "Hindia - Semua Lagu Cinta Terdengar Sama" | https://usa3.fastcast4u.com/proxy/pandumusikradio?mp=/1
+  Kawaii Music | ? | 128k | "デュアル&ドロシー starring 種田梨沙、佐倉綾音 - Oshiete" | https://kawaii-music.stream.laut.fm/kawaii-music
+  Otaku MusicRadio | Spain | 192k | "Jindou - WILD CHALLENGER" | http://kathy.torontocast.com:2880/;
+  Phate Radio 飛特電台 - anime, games and pop | China | 192k | "ヲタみん - 影炎≒Variation" | https://phate.io/listen
+  ЯН-ФМ Anime | The Russian Federation | 128k | "ANSWER Shinka shita Full Dive RPG - Anime" | http://animklatu.stream.laut.fm/animklatu?uuid=f46a24fc-8068-1f27-f889-e34913c39f7f&t302=2026-11-01_15-08-21
+  Radio AnimKLATU | The Russian Federation | 128k | "ANSWER Shinka shita Full Dive RPG - Anime" | https://animklatu.stream.laut.fm/animklatu?uuid=22c5e78e-6b4f-2b0b-0225-fa66dc636d4e&t302=2026-11-01_07-26-45
+
+--- BLUEGRASS (9) ---
+  #joint radio Blues Rock | Israel | 320k | "Bob Dylan - Forever Young" | https://jointil.com/stream-blues
+  181.FM - Front Porch (Bluegrass) | The United States Of America | 128k | "Auldridge, Bennett, Gaudreau - Come And Sit By The River" | https://listen.181fm.com/181-frontporch_128k.mp3
+  Folk Alley FreshGrass | The United States Of America | 128k | "Angel From Montgomery - John Prine - John Prine" | https://freshgrass.streamguys1.com/ss1-128mp3
+  The Bluegrass Jamboree | The United States Of America | 192k | "Jimmie Davis With The Anita Kerr Singers - Near the Cross" | https://the-bluegrass-jamboree.radiocult.fm/stream
+  American Roots Radio | Canada | 128k | "Cactus Blossoms - Happy Man" | https://stream.americanrootsradio.com:3035/stream
+  Country-Road-58,AutoDJ | Germany | 320k | "Thomas Mandt - Retro Country countDown Sep 14th 1985" | https://country-road-58.spcast.eu/stream
+  WWOV 101.1 FM | The United States Of America | 128k | "Pickin' On Series & Iron Horse - Have You Ever Seen the Rain" | http://stream2.ndpusa.com:4000/wwov
+  Bluegrass Planet Radio | The United States Of America | 128k | "Amy Grant - Grown-Up Christmas List" | http://65.108.105.26:7966/stream
+  Radio Leinster | Ireland | 64k | "Ronnie Milsap - It Was Almost Like A Song (1977)" | http://xt.stream.ie/leinster
+
+--- BLUES (15) ---
+  Exclusively Elvis Presley | The United Arab Emirates | 128k | "Elvis Presley - In The Ghetto" | http://streaming.exclusive.radio/er/elvispresley/icecast.audio
+  Louisiana/Swamp/New Orleans Blues - Radio Caprice | ? | 320k | "Marcia Ball - You Make It Hard" | http://213.141.131.10:8004/louisianablues
+  Grolloo Radio | The Netherlands | 320k | "Ras Smaila - Stone Free" | https://uk1.streamingpulse.com/ssl/grollooradio
+  Blues & Rock Radio | Ukraine | 128k | "Rob Orlemans & Half Past Midnight - Love Like A Man (2023)" | http://stream.laut.fm/bluesrock
+  All Blues Radio | The United States Of America | 128k | "Albert Collins - If Trouble Was Money" | http://equinox.shoutca.st:8788/;
+  Musica Jazz Radio | Italy | 128k | "Gary Burton - Las Vegas Tango" | http://ice03.fluidstream.net/mjr.aac
+  Радио Эрмитаж | The Russian Federation | 256k | "Jarle Bernhoft - Stay With Me" | http://hermitage.hostingradio.ru/hermitage128.mp3
+  Laut.FM BluesRockCafe | Germany | 128k | "Mike Onesko Blues Band - Who Knows Jam" | http://stream.laut.fm/bluesrockcafe
+  Texas Blues - Radio Caprice | ? | 320k | "Bessie Tucker - Got Cut All To Pieces [Take 1] [#]" | http://79.111.14.76:8004/texasblues
+  GGFM 90.1 Discovery Bay | Jamaica | 320k | "Praise Is What I Do - William Murphy" | http://usa14.fastcast4u.com:5192/;
+  Pinguin Blues | The Netherlands | 192k | "Luther Allison - Will It Ever Change?" | https://samcloud.spacial.com/api/listen?sid=93462&m=sc&rid=168006
+  Radyo A (Radyo Anadolu Üniversitesi) | Türkiye | 128k | "OLIVIA RODRIGO - EXPECTATIONS" | http://canli.radyoa.anadolu.edu.tr:44445/Radyo_A_MP3
+  Country/folk blues - Radio Caprice | The Russian Federation | 320k | "Robert Belfour - Holding My Pillow" | http://79.120.77.11:8004/countryblues
+  Rock The Blues | Switzerland | 128k | "Saffire - The Uppity Blues Women - Locked Up" | http://stream.laut.fm/rock-the-blues
+  Allzic Radio Blues | France | 128k | "Oo Poo Pa Do in the Rebop - CHUCK E WEISS" | http://allzic09.ice.infomaniak.ch/allzic09.mp3
+
+--- BOLLYWOOD (13) ---
+  Fnf.Fm Hindi | India | 64k | "Arifur Rahman - दीयों की कतार" | http://192.99.8.192:5032/;stream
+  Hits Of Bollywood | India | 128k | "MASOOM - HUZOOR IS QADAR BHI NA" | http://stream.zeno.fm/8ty8szwpwfeuv
+  Hits Of Lata Mangeshkar | India | 128k | "LEKIN - SUNIO JI EK ARAJ" | http://stream.zeno.fm/g95zm67prfhvv
+  Hits Of Mohammed Rafi | India | 128k | "RAFI - ROMANTIC SONGS" | http://stream.zeno.fm/0zkr7x8ztm0uv
+  1.FM - Bombay Beats India Radio | Switzerland | 256k | "Anuradha Paudwal, Vipin Sachdeva - Milte Milte Haseen Wadiyo" | http://strm112.1.fm/bombaybeats_mobile_mp3
+  Bollywood 2010's | India | 128k | "A. R. Rahman, Javed Ali  and  Mohit Chauhan - Kun Faya Kun" | https://drive.uber.radio/uber/bollywood2010s/icecast.audio
+  Ishq Fm | India | 128k | "Armaan Malik - Pehla Pyaar" | https://drive.uber.radio/uber/bollywoodlove/icecast.audio
+  Bollywood 2000's | India | 128k | "Lata Mangeshkar; Anand Bakshi; Jatin-Lalit - Zinda Rehti Hai" | https://2.mystreaming.net/uber/bollywood2000s/icecast.audio
+  MixiFy Hindi Hits | India | 64k | "Salman Elahi - Pahadon Mein" | https://server.mixify.in/listen/new_hits/radio.mp3
+  Radio Badal | India | 128k | "Live From Studio... - Hit Super Hit Mix Songs" | https://stream.zeno.fm/nhrtcxg09u8uv
+  Tinder Radio | India | 128k | "Jubin Nautiyal, Tanishk Bagchi, Suvarna Tiwari  and  Ozil Da" | https://streaming.exclusive.radio/er/bollywood/icecast.audio
+  Bollywood 2000's Radio | India | 128k | "Lata Mangeshkar; Anand Bakshi; Jatin-Lalit - Zinda Rehti Hai" | https://drive.uber.radio/uber/bollywood2000s/icecast.audio
+  HawaMahal Radio | India | 128k | "Payal Dev , Shreyas Puranik - Ab Tohe Jane Na Doongi -  Down" | https://stream-154.zeno.fm/csw7fv7sz1zuv?zs=ABfIaXh5T-65UHo9uTNoAQ
+
+--- BOSSA NOVA (15) ---
+  Radio Art - Bossa Nova | Greece | 96k | "Duke Pearson - My Love Waits (O Meu Amor Espera)" | http://air-tunein.radioart.com/fBosa_nova.mp3
+  Onda Latina | Germany | 128k | "Hotel Bossa Nova - Batúcada" | http://stream.laut.fm/ondalatina
+  Radio Art - Smooth Bossa Nova | Greece | 96k | "Astrud Gilberto with Stan Getz, Gary Burton and Kenny Burrel" | https://live.radioart.com/fSmooth_bossa_nova.mp3
+  AshiyaRadio〜アシヤ・ラヂヲ〜 | Japan | 192k | "9rissc - WaFi" | https://s3.radio.co/sc8d895604/listen
+  100 % COVERS LOUNGE | Canada | 128k | "Alana Marie - Only Girl in the World (Bossa Version)" | https://az1.mediacp.eu/listen/100coverslounge/radio.mp3
+  Allzic Radio Brazil | France | 128k | "Samba de Janeiro - Airto Moreira, Ramon Zenker, Gottfried En" | http://allzic19.ice.infomaniak.ch/allzic19.mp3
+  Ella Radio - Smooth Bossa Nova | Germany | 192k | "Elaine Elias - Baubles, Bangles and Beads" | https://stream.ella-radio.de/ella-smooth-bossa-nova/mp3-192/?ref=radio-browser
+  Soma FM Bossa Beyond | The United States Of America | 128k | "Greyboy Featuring Elgin Park - Mastered the Art (Nicola Cont" | http://ice5.somafm.com/bossa-128-aac
+  Radio CGB | Brazil | 64k | "Voyage - Souvenirs" | http://paineldj6.com.br:8103/stream
+  SKGLOBE.NET | SENSES | Greece | 64k | "Warumungu High - John Kellett" | https://smartstream.link/senses
+  Ella Radio - Bossa | Germany | 192k | "Maria Creuza - Você Abuso" | https://stream.ella-radio.de/ella-bossa/mp3-192/?ref=radio-browser
+  laut.fm - Soft Lounge Cinema | Germany | 128k | "solsoulvideo - Romano Mussolini - Duke [LCS02]" | https://soft-lounge-cinema.stream.laut.fm/soft-lounge-cinema?t302=2026-11-06_05-41-32&uuid=d816af78-3326-d25a-96da-9334c09ab98b
+  Streamee Salt | Greece | 160k | "Something Got Me Started - Simply Red" | https://politismedia-sec.live24.gr/streameesalt
+  Rádio Unisinos | Brazil | 192k | "Mulatu Astatke - Tezeta" | https://servidor16-5.brlogic.com:7064/live
+  LOUNGE FM | Latvia | 192k | "Jehro - Without Love" | https://stream.loungefm.lv:8443/lounge
+
+--- CELTIC (16) ---
+  Irish Pub Radio | Ireland | 128k | "The Clancy Brothers With Robbie O'Connell - William Bloat" | http://solid24.streamupsolutions.com:8026/stream
+  Forest Green Radio | Canada | 128k | "Levantis - Antilope Dance" | http://s1.streamaudio.de:8000/forest-green
+  SomaFM ThistleRadio (128k AAC) | The United States Of America | 128k | "Planxty - Smeceno Horo" | https://ice2.somafm.com/thistle-128-aac
+  Celtcast | The Netherlands | 192k | "Gillian Frame and Findlay Napier with Mike Vass - Van Diemen" | https://caster04.streampakket.com/proxy/8982/CeltCast
+  celtic-rock.de | Germany | 128k | "Paddy And The Gold Miners - The Moonbi General Store" | http://stream.laut.fm/celtic-rock
+  Radio Caprice - Celtic | The Russian Federation | 320k | "Mediaeval baebes - Blow Northern Wind" | http://79.111.14.76:8000/celtic
+  Radio Art - Celtic | Greece | 96k | "Derek Warfield & The Young Wolf Tones - The Masons Apron" | http://live.radioart.com/fCeltic.mp3
+  SomaFM ThistleRadio (128k MP3) | The United States Of America | 128k | "Planxty - Smeceno Horo" | https://ice6.somafm.com/thistle-128-mp3
+  SomaFM ThistleRadio (64k AAC) | The United States Of America | 64k | "Planxty - Smeceno Horo" | https://ice6.somafm.com/thistle-64-aac
+  Radio Rabenwind | Germany | 128k | "Feuerschwanz - Warriors Of The World United (feat. Saltatio " | http://stream.laut.fm/rabenwind
+  Toutes les couleurs du trad | France | 96k | "Uhrbrand Lydom Cahill - Den Gamle Gjønne" | https://my2.radiolize.com/radio/8100/radio.mp3
+  Gaia FM (New Zealand) | New Zealand | 128k | "Ella Fitzgerald and Louis Armstrong - Tenderly" | https://s2.stationplaylist.com:9000/gaiafm.aac
+  khasandria | Germany | 128k | "Hans Krauß - The Last Day (Neu)" | https://stream.laut.fm/khasandria
+  LiveIreland | Ireland | 128k | "Clannad - I See Red 8 [d1s]" | http://lynx.prostreaming.net:8058/;
+  Radio Art - Traditional | Greece | 96k | "Gianniotiki Patinada - Genovefa" | https://air.radioart.online/fTraditional.mp3
+  Donald's Radio | Germany | 192k | "Brieg Guerveno - Al Liver" | https://radio.donald.cat/listen/donalds_radio/radio.mp3
+
+--- CHILLOUT (9) ---
+  Antenne Bayern - Chillout | Germany | 128k | "Kid Simius - The Flute Song (Paul Kalkbrenner Remix)" | http://mp3channels.webradio.antenne.de/chillout
+  1.FM - Chillout Lounge Radio | Switzerland | 256k | "Lange - Frozen Beach" | http://strm112.1.fm/chilloutlounge_mobile_mp3
+  Costa Del Mar - Chillout (AAC 96kbps) | Spain | 96k | "Late Night Alumni - Moonwalking (CDM Edit)" | http://stream.cdm-chillout.com:8020/stream-AAC-Chill
+  REGGAE CHILL CAFE | Canada | 128k | "Harry J Allstars - Don’t Let Me Down (Operamatic)" | https://maggie.torontocast.com:2020/stream/reggaechillcafe
+  Costa del Mar - Chill Out | ? | 96k | "Late Night Alumni - Moonwalking (CDM Edit)" | http://stream.cdm-chillout.com:8020/stream-mp3-Chill
+  Chillout Ibiza FM | The United Kingdom Of Great Britain And Northern Ireland | 192k | "Schawarz & Funk - Nunca Olvidare" | https://edge3.peta.live365.net/b05055_128mp3
+  1.FM - Ibiza Chill Tropical | Switzerland | 256k | "Ðeamn - Ecstasy" | http://strm112.1.fm/ibizachill_mobile_mp3?aw_0_req.gdpr=true
+  Radio Art - Chillout | Greece | 96k | "Suduaya - Floating" | http://air.radioart.com/fChillout.mp3
+  VIP-Radios - Time To Relax | France | 128k | "Thomas LaRosa - Good Girl" | http://178.32.111.41:8048/stream-128kmp3-TimeToRelax
+
+--- CHRISTMAS (10) ---
+  Conyers Old Time Radio | The United States Of America | 64k | "The Roy Rogers Show - Nov 6, 1952: (11) Range War" | https://s8.yesstreaming.net:17011/stream
+  SomaFM Christmas Lounge 256k | The United States Of America | 256k | "Urban Love - Let It Snow, Let It Snow, Let it snow" | https://ice2.somafm.com/christmas-256-mp3
+  - 0 N - Christmas on Radio | Germany | 128k | "Christina Perri - Please Come Home For Christmas" | https://0n-christmas.radionetz.de/0n-christmas.mp3
+  SFLINY Spotlight Radio | The United States Of America | 256k | "Elton John - I Need You To Turn To - (Elton John)" | http://ec4.yesstreaming.net:1940/
+  104 Christmas Hits (Radiostorm) | The United States Of America | 128k | "Stan Freberg - Green Chri$tma$" | http://hestia2.cdnstream.com/1077_64
+  - 1 A - Christmas on Radio | Germany | 128k | "Fun. - Sleigh Ride" | https://1a-christmas.radionetz.de/1a-christmas.mp3
+  SomaFM Christmas Rocks! | The United States Of America | 128k | "My Morning Jacket - Wonderful (iTunes Session)" | http://ice5.somafm.com/xmasrocks-128-mp3
+  P7 Klem (AAC HQ) | Norway | 191k | "Nora Brockstedt - Vi Tenner Våre Lykter" | https://p7.p4groupaudio.com/P07_AH
+  1000 Weihnachten | Germany | 128k | "Fifth Harmony - All I Want for Christmas Is You" | https://stream.laut.fm/1000weihnachten
+  Outpost Radio - Christmas Oldies (VIP) | The United States Of America | 128k | "Johnny Mathis - The Christmas Song" | http://christmasoldies.com/pvt102
+
+--- CLASSIC ROCK (11) ---
+  1.FM - Classic Rock Replay Radio | Switzerland | 256k | "Guns N` Roses - Sweet Child o` Mine" | http://strm112.1.fm/crock_mobile_mp3
+  Arrow Classic Rock | The Netherlands | 192k | "IRON MAIDEN - CAN I PLAY WITH MADNESS" | http://stream.gal.io/arrow
+  Zeppelin 106.7 | Greece | 256k | "JOHNNY HATES JAZZ - SHATTERED DREAMS" | https://radiostreaming.ert.gr/ert-zeppelin
+  1.FM - Rock Classics Radio | Switzerland | 256k | "Guns N` Roses - Don`t Cry" | http://strm112.1.fm/rockclassics_mobile_mp3
+  Nostalgie New York | The United States Of America | 128k | "George Thorogood & The Destroyers - One Bourbon, One Scotch," | http://c32.radioboss.fm:8139/stream
+  Antenne Bayern - Classic Rock Live (MP3) | Germany | 128k | "Metallica - Enter sandman" | http://mp3channels.webradio.antenne.de/classic-rock-live
+  Megarock Radio 320k | The United States Of America | 320k | "Carmine Appice's Guitar Heroes - Gonna Rain" | https://stream3.megarockradio.net:80/
+  Slow Rock 90' | Malaysia | 128k | "Dato Hattan - Memburu Rindu" | https://stream.zeno.fm/hiut6cwfoneuv
+  # RdMix Classic Rock 70s 80s 90s | Canada | 128k | "Survivor - The Search Is Over" | https://cast1.torontocast.com:4610/stream
+  181.FM - The Eagle (Classic) | The United States Of America | 128k | "Bad Company - Rock `N` Roll Fantasy" | https://listen.181fm.com/181-eagle_128k.mp3
+  St Louis Classic Rock | The United States Of America | 256k | "Graeme Edge Band - In Dreams" | http://74.208.89.18:8000/SLCR_highdef.mp3;
+
+--- CLASSICAL (11) ---
+  Classic FM UK | The United Kingdom Of Great Britain And Northern Ireland | 128k | "Joseph Haydn, Alison Balsom - Trumpet Concerto in Eb major H" | http://ice-the.musicradio.com/ClassicFMMP3
+  Your Classical - Relax | The United States Of America | 128k | ""YourClassical Fundraising November 2026 1" - Melanie Renate" | http://relax.stream.publicradio.org/relax.mp3
+  Classic FM | The United Kingdom Of Great Britain And Northern Ireland | 128k | "Joseph Haydn, Alison Balsom - Trumpet Concerto in Eb major H" | http://media-ice.musicradio.com/ClassicFMMP3
+  BEAUTIFUL Instrumentals | Mexico | 128k | "Henry Mancini & His Orchestra And Chorus - Adventures In Par" | http://s3.voscast.com:10038/
+  Tes3enat FM | Egypt | 128k | "Angham/أنغام - Radio 90s FM" | http://178.33.135.244:20095/;?DIST=TuneIn&TGT=TuneIn&maxServers=2&partnertok=eyJhbGciOiJIUzI1NiIsImtpZCI6InR1bmVpbiIsInR5cCI6IkpXVCJ9.eyJ0cnVzdGVkX3BhcnRuZXIiOnRydWUsImlhdCI6MTYzNjA1OTE3OCwiaXNzIjoidGlzcnYifQ.Me0snc2PBcQhvlzte9L7zQxa-IHgNinhu3XdNJ6_Xa8
+  RadioSimorgh Authentic Iranian music | Islamic Republic Of Iran | 128k | "Iraj Bastami - Mojdeye Bahar" | https://stream.zeno.fm/9svfnobkrxrvv
+  109.0 FM Christmas Kids | Algeria | 128k | "Kids 2 Kids - Up On The Housetop" | http://stream.dar.fm/97821
+  Salsa - Dominicana | The Dominican Republic | 64k | "Celia Cruz - Que Le Den Candela" | http://radio.domiplay.net:2002/;
+  .صور من حياة الصحابة | Algeria | 128k | "علي بشير أحمد - صور من حياة الصحابيات - الحلقة (8) - أم سلمة" | https://qurango.net/radio/sahabah
+  Fayroz | Morocco | 128k | "Fairouz - راجعه" | https://stream.zeno.fm/zv3e5wykprhvv.mp3
+  تراتيل | Tunisia | 128k | "219-أحمد الموسى - لقد كان لسبأ في مسكنهم آية" | https://qurango.net/radio/tarateel
+
+--- COUNTRY (9) ---
+  .977 Country | The United States Of America | 128k | "Jason Aldean - The Truth" | http://24293.live.streamtheworld.com:3690/977_COUNTRY_SC
+  1.FM - Absolute Country Hits Radio | Switzerland | 256k | "Kane Brown - Boots feat. Shania Twain" | http://strm112.1.fm/acountry_mobile_mp3
+  Country 108 | Germany | 128k | "Tanya Tucker - Texas (When I Die)" | http://tuner.country108.com/;
+  2000 FM - Country | The United States Of America | 128k | "Jackson Dean - Fearless [Live at the Ryman]" | http://bigrradio.cdnstream1.com/5103_128
+  181.FM - Real Country | The United States Of America | 128k | "Dan + Shay - Say So" | https://listen.181fm.com/181-realcountry_128k.mp3
+  1.FM - Country One Radio | Switzerland | 256k | "Hal Ketchum - Small Town Saturday Night" | http://strm112.1.fm/country_mobile_mp3
+  America's Country | The United States Of America | 128k | "Kelsey Hart - Love To Be That Guy [Single]" | https://ais-sa2.cdnstream1.com/1976_128.mp3
+  SomaFM Boot Liquor (320k MP3) | The United States Of America | 320k | "BR5-49 - Ain't Got Time" | https://ice6.somafm.com/bootliquor-320-mp3
+  Country Rocks Radio | Sweden | 128k | "LIKE I KNEW YOU WOULD - PAYTON SMITH" | http://stream.dbmedia.se/crr96
+
+--- DANCE (5) ---
+  Energy NRJ Bulgaria | Bulgaria | 128k | "JENNIFER LOPEZ - Ain't It Funny" | http://play.global.audio/nrj128
+  RMF Dance | Poland | 64k | "Whatever Turn You On - Axwell / Bonn" | http://31.192.216.10/DANCE
+  Kiss FM Ukrainian | Ukraine | 128k | "Svoї - Сон" | https://online.kissfm.ua/KissFM_Ukr
+  Fun Radio Dance | Slovakia | 128k | "Netsky with Bebe Rexha - Light That Leads Me" | http://stream.funradio.sk:8000/dance128.mp3
+  Radio Deejay HR | Croatia | 192k | "Pete Heller - Big Love (Radio Edit)" | http://live.deejay.hr:7002/;
+
+--- DISCO (7) ---
+  RMF 80s Disco | Poland | 64k | "Love Is a Shield - Camouflage" | http://195.150.20.9/80SDISCO
+  SuperDj Radio | Hungary | 256k | "Toploader - Dancing in the Moonlight" | http://stream.diazol.hu:35150/autodj
+  Disco Net | Greece | 192k | "Bryan Ferry - Kiss and Tell(extended remix)" | https://stream1.468.gr/8004/stream
+  __80s HITS | The United States Of America | 128k | "Steve Winwood - While You See A Chance" | http://stream.laut.fm/80sexitos
+  Disco Studio 54 | The United States Of America | 320k | "Karen Young - Hot Shot (Original 12inch Mix)" | https://maiban00.radioca.st/stream
+  Radio ENTER | Slovenia | 128k | "TOM SANTA - RAINFALL (PRAISE YOU)" | https://stream.nextmedia.si/proxy/enter_1?mp=/enter
+  # RdMix Italo Disco 80s | Canada | 192k | "Riccardo Campa - Looking for a Way Out (Album Version)" | https://cast1.torontocast.com:2130/stream
+
+--- DOWNTEMPO (13) ---
+  1.FM - Ambient Psychill | Switzerland | 256k | "Endless Serenity - Chillout PsyChil Slow Trance Mix" | http://strm112.1.fm/ambientpsy_mobile_mp3
+  SomaFM Beat Blender (128k MP3) | The United States Of America | 128k | "Bonobo - Sapien" | https://ice5.somafm.com/beatblender-128-mp3
+  Radio Caprice - Erotic | The Russian Federation | 320k | "D.Batistatos - Tall Stories" | http://79.120.39.202:8000/erotic
+  SomaFM Groove Salad Classic (128k MP3) | The United States Of America | 160k | "Samnambulism - Roupe" | https://ice5.somafm.com/gsclassic-128-mp3
+  RadiOzora Chill | Hungary | 192k | "S&A In Dub - Live @ Ozora 2026 | Ambyss" | http://chill.out.airtime.pro:8000/chill_a
+  SomaFM Beat Blender (128k AAC) | The United States Of America | 128k | "Bonobo - Sapien" | https://ice5.somafm.com/beatblender-128-aac
+  SomaFM Groove Salad (64k AAC) | The United States Of America | 64k | "Leggo Beast - Skanked" | https://ice2.somafm.com/groovesalad-64-aac
+  SomaFM Secret Agent (64k AAC) | The United States Of America | 64k | "The Mighty Bop - Peau D' Ane" | https://ice2.somafm.com/secretagent-64-aac
+  Radio Caprice - Downtempo / Downbeat [3] | The Russian Federation | 320k | "Rodney Hunter feat. Farda P - Find It (Makossa & Megablast R" | http://79.120.77.11:8004/downtempo
+  Nordic Chillout Radio | Latvia | 64k | "Eelke Kleijn - Moments Of Clarity" | https://play.radioking.io/nordic-chillout-radio/736489
+  dr_dick's dub shack | Bermuda | 192k | "Skip `Little Axe` McDonald & Sinead O'Connor - My Love I Bri" | https://streamer.radio.co/s0635c8b0d/listen
+  Exclusively Lana Del Rey | The United States Of America | 128k | "Lana Del Rey - Radio" | https://streaming.exclusive.radio/er/lanadelrey/icecast.audio
+  AmbientRadio (MRG.fm) | The United States Of America | 128k | "Eeem [eim] - Transition" | http://listen.mrg.fm:8888/stream
+
+--- DRUM AND BASS (11) ---
+  Bassdrive | The United States Of America | 192k | "XPOSURE Records Show Nov 3 - hosted by Ben XO" | http://bassdrive.radioca.st:8702/
+  DNBRadio Main channel 192k | Germany | 320k | "Rumblejunkie and Solid - Tales from the Darkside" | http://ildnb1.dnbradio.com:8000/dnbradio_main.mp3
+  Radio Caprice - Drum 'n' Bass [2] | The Russian Federation | 320k | "Sonar Circle - Inside" | http://79.111.14.76:8000/drumbass
+  Noise FM - EDM Radio | The Russian Federation | 256k | "Owen Westlake feat. Graciellita - I Can Feel It" | http://play.sas-media.ru/play_256
+  DNB FM | The Russian Federation | 128k | "KOMATIC, TECHNIMATIC - MAKE ME FEEL" | https://air.dnbfm.ru/listen/player/play
+  UK Bass Radio | The United Kingdom Of Great Britain And Northern Ireland | 192k | "DJ eXtreme - 1992 Hardcore Mix" | https://www.ukbassradio.com/stream
+  DnBRadio.com - Darkstep Channel (DE Mirror) | Germany | 128k | "Tensa - Sin City" | http://trace.dnbradio.com:8000/dnbradio_darkstep.mp3
+  BPMcast | Germany | 128k | "Cee Gee - CEE GEE - PARTY LIKE A ROCK STAR" | http://stream.laut.fm/bpmcast
+  Dutch Delite Drum and Bass | The Netherlands | 256k | "DJ Ivo - dutch-delite-saturdaynight-dnb-session-09-07-2022" | http://radio.dutchdelite.nl:8000/dnb
+  dinamo.fm fluent | Türkiye | 320k | "Furney - I Will Be Where You Are" | http://channels.dinamo.fm/fluent-mp3
+  Radio X Basel (MP3 Stream) | Switzerland | 192k | "Poor Righteous Teachers - Culture Freestyles >> radiox.ch - " | http://mp3.radiox.ch:8000/standard.mp3
+
+--- DUBSTEP (8) ---
+  HardBase.FM | Germany | 192k | "Nitrouz & Toneshifterz - The Faithless" | http://mp3.stream.tb-group.fm/hb.mp3?
+  SomaFM Dub Step Beyond (128k MP3) | The United States Of America | 128k | "Desert Dwellers - I Dropped It" | https://ice5.somafm.com/dubstep-128-mp3
+  SomaFM Dub Step Beyond (256k MP3) | The United States Of America | 256k | "Desert Dwellers - I Dropped It" | https://ice6.somafm.com/dubstep-256-mp3
+  1.FM - Dubstep Forward Radio | Switzerland | 256k | "James Hype - Don`t Wake Me Up" | http://strm112.1.fm/dubstep_mobile_mp3
+  Elektronisch Querbeat | Germany | 128k | "Phonem - Bitstream (amx)" | http://stream.laut.fm/elektronisch_querbeat
+  1LIVE Fiehe | Germany | 128k | "1LIVE - Chillout" | http://wdr-1live-fiehe.icecast.wdr.de/wdr/1live/fiehe/mp3/128/stream.mp3
+  SomaFM Dub Step Beyond (128k AAC) | The United States Of America | 128k | "Desert Dwellers - I Dropped It" | https://ice5.somafm.com/dubstep-128-aac
+  i love radio - harder music | Germany | 192k | "AMONOS - MONTROSE" | http://ilm.stream35.radiohost.de/ilm_ilovechillhop_mp3-192?upd-meta&upd-scheme=http&_art=dD0xNzkzNTI2MjYzJmQ9YzgwYjYyNDMwMWU1MzAyMjBkNDg
+
+--- ECLECTIC (13) ---
+  Radio Paradise Main Mix (EU) 320k AAC | The United States Of America | 320k | "Dove Ellis - Pale Song" | http://stream-uk1.radioparadise.com/aac-320
+  Radio Paradise Main Mix 128 AAC | The United States Of America | 128k | "Dove Ellis - Pale Song" | http://stream.radioparadise.com/aac-128
+  SomaFM Sonic Universe (128k MP3) | The United States Of America | 128k | "Miles Davis - Maiysha" | https://ice5.somafm.com/sonicuniverse-128-mp3
+  Radio Paradise Main Mix (EU) 64k AAC | The United States Of America | 64k | "Dove Ellis - Pale Song" | http://stream-uk1.radioparadise.com/aac-64
+  Radio Paradise World/Etc Mix 320k AAC | The United States Of America | 320k | "Mista Savona - 410 San Miguel (feat. Ernest Ranglin)" | https://stream.radioparadise.com/world-etc-320
+  Radio Paradise Main Mix (EU) FLAC+meta | The United States Of America | 1442k | "Dove Ellis - Pale Song" | http://stream-uk1.radioparadise.com/flacm
+  Radio Paradise Mellow Mix 64k AAC | The United States Of America | 64k | "Turin Brakes - Goodbye" | https://stream.radioparadise.com/mellow-64
+  Radio Paradise Rock Mix FLAC+meta | The United States Of America | 1441k | "Rage Against the Machine - Killing in the Name" | http://stream.radioparadise.com/rock-flacm
+  SomaFM Sonic Universe (128k AAC) | The United States Of America | 128k | "Miles Davis - Maiysha" | https://ice2.somafm.com/sonicuniverse-128-aac
+  Radio Paradise Mellow Mix FLAC+meta | The United States Of America | 1442k | "Turin Brakes - Goodbye" | http://stream.radioparadise.com/mellow-flacm
+  Radio Paradise Rock Mix 128k AAC | The United States Of America | 128k | "Rage Against the Machine - Killing in the Name" | http://stream.radioparadise.com/rock-128
+  Radio Paradise Main Mix 320k AAC | The United States Of America | 320k | "Dove Ellis - Pale Song" | http://stream.radioparadise.com/aac-320
+  Radio Paradise Mellow Mix 128k AAC | The United States Of America | 128k | "Turin Brakes - Goodbye" | http://stream.radioparadise.com/mellow-128
+
+--- EDM (5) ---
+  Hitradio Germany | Germany | 128k | "Bebe Rexha - New Religion (feat. Faithless)" | http://stream.laut.fm/hitradio-germany
+  NYC House Radio | The United States Of America | 128k | "Various Artists - Toolroom Amsterdam 2016 - Toolroom Amsterd" | http://www.ophanim.net:8400/;
+  1000 ELECTRONIC DANCE MUSIC | Austria | 128k | "LIZOT, Pazoo, Blümchen - Bassface" | http://stream.laut.fm/1000-electronic-dance-music
+  Allzic Radio Dance Floor | France | 128k | "On and On 2026 - Akcent" | http://allzic07.ice.infomaniak.ch/allzic07.mp3
+  - DJ & CLUB CHARTS ---> Club Classics, Festival-Hits, Remixes, Single Charts, Mashups, DJ Sets, Club Edits, Dancefloor, Underground, Nightlife, Party Anthems, Ibiza, Miami, Clubbing, Festival, Remix, Mashup, DJ, EDM,  RAVE, Dance, Urban, Latin, Beachclub, Lounge | Germany | 192k | "NF - Let You Down  (Proppa Remix)" | https://breakz-2012-high.rautemusik.fm/?ref=rb-djclubcharts
+
+--- ELECTRONIC (13) ---
+  Intense Radio - We love Dance 256K | The Netherlands | 256k | "Felix Harrer - Turn The Tide" | https://secure.live-streams.nl/main
+  TranceBase.FM - AAC HD 256k | Germany | 256k | "Above & Beyond - Feel The Vibe" | http://listen.trancebase.fm/tunein-aac-hd-pls
+  Mixadance FM | The Russian Federation | 192k | "Stereocalypse - By The Way (Extended Mix)" | https://stream.mixadance.fm/mixadance
+  Los 40 Dance | Spain | 128k | "The Chainsmokers,Coldplay - Something just like this" | http://playerservices.streamtheworld.com/api/livestream-redirect/LOS40_DANCE_SC
+  SomaFM Lush (128k MP3) | The United States Of America | 128k | "NAVVI - Polychrome" | https://ice2.somafm.com/lush-128-mp3
+  Trance Athena | Greece | 320k | "Danny Legatto - Inside my Soul (Original Mix)" | http://cast.streams.ovh:8008/stream
+  Costa del Mar - Deep House | ? | 96k | "Soulista - Love Yourself (Rightside & Mark Di Meo Remix & CD" | http://stream.cdm-chillout.com:8012/stream-mp3-Deep
+  Total instrumental | Germany | 128k | "David Crops - Octopus" | http://stream.laut.fm/total-instrumental
+  Hi On Line Lounge Radio | The Netherlands | 320k | "Zenmen - Obsession The Yang Mix" | http://mediaserv33.live-streams.nl:8036/live
+  ElectroDanceWorld Radio | Spain | 128k | "Marnik  - Gam Gam" | http://stream.zeno.fm/s70bvdgqks8uv
+  TechnoBase.FM | Germany | 192k | "FSDW - Wknd" | https://listener3.mp3.tb-group.fm/tb.mp3
+  PulseEDM Dance Music Radio | The United States Of America | 128k | "George Acosta feat Fisher - Beautiful" | http://pulseedm.cdnstream1.com:8124/1373_128
+  electronic music club | Germany | 128k | "Steve Talent - Lost & Found (Extended Mix)" | http://stream.laut.fm/emc
+
+--- EMO (3) ---
+  Laut.FM RadioRock | Germany | 128k | "Jimi Hendrix - Who Knows" | http://stream.laut.fm/radiorock
+  Scream Radio | The Philippines | 128k | "Starset - DIE FOR YOU" | https://stream.zeno.fm/us9zu5w8zxhvv
+  Nevermore Radio - Nevermore Network | Colombia | 128k | "The Prowler - Lair of The Necromangler" | https://panel.nevermorenetwork.com/listen/nevermorenetwork.com/radio.mp3
+
+--- FLAMENCO (3) ---
+  Radio Art - Flamenco | Greece | 96k | "Paco De Lucia- Ramos De  Algeciras - Abril En Sevilla" | http://air.radioart.com/fFlamenco.mp3
+  Radio Sevillanas | Spain | 128k | "244 Voces del Pueblo - El mejor Rocío" | http://radio.wesped.com:8000/stream
+  Energía Flamenca | Spain | 128k | "Isabelita De Jerez  - Pobre Niño Que En Cueros Y Descalzo (P" | https://axarquia.emisiononline.es/radio/8020/radio.mp3
+
+--- FOLK (10) ---
+  Extra FM | Croatia | 96k | "ALKA VUICA - LUĐAKINJA" | http://streams.extrafm.hr:8110/;
+  Radio Banovina | Croatia | 128k | "ZDENKO NIKŠIĆ - LIČKI BEČARAC" | http://stream1.radio-banovina.hr:8008/;
+  Radyo Şiran | Türkiye | 128k | "Nurettin Bay - Öf Öf" | https://live.radyositesihazir.com/8078/stream
+  Cool Radio | Serbia | 128k | "Henny - Cekaj me" | http://176.9.30.66/cool64
+  Ankara Havalari | Türkiye | 128k | "Mümin Sarıkaya - Ben Seni Öpsem" | http://37.247.98.8/stream/30/;
+  Turku Radyo | Türkiye | 64k | "SevdaTreni - Zeynel Aba - Cemo" | http://radyo.turkuradyo.net:4591/turkuradyo
+  Ancient FM | Canada | 128k | "Jordi Savall - Browning My Dear" | https://mediaserv73.live-streams.nl:18058/stream
+  Radio Posavina Zagreb | Bosnia And Herzegovina | 128k | "Olja Karleusa - Minut" | http://cmr-hosting.com:8500/;stream.mp3
+  STIL RADIO | Republic Of North Macedonia | 320k | "Verica Serifovic - Verica Serifovic - Ako treba" | https://eu4.fastcast4u.com/proxy/stilradiomk?mp=/1
+  All Oldies Channel | The Netherlands | 192k | "Special Aka - Nelson Mandela" | http://radio.alloldieschannel.com:8000/stream
+
+--- FREEFORM (6) ---
+  Radio 80000 | Germany | 192k | "Airtime - offline" | https://radio80k.out.airtime.pro:8000/radio80k_a
+  WPRB 103.3 FM - Princeton, NJ | The United States Of America | 96k | "Ene Ese - Yohie - La Época del Terror" | http://wprb.streamguys1.com/live
+  KFFP-LP 90.3 FM Freeform Portland | The United States Of America | 256k | "DJ Scummy B - Transmissions from the Failed Faraday Cage #02" | http://listen.freeformportland.org:8000/stream
+  KHUM 104.7 & 104.3 Cutten, CA | The United States Of America | 80k | "Back, Baby - Jessica Pratt - US58L1560608" | http://lostcoast.streamguys.us/khum-hi
+  FunHouse Radio | The United States Of America | 192k | "The Aquabats - Food Fight on the Moon" | https://ais-edge105-live365-dal02.cdnstream.com/a02627?filetype=.mp3&_=1
+  KPISS | The United States Of America | 128k | "Artista Desconhecido - Faixa 1" | http://streaming.live365.com/a18444
+
+--- FRENCH (10) ---
+  Radio Swiss Classic French | Switzerland | 128k | "Heinrich Joseph Baermann - Andante et Menuetto du quintette " | http://stream.srg-ssr.ch/srgssr/rsc_fr/aac/96
+  Generations Dance Hall | France | 128k | "Romantic Call - Patra & Yo-Yo" | http://generations-dancehall.ice.infomaniak.ch/generations-dancehall.mp3
+  Радио Пассаж | The Russian Federation | 64k | "MARY GU - Вечеринки" | http://listen.radiopassazh.ru/aac-48
+  Radio Caprice - French/Nouvelle Chanson | The Russian Federation | 320k | "Fernandel - Si je jouais du trombone" | http://79.111.14.76:8000/frenchchanson
+  Crooner Radio Frenchy | France | 128k | "Michel Jonasz Feat. Ben L'Oncle Soul - Joueurs de Blues" | http://croonerradio_frenchy.ice.infomaniak.ch/croonerradio-frenchy-midfi.mp3
+  Radio Caprice - French Pop | The Russian Federation | 320k | "Robert - Cerise" | http://79.120.12.130:8000/frenchpop
+  Traxx FM - France | Switzerland | 128k | "Philippe Lavil - Jamaicaine" | http://traxx025.ice.infomaniak.ch/traxx025-1.mp3
+  DIGITAL+ | France | 192k | "Suzanne Vega - Luka" | https://stream.digital-plus.fr/DP192k.mp3
+  PlixSend France | France | 64k | "Dua Lipa  -  These Walls (feat. Pierre de Maere)" | https://plixsend.eu/listen/fr/stream
+  FunVibe | France | 192k | "Rim'K - Katana" | https://radio.funvibe.fr/listen/funvibe/radio.mp3
+
+--- FUNK (7) ---
+  Jazz Radio Funk | France | 128k | "Mercy mercy me/i want you - ROBERT PALMER" | http://jazz-wr06.ice.infomaniak.ch/jazz-wr06-128.mp3
+  B4B Radio DISCO FUNK | France | 128k | "Donna Summer - Bad Girls" | https://eu10.fastcast4u.com:8120/
+  Funkstar Radio | Czechia | 192k | "Chris Standring - Oliver's Twist" | https://funkstar.radioca.st/stream
+  Generations Funk | France | 128k | "Rock Steady - The Whispers" | http://gene-wr05.ice.infomaniak.ch/gene-wr05.mp3
+  Laut.FM jazzrockfusion | Germany | 128k | "Chick Corea's Akoustic Band - Spain" | http://stream.laut.fm/jazzrockfusion
+  dinamo.fm discotheque | Türkiye | 320k | "Touche - Take A Look But Don't Touch" | http://channels.dinamo.fm/discotheque-mp3
+  The Groove | The United Kingdom Of Great Britain And Northern Ireland | 128k | "Mikelyn Roderick - Slippin'" | http://uk7.internet-radio.com:8352/
+
+--- GOSPEL (9) ---
+  Heaven FM Radio (Burundi) | Burundi | 128k | "LIVE - Heaven Radio" | http://stream.zeno.fm/eequgfw72hhvv
+  181.FM - Christmas Gospel | The United States Of America | 128k | "4Him - A Night To Remember" | https://listen.181fm.com/181-xgospel_128k.mp3
+  JAMM FM | The Netherlands | 320k | "Kool & The Gang - Big Fun" | http://stream.jammfm.nl:8221/
+  Jazz Radio Gospel | France | 128k | "Set me free - MYRON BUTLER" | http://jazz-wr07.ice.infomaniak.ch/jazz-wr07-128.mp3
+  MGT GOSPEL | Brazil | 64k | "Pamela - Caminho Da Perfeição (studio Session)" | https://cast.mgtradio.net/radio/8040/aac
+  1.FM - All Times & Urban Gospel Radio | Switzerland | 256k | "Ali Toygar - Chambers" | http://strm112.1.fm/gospel_mobile_mp3
+  Exclusively Johnny Cash | The United Arab Emirates | 128k | "Johnny Cash - Farmer" | https://streaming.exclusive.radio/er/johnnycash/icecast.audio
+  Big R Radio - Gospel Channel | The United States Of America | 128k | "Dorinda Clark-Cole - Nobody But God" | http://bigrradio.cdnstream1.com/5199_128
+  Urban Radio - Gospel Hits | The United States Of America | 128k | "Deitrick Haddon  - Sinners Prayer" | http://hydra.cdnstream.com/1535_128
+
+--- GRUNGE (14) ---
+  Exclusively Nirvana | The United Arab Emirates | 128k | "Nirvana - Paper Cuts" | https://streaming.exclusive.radio/er/nirvana/icecast.audio
+  Big R Radio - Grunge FM | The United States Of America | 128k | "Nirvana - Lithium" | http://bigrradio.cdnstream1.com/5200_128
+  Big R Radio - Post Grunge Rock | The United States Of America | 128k | "Pop Evil - A Crime To Remember" | http://bigrradio.cdnstream1.com/5203_128
+  Exclusively Stone Temple Pilots | The United Arab Emirates | 128k | "Stone Temple Pilots - Dancing Days" | https://streaming.exclusive.radio/er/stonetemplepilots/icecast.audio
+  Rock Antenne Grunge | Germany | 128k | "Nirvana - On a plain" | https://stream.rockantenne.de/grunge/stream/mp3
+  Labgate - Alt Rock Grunge | Canada | 128k | "Alice In Chains - God Smack" | https://s2.ssl-stream.com/radio/8190/radio.mp3
+  Radio Caprice - Grunge | The Russian Federation | 320k | "Takida - Too Late" | http://79.120.39.202:8000/grunge
+  Rockhausradio | Germany | 192k | "Rising Steel - Black Martin" | http://stream.rockhausradio.de/rockhausradio
+  Pirate Radio | Germany | 128k | "Bush - Everything zen" | https://frontend.streamonkey.net/fhn-pirateradio/stream/mp3
+  Static – 90s & 2000s Alt Rock | The United States Of America | 320k | "The xx - Intro" | https://r.bgp.rodeo/listen/static/radio.mp3
+  DressFM (New Yorker Germany) | Germany | 320k | "DJ Goja - Mi Chico{{ID:dbmmef6857lc72qr96og}}" | https://streams.fluxfm.de/nyir-ger/mp3-320/
+  BFBS Edge | The United Kingdom Of Great Britain And Northern Ireland | 128k | "Georgia - Never Let You Go" | http://edge-audio-w2-03.sharp-stream.com/ssvcbfbs22.mp3
+  Australian Digital Radio Network - Grunge (MP3) | Australia | 128k | "The Smashing Pumpkins - To Forgive" | http://abm21.com.au:8000/CONTAINER92
+  WYML 99.9 | The United States Of America | 128k | "Audioslave - Cochise - Audioslave" | https://seahorse.juststreamwith.us:8000/stream
+
+--- HARD ROCK (8) ---
+  Exclusively Led Zeppelin | The United Arab Emirates | 128k | "Led Zeppelin - Immigrant Song" | https://streaming.exclusive.radio/er-app/ledzeppelin/icecast.audio
+  Exclusively Foo Fighters | The United Arab Emirates | 128k | "Foo Fighters - Exhausted" | https://streaming.exclusive.radio/er/foofighters/icecast.audio
+  88.6 Hard Rock | Austria | 128k | "METALLICA - MASTER OF PUPPETS" | http://radio886.at/streams/88.6_Hard_Rock/mp3
+  Rock Fm Hard Rock | Romania | 80k | "Joe Satriani - Surfing with the Alien" | https://live.rockfm.ro/hard.rock
+  Power FM - Rock FM | Hungary | 192k | "Mystery - In Your Arms Tonight" | http://s39.myradiostream.com:11590/listen/;.mp3
+  Exclusively Led Zeppelin - Only Hits | The United Arab Emirates | 128k | "Led Zeppelin - Bonzo" | https://streaming.exclusive.radio/er-app/ledzeppelinhits/icecast.audio
+  Rock Melodic Radio | Greece | 320k | "Survivor - Too Hot To Sleep" | http://live.rockmelodic-radio.com:8124/stream
+  Radio Caprice - Hard Rock | The Russian Federation | 320k | "Super Vintage - Holy Ground" | http://79.120.77.11:8000/hardrock
+
+--- HIP HOP (9) ---
+  Rap/Hip Hop | Portugal | 128k | "Grilocks - Sentir Bem ft MC Ary" | http://185.32.188.17:8097/stream
+  Top Urbano | The Dominican Republic | 128k | "Farruko - Pepas" | https://radio.dominiserver.com/proxy/topurbano?mp=/stream
+  GotRadio Hip Hop Stop | The United States Of America | 128k | "Fat Joe feat. Pusha T - Set Of Keys" | http://pureplay.cdnstream1.com/6041_128.mp3
+  100% ACID JAZZ | Canada | 128k | "Rusty Bryant - Cootie Boogaloo" | https://mpc1.mediacp.eu:8356/stream
+  WEFUNK | Canada | 64k | "steady b. - bring the beat back" | https://s-14.wefunkradio.com:8443/wefunk64.mp3
+  Guarida Hip Hop | Colombia | 128k | "DAS FX - das fx - jungle" | http://stream.zeno.fm/sp1x3mye474tv
+  Balkan Hip-Hop Radio | Bosnia And Herzegovina | 128k | "Struka - Dno feat. Stefan (THC) & Demian (VIP)" | http://centova.dukahosting.com:2022/stream
+  Colombia Urbana | Colombia | 128k | "Nigga - Te quiero" | https://play10.tikast.com/proxy/colurbana?mp=/stream
+  Play Urban | Romania | 192k | "Dilated Peoples - You Can't Hide, You Can't Run" | http://live.playradio.org:9090/UrbanHD
+
+--- HOUSE (9) ---
+  Generation Dance Radio | Luxembourg | 192k | "Andrea Ferrini & Majuri - Dancing on the Clouds (Radio Edit)" | http://generationdance.lu/radio/8030/hd
+  Deep in Radio | Portugal | 128k | "D.M.P - Deep Transmission" | http://s3.viastreaming.net:8525/
+  SLAM! | The Netherlands | 128k | "MixMarathon - Best of Last Week" | http://stream.slam.nl/slam
+  # TOP 100 DJ CHARTS - DJ REMIX & CHARTS RADIO @ TikTok Charts, Electronic Music, EDM, House, Deep House, Dance Music, Techno & Hypertechno, Top40, Latin Charts, Reggaeton, Urban, HipHop, Club & Party Radio - & LIVE DJ SETS | Germany | 192k | "NF - Let You Down  (Proppa Remix)" | https://breakz-high.rautemusik.fm/?ref=radiobrowser-top100-djcharts
+  C-Dance RETRO | The Netherlands | 192k | "Cherrymoon Trax 4 - In my electric house (feat. Yves Deruyte" | http://s45.myradiostream.com:18304/
+  dinamo.fm deep | Türkiye | 320k | "Adisyn - Departure (Hrag Mikkel Remix)" | http://channels.dinamo.fm/deep-mp3
+  Dance UK | ? | 128k | "Fish56Octagon & Issey Cross - Dreaming (Feelings)" | http://51.89.148.171:8022/stream/
+  _DEEJAY REMIXE_ Your Radio for finest House, EDM, Electro, Dance, Mashup, Hypertechno, Techno, Bootleg, Charts, Top40, Chillout, Lounge, HipHop, Urban & Latin Party DJ Remixes! | Germany | 192k | "NF - Let You Down  (Proppa Remix)" | https://breakz-high.rautemusik.fm/?ref=radiobrowser-deejay-remixes-radio
+  HouseTime.FM | Germany | 256k | "Chris Decay & Re-Lay - My Brother" | https://listen.housetime.fm/tunein-aac-hd-pls
+
+--- INDIE (18) ---
+  SomaFM PopTron (128k MP3) | The United States Of America | 128k | "Ry, Frank Wiedemann - Howling" | https://ice2.somafm.com/poptron-128-mp3
+  SomaFM Indie Pop Rocks! (128k AAC) | The United States Of America | 128k | "Grouplove - Francine" | https://ice6.somafm.com/indiepop-128-aac
+  - 0 N - Indie on Radio | Germany | 128k | "Temples - The Golden Throne" | https://0n-indie.radionetz.de/0n-indie.mp3
+  Anti Radio | Azerbaijan | 128k | "Dave Andres/Erdit Mertiri - Jungle" | https://stream.antiradio.net/radio/8000/mp3
+  Indie X FM | The United States Of America | 320k | "Dan Auerbach - King of a One Horse Town" | http://kathy.torontocast.com:2690/stream
+  ไทยลานนาเรดิโอ FM 106.5 จังหวัดตาก | Thailand | 320k | "แค่แอบฮักอ้าย - นิ้วก้อย กรรณิการ์" | https://inter.lannaradio.com/radio/8000/radio.mp3
+  80s Forever - We Keep The 80s Alive | Switzerland | 256k | "Cocteau Twins - Lorelei {1983}" | https://premium.shoutcastsolutions.com/radio/8050/256.mp3
+  The Independent FM | The United States Of America | 320k | "The Flaming Lips - Dinosaurs on the Mountain" | https://listen.radioking.com/radio/293701/stream/340084
+  Oxygen Indie | Hungary | 320k | "Royal Blood - Figure It Out" | https://oxygenmusic.hu:8443/oxygenindie
+  Gangstaville Radio | The United States Of America | 128k | "26 Little Things - Little Things - Ella Mai (SickMix intro) " | http://stream.radio.co/s1cffd7347/listen
+  egoFM | Germany | 128k | "Moglii - Foxx" | http://cast.egofm.de/egofm.mp3?ar-distributor=ffa0&aw_0_req.gdpr=true
+  Radio Shadow Rock Mix | The United States Of America | 128k | "KT Tunstall - Black Horse And The Cherry Tree" | http://162.244.80.131:8052/
+  Pinguin Indie | The Netherlands | 192k | "Lambrini Girls  - Spilt" | http://streams.pinguinradio.com/PinguinRadio192.mp3
+  Pinguin Radio | The Netherlands | 320k | "Lambrini Girls  - Spilt" | http://streams.pinguinradio.com/PinguinRadio320.mp3
+  Guerrilla Radio | The United States Of America | 128k | "Wolfmanhattan Project - Now Now Now - Blue Gene Stew" | http://s2.stationplaylist.com:9460/guerrilla
+  Radio Sherwood | Italy | 96k | "Antonin Dvorak - Symphony No. 9 - Iv. Allegro Con Fuoco 1984" | http://radiosherwood.ice.infomaniak.ch/radiosherwood-96.mp3
+  Radio Antalya | Türkiye | 320k | "Stone Temple Pilots - Plush" | https://my.radiolize.com/radio/8000/radio.mp3
+  Kanal 103 | Republic Of North Macedonia | 256k | "Darko Rundek & Cargo Orkestar - Kolo" | http://radiostream.neotel.mk/kanal103
+
+--- INDIE ROCK (9) ---
+  1.FM - Gorilla FM Radio | Switzerland | 256k | "Dayglow - Can I Call You Tonight?" | http://strm112.1.fm/gorillafm_mobile_mp3
+  GDS.FM | Switzerland | 320k | "Helvetica -  - Ogawa & Tokoro - Dancing In The River" | http://gdsfm.out.airtime.pro:8000/gdsfm_a
+  100hitz - Indie Rock | The United States Of America | 64k | "Eve 6 - Inside Out" | http://pureplay.cdnstream1.com/6056_64.aac?DIST=TuneIn&TGT=TuneIn&maxServers=2&gdpr=0&us_privacy=1YNY&partnertok=eyJhbGciOiJIUzI1NiIsImtpZCI6InR1bmVpbiIsInR5cCI6IkpXVCJ9.eyJ0cnVzdGVkX3BhcnRuZXIiOnRydWUsImlhdCI6MTYzMzk1ODAzMywiaXNzIjoidGlzcnYifQ.iRK4czQtolWgtNsj8Uy5lioP0EoZu1wCuvj2VwsCs3o
+  8radio | Ireland | 128k | "Peter Gabriel - Solsbury Hill" | https://edge4.audioxi.com/8RADIO
+  Exclusively Sting | The United Arab Emirates | 128k | "Sting - Ship Of State (feat. Renée Fleming)" | https://streaming.exclusive.radio/er/sting/icecast.audio
+  Pejuang Kopi | Indonesia | 128k | "D'MASIV Featuring Ariel, Giring, Momo - Esok Kan Bahagia (Of" | https://stream.zeno.fm/sthgzynfcd0uv
+  Radio SRF Virus - Indie Rock | Switzerland | 128k | "ENNIO - KIPPE" | http://streaming.swisstxt.ch/m/drsvirus/mp3_128
+  DumDUM | Italy | 320k | "Chapter 03 - Chapter 03 - I Misteri Della Jungla Nera by NAO" | https://sr11.inmystream.it/proxy/dumdumradio
+  Rockin' the Suburbs Radio | The United States Minor Outlying Islands | 192k | "Shapoval Sextet - Oh, Get Ready, Cossack, There Will Be a Ma" | https://streaming.radio.co/sca22d43b1/listen
+
+--- ITALO DISCO (13) ---
+  Magic Disco Radio | Hungary | 256k | "F.R. David - Sahara Night" | http://188.165.11.30:4420/live.mp3
+  Radio Stad Den Haag | The Netherlands | 192k | "Tiziana Rivale - Just Hold Me Tight (Soft Version)" | http://94.228.133.3/
+  Laut.FM Eurodance | Germany | 128k | "Nite Beat - Don't Walk Away" | http://stream.laut.fm/eurodance
+  Italo Sound Radio | Italy | 192k | "Juanlu Navarro & Borja Jimenez - Olvidalo (DJ-V. Remix)" | http://stream.italosound.com:8000/italosound
+  Italo Disco - Caprice Radio | The Russian Federation | 320k | "Fancy - China Blue (Blue Remix)" | http://79.111.119.111:8000/italodisco
+  # 100 NU-DISCO CENTRAL RADIO | Italy | 128k | "100 Nu-Disco Central - Nu-Disco(20240722)" | https://stream.zeno.fm/jqhhzffjynbuv
+  Radio Mela | Italy | 128k | "Gazebo - I Like Chopin" | http://www.shoutcastitalia.com:8016/stream
+  Italoradio.fm | The Netherlands | 192k | "Middle Ages - Stop Your Lies" | http://cc6.beheerstream.com:8102/stream
+  Only 80's Radio | The Netherlands | 192k | "Patrick Swayze - She's Like the Wind" | https://server-28.stream-server.nl:8850/stream
+  80er-Revival | Germany | 128k | "Gary Moore - Friday on My Mind (12") [*][Version]" | https://stream.laut.fm/80er-revival
+  Alles Bunt Gemischt | Germany | 128k | "Udo Lindenberg - Ich lieb' dich ueberhaupt nicht mehr (Maxi)" | http://stream.laut.fm/alles-bunt-gemischt
+  Studio Dance | Italy | 128k | "Alex Party - Wrap Me Up" | http://stream.laut.fm/studiodance
+  Диско-радио SOVA | The Russian Federation | 256k | "Bad Boys Blue - Lady In Black (1989)" | https://evcast.mediacp.eu:1965/stream
+
+--- JAZZ (12) ---
+  101 SMOOTH JAZZ | The United States Of America | 192k | "Fourplay - Still The One" | http://jking.cdnstream1.com/b22139_128mp3
+  SomaFM Secret Agent (128k MP3) | The United States Of America | 128k | "The Mighty Bop - Peau D' Ane" | https://ice5.somafm.com/secretagent-128-mp3
+  Jazz Radio Classic Jazz | France | 128k | "Time after time - JOHN COLTRANE" | http://jazz-wr01.ice.infomaniak.ch/jazz-wr01-128.mp3
+  Jazz Lounge | Malaysia | 320k | "Giacomo Bondi & Friends - Giacomo Bondi feat. Didi - Caffe P" | http://eu8.fastcast4u.com:5068/;
+  Jazz London Radio | The United Kingdom Of Great Britain And Northern Ireland | 256k | "Gary Burton - Quick And Running" | http://radio.canstream.co.uk:8075/live.mp3
+  Jazz Radio Only Women | France | 128k | "Where is the love ? (ft. Donny Hathaway) - ROBERTA FLACK" | http://jazz-wr16.ice.infomaniak.ch/jazz-wr16-128.mp3
+  Bossa Jazz Brasil | Brazil | 64k | "Incognito - When The Sun Comes Down" | https://centova5.transmissaodigital.com:20104/live
+  The Jazz Groove - East | The United States Of America | 128k | "Walter Smith III - Mother Stands for Comfort" | http://east-mp3-128.streamthejazzgroove.com/stream
+  Jazz Sakura (asia dream radio) | Japan | 128k | "Hiromi - Spark (feat. Anthony Jackson & Simon Phillips)" | http://kathy.torontocast.com:3330/stream/1/?esPlayer&cb=82181.mp3
+  SMOOTH JAZZ 24/7 | The United States Of America | 192k | "Bob Baldwin - Lookin` for Another Pure Love" | http://jking.cdnstream1.com/b75154_128mp3
+  Jazz Radio Electro Swing | France | 128k | "Kindergarten (Rube Remix) - UNKLE HO" | http://jazz-wr04.ice.infomaniak.ch/jazz-wr04-128.mp3
+  - 0 N - Smooth Jazz on Radio | Germany | 64k | "Baby Colby - Cruising FM" | https://0n-smoothjazz.radionetz.de/0n-smoothjazz.aac
+
+--- JPOP (13) ---
+  Anime Para Ti | Japan | 128k | "Natsumi Takamori, Eri Sendai, Yuu Asakawa, Atsumi Tanezaki -" | https://stream.zeno.fm/qpn8mkt8c4duv
+  J1 Gold (HTTP) | Japan | 128k | "Niinuma Kenji - Yome ni Konai ka" | http://jenny.torontocast.com:8062/
+  Anison动漫音乐台 | China | 320k | "Blassreiter (Itou Kanako) - DD" | http://pool.anison.fm:9000/AniSonFM(320)?
+  Only Hits Japan | Japan | 128k | "BE:FIRST, BIA - WATCH ME feat. BIA" | https://j.onlyhit.us/play
+  Japan Hits - asia DREAM radio | Japan | 128k | "Taisei Fukumoto - I wanna meet U" | http://quincy.torontocast.com:2020/stream.mp3
+  JPop Powerplay Kawaii | The United States Of America | 128k | "Hinatazaka46 - Christmas countdown" | http://kathy.torontocast.com:3060/stream/1/?esPlayer&cb=221391.mp3
+  Japanradio.de | Germany | 192k | "Red Velvet - Hula Hoop" | https://stream.japanradio.de/live
+  Gotanno FM 89.2 | Japan | 128k | "Caprice Cafe - 夢だけ見てたい" | https://radio.gotanno.love/;
+  J-Pop Sakura (asia DREAM radio) | Japan | 128k | "Minako Honda - Doubt" | https://quincy.torontocast.com:2070/stream.mp3
+  Doujinstyle Radio | ? | 192k | "鈴湯 - blackout（new echoes ver.）" | https://streams.radio.co:80/s5ff57669c/listen
+  J-Pop Powerplay (Asia DREAM Radio) | Canada | 128k | "THE RAMPAGE from EXILE TRIBE - MAJI-YABAI" | http://kathy.torontocast.com:3560/
+  asia DREAM radio - Japan Hits | Japan | 128k | "Taisei Fukumoto - I wanna meet U" | https://quincy.torontocast.com:2020/stream.mp3
+  J-Pop Powerplay Kawaii (http) | Canada | 128k | "Hinatazaka46 - Christmas countdown" | http://kathy.torontocast.com:3060/;
+
+--- KPOP (17) ---
+  Exclusively BTS | The United Arab Emirates | 128k | "BTS - Reflection" | https://streaming.exclusive.radio/er/bts/icecast.audio
+  juka radio kpop | Germany | 128k | "TAEYONG - Long Flight" | https://juka-kpop.stream.laut.fm/juka-kpop?t302=2021-04-01_09-03-35&uuid=6aa06ca0-9a01-407d-91af-155d24c5c405
+  - 0 N - K-Pop on Radio | Germany | 64k | "Dongkiz - Blockbuster" | https://0n-kpop.radionetz.de/0n-kpop.aac
+  Generacion Kpop | Peru | 64k | "Apink (????) - Wait Me There (??, ? ????)" | http://stream9.mexiserver.com:8242/stream
+  REYFM - #kpop | Germany | 320k | "MEDUZA, DEL-30, Mali-Koa - Sparks" | https://listen.reyfm.de/kpop_320kbps.mp3
+  Radio Anime Nexus | Mexico | 128k | "UNCHAIN - The Grounds Of Heaven" | http://radio.animenexus.mx:8000/animenexus
+  Only Hits K-Pop | The United States Of America | 128k | "CRAVITY - SET NET G0?!" | https://kpop.onlyhit.us/play
+  ADBT Radio | Germany | 128k | "Vessel - Lock up the children" | http://217.79.181.61:8000/;
+  Listen.moe Kpop (MP3) | The Republic Of Korea | 192k | "MAMAMOO - SELFISH (Feat. 슬기 Of Red Velvet)" | https://listen.moe/kpop/fallback
+  _MX2✨ | Saudi Arabia | 128k | "﻿beomjhu - ﻿Sam Smith Ft. Kim Petras - Unholy (sped up)" | https://stream.zeno.fm/66gp9qukxaquv
+  Vibe Radio | The Philippines | 128k | "Scoop Dogg, Daarth - Moolah" | https://stream.zeno.fm/zf0ac4raqy8uv
+  Conexion Kpop Girls groups | Peru | 128k | "HOT ISSUE - GRATATA" | https://stream.laut.fm/conexiongirlsgroups
+  Conexion  kpop | Peru | 128k | "ChoColat - One More Day" | https://stream.laut.fm/conexionkpop
+  K-Pop 24 | Ukraine | 128k | "WINNER - Everyday" | https://lux.radio.tvstitch.com/k-pop-sd
+  Kpop Radio | Hungary | 192k | "Hearts2Hearts - 'The Chase'" | https://s5.radio.co/s078df1838/listen
+  Radios 100FM - 100% K-pop | Israel | 128k | "SuperM - The 1st Mini Album - 01 - Jopping" | https://gb25.streamgates.net/radios-audio/100kpop/icecast.audio
+  Happy Radio Chile | Chile | 192k | "Fred again.. Skepta PlaqueBoyMax - Victory Lap" | https://a6.asurahosting.com:8840/radio.mp3
+
+--- LATIN (10) ---
+  1.FM - Cafe Radio | Switzerland | 256k | "Massive Attack - Protection" | http://strm112.1.fm/caferadio_mobile_mp3
+  Candela Estéreo Bogotá (HJPU 101.9) | Colombia | 96k | "Los Corraleros De Majagual - La Manzana" | http://27573.live.streamtheworld.com:3690/CANDELAESTEREO_SC
+  Jazz Radio Latin Jazz | France | 128k | "De camino a la vereda - BUENA VISTA SOCIAL CLUB" | http://jazz-wr09.ice.infomaniak.ch/jazz-wr09-128.mp3
+  Chocolate FM HD | Spain | 320k | "The Wanted - Walks Like Rihanna" | http://streaming5.elitecomunicacion.es:8030/live.mp3
+  1.FM - Absolute Pop Latino Radio | Switzerland | 256k | "Justin Quiles, Lenny Tava?rez - THANK YOU BB" | http://strm112.1.fm/latino_mobile_mp3
+  1.FM - Bossa Nova Hits | Switzerland | 256k | "beabadoobee, Laufey - A Night to Remember" | http://strm112.1.fm/bossanova_mobile_mp3
+  XHTIM "La Mejor" 90.7 FM Tijuana, BN | Mexico | 128k | "GERARDO ORTIZ - AHI NO ERA" | http://14223.live.streamtheworld.com/XHTIM_SC
+  Mega 96.3 (Los Angeles) - 96.3 FM - KXOL-FM - Spanish Broadcasting System - Los Angeles, California | The United States Of America | 128k | "Nicky Jam Feat Enrique Iglesias - El Perdon" | https://liveaudio.lamusica.com/LA_KXOL_icy
+  Tropical 100 Mix | The Dominican Republic | 128k | "Los Toros Band - Melina" | https://stream-107.zeno.fm/esgo1lafgtstv?zs=o1G7UIERS3Gdtn2B7Jdt7Q
+  Latina Kizomba | France | 128k | "T?-Me Esperare                                     - BADOXA" | http://latinakizomba.ice.infomaniak.ch/latinakizomba.mp3
+
+--- LOFI (10) ---
+  Lofi 24/7 | The United States Of America | 128k | "Amies - Wandering [2TmK]" | http://usa9.fastcast4u.com/proxy/jamz?mp=/1
+  MoE Lofi | The United Kingdom Of Great Britain And Northern Ireland | 128k | "Lofi Records - ﻿Project AER x Refeeld – Brighter Days" | http://stream.zeno.fm/3u1qndyk8rhvv
+  NIA Radio Lo-Fi | New Caledonia | 128k | "Keem the Cipher - Blossom." | https://radio.nia.nc/radio/8020/lofi-hq-stream.aac
+  Radio Digital Malayali | India | 128k | "Vineeth Sreenivasan, Jyotsna - Hridayavum - Malayalam Lofi" | https://radio.digitalmalayali.in/listen/stream/radio.mp3
+  ISEKOI Radio | Chill Zone | France | 320k | "4hero - Pegasus 51" | https://public.isekoi-radio.com/listen/chill/radio.mp3
+  [laut.fm] lofi | Germany | 128k | "AERØHEAD - Lost Memories" | https://stream.laut.fm/lofi
+  ARA FM | The Republic Of Korea | 192k | "Hoon - 괜찮아 To You" | http://141.164.38.238/listen/ara_fm/radio.mp3
+  Radio Caprice - Lo-Fi [2] | The Russian Federation | 320k | "lxced - Tides" | http://79.111.14.76:8000/lo-fi
+  LITT Live - Lofi - Chill & Instrumental Jazz Beats | The United States Of America | 128k | "Jovica Storer - Gekarameliseerd 16" | https://das-sa39.cdnstream1.com/5582_128
+  neverland | Argentina | 128k | "Variados - 80s japanese city pop 1H" | https://stream-166.zeno.fm/oaqigxpfjzqvv?zt=eyJhbGciOiJIUzI1NiJ9.eyJzdHJlYW0iOiJvYXFpZ3hwZmp6cXZ2IiwiaG9zdCI6InN0cmVhbS0xNjYuemVuby5mbSIsInJ0dGwiOjUsImp0aSI6IjFnRWVwSWpIUXJXVElZSU1pLVlrenciLCJpYXQiOjE3NDgxMzU4OTUsImV4cCI6MTc0ODEzNTk1NX0.b4Llu6iAJk1NPa2U9OhIjm_3CZQyLuRJZWiNecQWBdY
+
+--- LOUNGE (2) ---
+  Jazz Radio Lounge | France | 128k | "Love from the sun (Hefner Remix) - GEB EL" | http://jazzlounge.ice.infomaniak.ch/jazzlounge-high.mp3
+  Sovietwave | The Russian Federation | 128k | "Рыба - Старый Город" | http://station.waveradio.org/soviet.mp3
+
+--- METAL (11) ---
+  La Grosse Radio Métal | France | 192k | "Ihsahn - Pilgrimage To Oblivion" | http://hd.lagrosseradio.info/lagrosseradio-metal-192.mp3
+  1.FM - High Voltage Radio | Switzerland | 256k | "Imminence - The Sword That Never Bends" | http://strm112.1.fm/highvoltage_mobile_mp3
+  Crucial Velocity Radio | Canada | 192k | "Slayer - I Hate You" | http://ais-sa2.cdnstream1.com/1369_128
+  Metal Heart | Czechia | 64k | "Archgoat - The Dawn To Armageddon" | http://fr.radio-streamhosting.com:8000/metalheartradio64aac
+  Best Net Radio - 80s Metal | The United States Of America | 128k | "Metallica - Fade To Black" | http://bigrradio-edge1.cdnstream.com/5146_128
+  Epic Rock Radio | Germany | 128k | "Battle Beast - Justice and Metal" | https://securestreams6.autopo.st:2222/stream
+  PureRock.US - America's Pure Rock | The United States Of America | 192k | "Judas Priest - You've Got Another Thing Comin'" | http://rosetta.shoutca.st:8524/
+  Begoodradio.com 80s metal | The United States Of America | 128k | "Def Leppard - Armageddon It" | https://bigrradio.cdnstream1.com/5212_128
+  True Black Metal Radio | Ukraine | 128k | "Arkona - Aurora" | http://trueblackmetalradio.com:666/radio
+  Radio Caprice - Progressive Metal | The Russian Federation | 320k | "Felix Martin - Quitapesares" | http://79.120.77.11:8000/progmetal
+  Radio Caprice - Heavy Metal | The Russian Federation | 320k | "Tension - Mooncrusher" | http://79.111.14.76:8000/heavymetal
+
+--- MOTOWN (13) ---
+  Motown Radio | The United States Of America | 320k | "The Miracles - Mickey's Monkey" | http://94.23.159.187:9990/;
+  Non-Stop Oldies | The United States Of America | 128k | "The Honeycombs - Have I The Right" | https://ais-sa2.cdnstream1.com/2383_128.mp3
+  Jazz Radio Stax and Motown | France | 128k | "Big bird - EDDIE FLOYD" | http://jazz-wr15.ice.infomaniak.ch/jazz-wr15-128.mp3
+  Flower Power Radio | Germany | 128k | "Jewel Akens - The Bird's & The Bee's" | https://nl1.streamingpulse.com/ssl/flowerpowerradio
+  24-7 Motown | The United Kingdom Of Great Britain And Northern Ireland | 128k | "Stevie Wonder - Skeletons" | http://antares.dribbcast.com:4237/stream
+  Solid Soul Grooves Radio - Stourbridge (MP3) | The United Kingdom Of Great Britain And Northern Ireland | 128k | "Amii Stewart - Light My Fire" | http://stream.zeno.fm/u08ymmrybg8uv
+  Smooth Soul | The United Kingdom Of Great Britain And Northern Ireland | 128k | "Atlantic Starr - Secret Lovers" | https://media-ice.musicradio.com/SmoothSoulMP3
+  Exclusively The Temptations | The United Arab Emirates | 128k | "Diana Ross  and  The Supremes  and  The Temptations - I Seco" | https://streaming.exclusive.radio/er/thetemptations/icecast.audio
+  StarBox Motown | The United Arab Emirates | 128k | "Bobby Taylor  and  The Vancouvers - Does Your Mama Know Abou" | https://drive.uber.radio/uber/starboxmotown/icecast.audio
+  KONA Stream | Canada | 96k | "Deodato - Super Strut" | http://jenny.torontocast.com:9002/stereo
+  Australian Digital Radio Network - Motown (MP3) | Australia | 128k | "10 - Martha & The Vandellas - What Am I Going To Do Without " | http://abm21.com.au:8000/CONTAINER64
+  Royal Harbour Radio | The United Kingdom Of Great Britain And Northern Ireland | 128k | "Diana Ross - Chain Reaction" | http://s9.citrus3.com:8402/stream
+  MixStream Radio - Soul | The Netherlands | 192k | "Memet - G�lgemde Kald&#305;n" | https://radio.mixstream.nl/soul.mp3
+
+--- NEW AGE (20) ---
+  Divyavani | India | 128k | "Mahesh & Chorus - Bhavanyashtakam [3V]" | http://epsilon.shoutca.st:8070/autodj
+  Radio Caprice - Space Music | The Russian Federation | 320k | "Altus - Land Of The Grey" | http://79.111.119.111:8000/spacemusic
+  Enigmatic Immersion | The Russian Federation | 64k | "Holloway - Distance Before Sleep" | http://radio.enigmatic.su:8040/radio
+  Sleep Radio | New Zealand | 256k | "Jim Ottaway - Stardust From Infinity [9ljF]" | http://65.109.81.84:9851/stream
+  Seven Rays - 7rays | Ukraine | 128k | "Callisto - Iosphere Part 1" | http://7rays.stream.laut.fm/7rays
+  Radio Art - New Age | Greece | 96k | "Denis-Dan Gibson - Angels of the reef" | http://air.radioart.com/fNew_age.mp3
+  Radio Art - Vocal New Age | Greece | 96k | "Anael & Bradfield - Akasadhatesvari" | http://air.radioart.com/fVocal_new_age.mp3
+  NATURE RADIO SLEEP | Italy | 128k | "Stars Over Foy - Watching the Waves" | https://az1.mediacp.eu/listen/natureradiosleep/radio.mp3
+  1.FM - Destination: SPA Radio | Switzerland | 256k | "Lamente - Canvas Of Dreams" | http://strm112.1.fm/spa_mobile_mp3
+  Radio Noordvaarder Angel Healing | The Netherlands | 128k | "Delle Alpi - Angel Dawn" | http://www1.radionoordvaarder.nl:8000/;
+  Radio Art - Stress Relief | Greece | 96k | "Abaton - Eros aelio" | http://live.radioart.com/fStress_relief.mp3
+  BestNewAge | Canada | 128k | "Mythos - Paradox" | http://104.153.209.180:8000/
+  Radio Noordvaarder Healing Wellness | The Netherlands | 128k | "Aeoliah - Angel Love" | http://www1.radionoordvaarder.nl:8300/;
+  Classicnl Mind Radio | The Netherlands | 256k | "Johann Sebastian Bach; Lisa Batiashvili - Concert voor Viool" | https://classic.nl/streams/?s=mindradio
+  Radio Noordvaarder Healing | The Netherlands | 128k | "Dan Gibson's Solitudes - Domine Deus From Gloria (Viv.." | http://www1.radionoordvaarder.nl:8500/;
+  1st Greek New Age FLAC Radio AAC+ 320kbps | Greece | 320k | "Enya - Amarantine" | https://stream.newageradio.gr/listen/hq/radio.aac
+  7 Rays Radio | Ukraine | 128k | "Callisto - Iosphere Part 1" | https://7rays.stream.laut.fm/7rays
+  KLCBS New Age | Indonesia | 192k | "Diane Arkenstone - The Angels Voice" | https://streaming.klcbsofficial.com/listen/newage/klcbs-newage
+  Radio Caprice - New Age | The Russian Federation | 320k | "Randy Villars - Never Mine" | http://79.120.77.11:8000/newage
+  ГУСЬ-Релакс | The Russian Federation | 128k | "Aso - Caught In The Rain" | https://stream4.radiogoose.ru/listen/relax/play
+
+--- OLDIES (4) ---
+  Gold | The United Kingdom Of Great Britain And Northern Ireland | 128k | "George McCrae - Rock Your Baby" | https://media-ssl.musicradio.com/GoldMP3
+  - 0 N - 80s on Radio | Germany | 128k | "Alannah Myles - Black Velvet" | https://0n-80s.radionetz.de/0n-80s.mp3
+  Poptarisznya Oldies | Hungary | 192k | "Eric Clapton - After Midnight" | http://adas.poptarisznya.hu:8200/oldies.mp3
+  PONdENDS.COM | Jamaica | 128k | "PONdENDS - STRICKY VYBEZ..250809.0" | http://s7.voscast.com:7000/
+
+--- PIANO (13) ---
+  Jazz Radio Piano Jazz | France | 128k | "I'm all over it - JAMIE CULLUM" | http://jzr-piano.ice.infomaniak.ch/jzr-piano.mp3
+  Radio Art - Solo Piano | Greece | 96k | "Fiona Joy - Ceremony" | http://live.radioart.com/fSolo_piano.mp3
+  Radio Art - Relaxing (Violin, Piano & Cello) | Greece | 96k | "Vitamin String Quartet - My Immortal" | http://air.radioart.com/fRelaxing.mp3
+  Radio Art - Piano & Guitar | Greece | 96k | "Ben Woolman - Picture Of Romance" | http://air-tunein.radioart.com/fPiano_and_guitar.mp3
+  Clam Radio - Solo Piano & Guitar | Canada | 128k | "Peter Kater - Dancing On Water - Timeless Sojourn" | http://streams.calmradio.com:30228/
+  Whisperings Solo Piano Radio | The United States Of America | 96k | "Robin Spielberg - One Step Closer" | https://pianosolo.streamguys1.com/live
+  Relaxing Piano | Germany | 128k | "Dennis Korn, Amelie Korn & Mia Korn - Dreamlight" | http://stream.laut.fm/relaxing-piano
+  Radio Art - Ambient Piano | Greece | 96k | "Helios - Equal Ourselves" | http://air.radioart.com/fAmbient_piano.mp3
+  The River Of Calm | The United States Of America | 128k | "Bob Yonker - 07 Awake, Awake" | https://listen.radioking.com/radio/49831/stream/86743
+  Radio Art - Chopin | Greece | 96k | "F. Chopin - Jean-Marc Luisada, piano - 3 Waltzes, op.posth.7" | http://air.radioart.com/fChopin.mp3
+  Radio Art - Philip Glass | Greece | 96k | "Download our free - mobile application" | https://live.radioart.com/fPhilip_glass.mp3
+  Radio Art - Mellow Piano Jazz | Greece | 96k | "Mike Longo Trio - Tenderly" | https://live.radioart.com/fMellow_piano_jazz.mp3
+  Radio Art - Mozart | Greece | 96k | "W A Mozart - Violin Concerto in G KV 216 - Adagio" | http://air.radioart.com/fMozart.mp3
+
+--- POP (12) ---
+  Radio Navahang | Islamic Republic Of Iran | 128k | "Mehrdad Asemani - Geryeh" | https://navairan.com/;stream.nsv
+  Capital FM London | The United Kingdom Of Great Britain And Northern Ireland | 128k | "Take That - Higher" | http://media-ice.musicradio.com/CapitalMP3
+  Хіт FM Сучасні хіти | Ukraine | 128k | "Teddy Swims - Bad Dreams" | http://online.hitfm.ua/HitFM_Top
+  Hits 1 Algérie | Algeria | 256k | "Topic & Becky G - Sorry Papi" | https://radio12.pro-fhi.net/listen/whmnrlow/stream
+  LOS 40 Principales España | Spain | 128k | "Taylor Swift - Opalite" | https://playerservices.streamtheworld.com/api/livestream-redirect/Los40.mp3
+  Chocolate FM | Spain | 192k | "The Wanted - Walks Like Rihanna" | http://streaming5.elitecomunicacion.es:8082/live.mp3
+  Heart 70s | The United Kingdom Of Great Britain And Northern Ireland | 128k | "Eagles - Life In The Fast Lane" | https://media-ssl.musicradio.com/Heart70sMP3
+  РЕТРО ХИТ - RETRO HIT | The Russian Federation | 128k | "ПЛАМЯ - НА ДАЛЬНЕЙ СТАНЦИИ СОЙДУ" | http://retro.volna.top/Retro
+  Los 40 Urban | Spain | 128k | "Clarent,Quevedo - Jukiar" | https://playerservices.streamtheworld.com/api/livestream-redirect/LOS40_URBAN.mp3
+  Хіт ФМ Найбільші хіти | Ukraine | 128k | "Gotye & Kimbra - Somebody That I Used To Know" | http://online.hitfm.ua/HitFM_Best
+  Mirchi Top 20 | India | 128k | "Garvit - Priyansh, Garvit Soni, Priyansh Srivastava, Hansika" | https://drive.uber.radio/uber/bollywoodnow/icecast.audio
+  Heart Dance | The United Kingdom Of Great Britain And Northern Ireland | 128k | "SL2 - On A Ragga Tip" | https://media-ssl.musicradio.com/HeartDanceMP3
+
+--- POST-ROCK (6) ---
+  Radio Caprice - Post-rock | The Russian Federation | 320k | "pg.lost - I Am a Destroyer" | http://79.111.14.76:8004/postrock
+  SomaFM n5MD (128k AAC) | The United States Of America | 128k | "subtractiveLAD - filament" | https://ice5.somafm.com/n5md-128-aac
+  NEOFOLK | Germany | 128k | "Suldusk - 10 Sovran Shrines" | https://stream.laut.fm/neofolk
+  Heavy Music Atmospheric Radio | The Russian Federation | 320k | "Soen - Axis" | http://stream.heavy-music.net:8176/stream
+  Laut.fm Post-Rock | Germany | 128k | "Long Distance Calling - The Very Last Day" | https://post-rock.stream.laut.fm/post-rock
+  WKNC 88.1 HD1 | The United States Of America | 192k | "maestroguille - Me he caÃ­do por las escaleras" | https://streaming.live365.com/a45877
+
+--- PUNK (16) ---
+  JR Radio | Croatia | 64k | "Vicious Kitty - Bangkok City" | http://stream.zeno.fm/pdkt234k698uv.mp3
+  Наше Радио Панки-ХОЙ! | The Russian Federation | 128k | "Наив - Моё Сердце (Не Остановилось)" | http://nashe1.hostingradio.ru/nashepunks.mp3
+  Weymouth Rocks (Medium Bitrate) | The United Kingdom Of Great Britain And Northern Ireland | 96k | "Paul Weller - The Changingman" | http://cast1.asurahosting.com:8621/med
+  punk irratia | Spain | 192k | "heyoka - solidarity (angelic upstarts)" | https://punkirratia.net:8443/punk
+  Teenage Kicks Radio | The United Kingdom Of Great Britain And Northern Ireland | 128k | "The Human league - Being Boiled" | https://onlineradiobox.com/json/fr/teenagekicks/play
+  REAL PUNK RADIO | The United States Of America | 128k | "Los Malos - Smash Your Face" | http://149.56.155.73:8080/stream
+  - 0 N - Gothic on Radio | Germany | 128k | "Anne Clark - Our Darkness" | https://0n-gothic.radionetz.de/0n-gothic.mp3
+  Exclusively Ramones | The United Arab Emirates | 128k | "Ramones - You Didn" | https://streaming.exclusive.radio/er/ramones/icecast.audio
+  Rock & Folk (rock n folk) | France | 192k | "Led Zeppelin - Trampled Underfoot" | https://rockfolk.ice.infomaniak.ch/rockfolk.mp3
+  Rock FM | Lithuania | 128k | "CULT - Fire Woman" | https://stream2.rockfm.lt/crf128.mp3
+  Punk4all | Germany | 128k | "Foo Fighters - Everlong" | http://punk4all.stream.laut.fm/punk4all
+  12XU | Germany | 128k | "Jello Biafra With Nomeansno - Chew (1990)" | http://stream.laut.fm/12xu
+  Punkrockers Radio | Germany | 192k | "Wohnbau - D�nne Roller Im K�hlhaus" | http://stream.punkrockers-radio.de:8000/mp3
+  __12PUNKS.FM__ by rautemusik (rm.fm) | Germany | 192k | "Rise Against - Prayer Of The Refugee" | https://12punks-high.rautemusik.fm/?ref=radiobrowser
+  UnderGRAND Radio | Serbia | 320k | "Ltg Long Travel Groove - Traveler (Original Mix)" | http://stream.zeno.fm/rp1swb5pgzzuv
+  __ROCK__ by rautemusik (rm.fm) | Germany | 192k | "The Other - Run Runaway" | https://rock-high.rautemusik.fm/?ref=radiobrowser
+
+--- R&B (14) ---
+  Radio Planeta Costa del Sol | Spain | 192k | "JAMES HYPE - Confession" | https://radioplaneta.emitironline.com/radio
+  Urbano 106 - 105.9 FM - San José, Costa Rica | Costa Rica | 64k | "I NESTA - Es Amor (2010)" | https://usa18.fastcast4u.com/proxy/rmoohhrw?mp=/1
+  KCFM Radio | Malaysia | 128k | "Green Day - Basket Case" | http://www.kcfm.org:8000/stream
+  Urban Radio - Hip Hop / R&B | The United States Of America | 128k | "Kendrick Lamar - All The Stars" | http://hydra.cdnstream.com/1536_128
+  Virgin Radio Türkiye | Türkiye | 64k | "WTSOUNDS - En Derine" | http://25643.live.streamtheworld.com:3690/VIRGIN_RADIOAAC_SC
+  LTFM Radio | Malaysia | 128k | "Luca Turilli - Legend Of Steel" | http://live.ltfmonline.com:8000/stream
+  _Funky Corner Radio (Spain) | Spain | 96k | "Ollie & the Nightingales - I`ll Be Your Anything" | https://ais-sa2.cdnstream1.com/2447_96.aac
+  Exclusively Nat King Cole | The United Arab Emirates | 128k | "Nat King Cole - A Media Luz (Arranged By E. Bergdahl, Nat Ki" | https://streaming.exclusive.radio/er/natkingcole/icecast.audio
+  1000 Oldies - laut.fm | Germany | 128k | "George Michael - A Different Corner" | https://1000oldies.stream.laut.fm/1000oldies
+  WDR COSMO - Afrobeats | Germany | 128k | "COSMO - Afrobeats" | https://wdr-cosmo-afrobeat.icecastssl.wdr.de/wdr/cosmo/afrobeat/mp3/128/stream.mp3
+  DOO WOP FOREVER - CALM RADIO | The United States Of America | 128k | "The Moroccos  - Street Corner Symphonies Vol.7 1955 - Red Ho" | http://streams.calmradio.com:19028/stream
+  - 0 N - Black on Radio | Germany | 128k | "Eric Bellinger, Tiwa Savage - Understood (Remix)" | https://0n-black.radionetz.de/0n-black.mp3
+  Easy Radio Ireland, Easy Mix | Ireland | 128k | "Sam Smith - Stay with Me" | https://streaming.exclusive.radio/uber/easymix/icecast.audio
+  - 0 N - Blues on Radio | Germany | 128k | "Alabama Mike - Somethin On My Mind" | https://0n-blues.radionetz.de/0n-blues.mp3
+
+--- RAP (13) ---
+  Deutschrap | Germany | 128k | "UMSE - Herzmassage (feat. DJ Stylewarz, Fritz Fresh)" | http://deutschrap.stream.laut.fm/deutschrap?uuid=93344d17-6049-7f26-884e-d5e21d3a31f4&t302=2026-11-06_01-45-01
+  i love radio - hip hop turnup | Germany | 192k | "KENDRICK LAMAR - NOT LIKE US" | http://ilm.stream27.radiohost.de/ilm_iloveusonlyrapradio_mp3-192?upd-meta&upd-scheme=http&_art=dD0xNzkzNTM0NTU1JmQ9MTc5NmFiNTBjNWU2OTQyNzc2MzY
+  Skyrock Casablanca | Morocco | 128k | "Shaw - PILLAVE §2958195" | https://icecast.skyrock.net/s/casa_aac_64k
+  Skyrock Hits | France | 128k | "Bello&Dallas - Séminaire §7567121" | https://icecast.skyrock.net/s/hit_skyrock_aac_64k?tvr_name=radiofr&tvr_section1=64aac
+  Rap Lbeldi Maroc - Hip Hop Music from Morocco FR AR | Morocco | 128k | "GANGSTA RAP CREW  - COAST CONTROL (adam v2)" | https://stream.zeno.fm/ivdufrl7q0quv
+  # RdMix DJSET 70s 80s 90s | Canada | 128k | "RdMix - 80sItaloDiscoNJ(20230330)" | https://cast1.torontocast.com:4560/stream
+  Base FM | Hungary | 320k | "Doja Cat - Paint The Town Red" | https://icast.connectmedia.hu/5401/live.mp3
+  Pinoy Rap Radio | The Philippines | 128k | "Shanti Dope - Amatz" | https://stream.zeno.fm/0cdp55nqam0uv
+  House vs. Hip-Hop, Rap, Deutschrap, R&B, Trap, Techno, House, EDM, Deep House, Hardstyle, Trance, Drum & Bass, Lo-Fi, Chillout, Festival, Club, Party, Afterhour, Beats, Underground, Hype, Techno, TechHouse - Top 40 Charts - DJ Mixtape RADIO | Germany | 192k | "NF - Let You Down  (Proppa Remix)" | https://breakz-office.rautemusik.fm/?ref=rb-festival
+  Skyrock 100% FRANÇAIS | France | 128k | "Mauvais Djo - Pilé §7820703" | https://icecast.skyrock.net/s/francais_aac_64k?tvr_name=radiofr&tvr_section1=64aac
+  Diva Radio - Funk & Disco Music Paradise | The United Kingdom Of Great Britain And Northern Ireland | 192k | "Plastic Bertrand - Stop Ou Encore (1982)" | https://stream.deevaradio.net:10443/divaradiofunk
+  __DEUTSCHRAP CLASSIC__ by rautemusik (rm.fm) | Germany | 192k | "Berlins Most Wanted - Keiner Hält Mich Auf" | https://deutschrap-classic-high.rautemusik.fm/?ref=radiobrowser
+  Rage Music Philippines | The Philippines | 128k | "gins&melodies - MR. CRASHOUTT" | https://stream.zeno.fm/yu9dryfs7x8uv.mp3
+
+--- REGGAE (11) ---
+  La Grosse Radio Reggae | France | 192k | "-- IDCLAIM15 - C" | http://hd.lagrosseradio.info/lagrosseradio-reggae-192.mp3
+  Reggae Radio Rastamusic.com | Germany | 192k | "- Juce_Pearl_4-3-2010_Mono - 2010" | http://origin-rastamusic.streamguys1.com/rastamusic.mp3
+  Alpha Boys School Radio | Jamaica | 128k | "The Heptones (feat David Madden, Glen Da Costa, & Vin Gordon" | http://alphaboys-live.streamguys1.com/alphaboys.mp3
+  SomaFM Heavyweight Reggae (256k MP3) | The United States Of America | 320k | "I Roy & Dennis Walks - The Drifter" | https://ice5.somafm.com/reggae-256-mp3
+  1.FM - ReggaeTrade Radio | Switzerland | 256k | "House of Shem - Just Remember" | http://strm112.1.fm/reggae_mobile_mp3
+  Generations Reggae | France | 128k | "Run Up (feat. PARTYNEXTDOOR, Nicki Minaj & Konshens) [Sak No" | http://generations-caraibes.ice.infomaniak.ch/generations-caraibes-high.mp3
+  King Dub Radio | France | 192k | "Matic Horns - Brunswick Avenue" | http://london-dedicated.myautodj.com:8862/stream
+  181.FM - Reggae Roots | The United States Of America | 128k | "Teddy Swims - Mr. Know It All" | http://listen.181fm.com/181-reggae_128k.mp3
+  Reggae141 | Saint Vincent And The Grenadines | 128k | "Noddy Virtue - Your Body Calling" | http://hestia2.cdnstream.com/1301_128
+  Allzic Radio Reggae | France | 128k | "Bush Doctor - Peter Tosh" | http://allzic43.ice.infomaniak.ch/allzic43.mp3
+  Radio Reggae Brasil | Brazil | 128k | "Desconhecido - Inner Circle Black Roses original version 199" | https://casthttps.suaradionanet.net/13805/stream
+
+--- ROCK (16) ---
+  Hit FM (UKraine) - 128kb/s | Ukraine | 128k | "DJ Sava - I Loved You (feat. Irina Rimes)" | http://195.95.206.17/HitFM
+  Radio Caroline | The United Kingdom Of Great Britain And Northern Ireland | 128k | "Derek & The Dominos - Layla" | http://78.129.202.200:8040/;
+  Русский Рок - Russian Rock | The Russian Federation | 128k | "КИНО - В НАШИХ ГЛАЗАХ" | http://rock.volna.top/RusRock
+  Radio ROKS Ballads | Ukraine | 320k | "Bon Jovi - Bed Of Roses" | http://online.radioroks.ua/RadioROKS_Ballads_HD
+  Anon.FM | The Russian Federation | 192k | "The Gathering - Home" | https://icecast.anon.fm/radio
+  Rock Antenne | Germany | 128k | "Bon Jovi - You Give Love A Bad Name" | http://mp3channels.webradio.rockantenne.de/rockantenne
+  SomaFM Left Coast 70s (320k MP3) | The United States Of America | 320k | "Far Cry - Suddenly Strings" | https://ice2.somafm.com/seventies-320-mp3
+  - 0 N - Classic Rock on Radio | Germany | 128k | "Radiohead - Creep" | https://0n-classicrock.radionetz.de/0n-classicrock.mp3
+  Rock Ballads | Ukraine | 128k | "Bon Jovi - Bed Of Roses" | http://online.radioroks.ua/RadioROKS_Ballads
+  Radio ROKS Hard'n'Heavy | Ukraine | 320k | "Metallica - Enter Sandman" | http://online.radioroks.ua/RadioROKS_HardnHeavy_HD
+  Exclusively Pink Floyd | The United Arab Emirates | 128k | "Pink Floyd - Speak To Me/Breathe" | https://streaming.exclusive.radio/er/pinkfloyd/icecast.audio
+  KISS FM 100.6 | Greece | 192k | "SHAGGY - Hey Sexy Lady" | http://live.radiokiss.gr/kissfm1006hq.mp3
+  WEOW FM 92.7 | The United States Of America | 64k | "Shawn Mendes - IF I CAN'T HAVE YOU" | http://ice42.securenetsystems.net/WEOW
+  Oldies Internet Radio | Mexico | 128k | "Foreigner - Hot Blooded" | http://162.244.81.98:8140/listen
+  Radio Čas Rock | Czechia | 128k | "CRASH TEST DUMMIES - Mmm Mmm Mmm Mmm" | http://icecast6.play.cz/casrock128.mp3
+  metal rock radio | The United States Of America | 128k | "Fozzy - Martyr No More" | https://kathy.torontocast.com:2800/;
+
+--- SALSA (11) ---
+  Top Salsa Radio | The Dominican Republic | 128k | "Sexappeal - Mal o Bien" | https://radio.dominiserver.com/proxy/topsalsaradio?mp=/stream
+  El Sol (Medellín) 107.9 FM | Colombia | 125k | "Rey Ruiz - ESTAMOS SOLOS" | https://us-b4-p-e-qg12-audio.cdn.mdstrm.com/live-audio-aw/632c9d30aa9ace684913b853
+  Tropical 100 Salsa | The Dominican Republic | 128k | "Lalo Rodriguez - Tu No Sabes Querer" | https://stream-107.zeno.fm/cjgfujr8yhbvv?zs=VsqKiPTASc-XIz7P9HnYjQ
+  La Salsa Maestra | Peru | 128k | "Grupo Folklorico y Experimental Nuevayorkino - Corta El Bonc" | https://stream.zeno.fm/c1skkw28pfeuv
+  Caracas. Salsa Romántica... | Bolivarian Republic Of Venezuela | 128k | "Edwin Rivera - Exitos - Edwin Rivera" | https://stream-285.surfernetwork.com/ftly191pojttv?zt=eyJhbGciOiJIUzI1NiJ9.eyJzdHJlYW0iOiJmdGx5MTkxcG9qdHR2IiwiaG9zdCI6InN0cmVhbS0yODUuc3VyZmVybmV0d29yay5jb20iLCJ0bSI6ZmFsc2UsInJ0dGwiOjUsImp0aSI6IlE4VkM0OUpEU3otUHM0VlJMcXlHSnciLCJpYXQiOjE3OTM1NDIxNTQsImV4cCI6MTc5MzU0MjIxNH0.v0wtuE0c16XW1Ul8Wgqn0i3j2W3ijiGphB15Qxnka48
+  Latina 104 | The Dominican Republic | 128k | "Anthony Santos - Lo Que Tu Quieras" | https://radio.dominiserver.com/proxy/latina104?mp=/stream
+  Colombia Salsa Dura | Colombia | 128k | "Cachao - Cogele el golpe" | https://play10.tikast.com/proxy/colsalsadura?mp=/stream
+  181.FM - Salsa | The United States Of America | 128k | "oscar d` leon - Lloraras" | https://listen.181fm.com/181-salsa_128k.mp3
+  Viejoteca y algo más | Colombia | 128k | "Yeison Jimenez - Que Día es Hoy" | https://stream-290.surfernetwork.com/mtfnuz2day8uv?zt=eyJhbGciOiJIUzI1NiJ9.eyJzdHJlYW0iOiJtdGZudXoyZGF5OHV2IiwiaG9zdCI6InN0cmVhbS0yOTAuc3VyZmVybmV0d29yay5jb20iLCJ0bSI6ZmFsc2UsInJ0dGwiOjUsImp0aSI6InpWNDdWSnJDVEM2UUN3NXUwN09JMnciLCJpYXQiOjE3OTM1MTQwNjgsImV4cCI6MTc5MzUxNDEyOH0.lvXmU8BU52rJoh7IGcFColu_m_-BYovdYaM3vp5SeYo
+  105 Salsa | El Salvador | 128k | "Jerry Rivera - Cara de Niño" | https://stream.zeno.fm/mdn371ycuwzuv
+  Mambo INN Radio | Peru | 320k | "GILBERTO SANTA ROSA - ESTOY COMO NUNCA" | https://radio.perustream.com:7000/stream
+
+--- SHOEGAZE (11) ---
+  DKFM Classic | ? | 128k | "Coaltar Of The Deepers - mars attacks!" | https://radio.streemlion.com:4245/stream
+  Laut.FM Shoegaze | Germany | 128k | "Bon Jovi - Livin' On A Prayer" | https://shoegaze.stream.laut.fm/shoegaze
+  DKFM Edge | Canada | 64k | "smush - goodnight moon" | https://radio.streemlion.com:4405/stream
+  6forty Radio | The United States Of America | 192k | "Yoma - Attack Of The Irukandji" | http://radio.6forty.com:8000/6forty
+  Radio Shadowplay | ? | 128k | "Pearl Jam - Alive" | http://stream.laut.fm/radio-shadowplay
+  Schallgrenzen | ? | 128k | "Seabound - A Grown Man" | http://stream.laut.fm/schallgrenzen
+  Substrate Radio | The United States Of America | 128k | "Slow Fiction - junior year" | https://cast4.asurahosting.com/proxy/jason126/stream
+  Radio Robotic | New Zealand | 160k | "Pink Steam - Sonic Youth - Rather Ripped" | https://stream.zeno.fm/x4hneey2vwzuv
+  Super45.fm | Chile | 192k | "Gepe - Victoria Roma" | https://s4.radio.co/s421105570/listen
+  Big Sonic Heaven | The United States Of America | 128k | "Beth Gibbons & War Child Records - Sunday Morning" | https://radio.streemlion.com:4040/stream
+  Radio Relax - Sweet Dreams | The Republic Of Moldova | 128k | "a guitar without the strings - tyler burkhart" | https://radio1.dixi.md/listen/sweet_dreams/radio.aac
+
+--- SINGER-SONGWRITER (21) ---
+  Exclusively Taylor Swift | The United Arab Emirates | 128k | "Taylor Swift - I Knew You Were Trouble" | https://streaming.exclusive.radio/er/taylorswift/icecast.audio
+  Exclusively John Lennon | The United Arab Emirates | 128k | "John Lennon - (Just Like) Starting Over" | https://streaming.exclusive.radio/er/lennon/icecast.audio
+  Exclusively Paul McCartney | The United Arab Emirates | 128k | "Paul McCartney - Winter Bird / When Winter Comes" | https://streaming.exclusive.radio/er/paulmccartney/icecast.audio
+  Exclusively Simon And Garfunkel | The United Arab Emirates | 128k | "Simon  and  Garfunkel - America" | https://streaming.exclusive.radio/er/simongarfunkle/icecast.audio
+  Exclusively George Harrison | The United Arab Emirates | 128k | "George Harrison - The Lord Loves The One (That Loves The Lor" | http://2.mystreaming.net/er/georgeharrison/icecast.audio
+  Exclusively John Denver | The United Arab Emirates | 128k | "John Denver - Season Suite: Late Winter, Early Spring (When " | https://streaming.exclusive.radio/er/johndenver/icecast.audio
+  Radio38 Braunschweig | Germany | 192k | "HUGEL & Imael Angel feat. Ultra Naté - Movin' To The Sun" | http://stream.radio38.de/
+  Exclusively Peter Gabriel | The United Arab Emirates | 128k | "Peter Gabriel - The Story Of OVO" | https://nl4.mystreaming.net/er/petergabriel/icecast.audio
+  Exclusively Keane | The United Arab Emirates | 128k | "Keane - The Way You Want [Fierce Panda Single]" | https://streaming.exclusive.radio/er/keane/icecast.audio
+  Exclusively Crosby, Stills, Nash & Young | The United Arab Emirates | 128k | "Crosby, Stills  and  Nash - Pre-Road Downs" | http://2.mystreaming.net/er/csny/icecast.audio
+  Chillizet Ladies -om | Poland | 128k | "﻿Joy Crookes - Bad Feeling" | https://ch01.cdn.eurozet.pl/CHILAD.mp3?t=1709721264195?redirected=01
+  Exclusively Leonard Cohen | The United Arab Emirates | 128k | "Leonard Cohen - In My Secret Life" | https://2.mystreaming.net/er/leonardcohen/icecast.audio
+  Exclusively Cat Stevens | The United Arab Emirates | 128k | "Yusuf ;  Cat Stevens - King Of A Land" | http://2.mystreaming.net/er/catstevens/icecast.audio
+  Exclusively James Taylor | The United Arab Emirates | 128k | "James Taylor - The Nearness Of You" | http://2.mystreaming.net/er/jamestaylor/icecast.audio
+  Exclusively Bruce Springsteen | The United Arab Emirates | 128k | "Bruce Springsteen - Worlds Apart" | https://nl4.mystreaming.net/er/springsteen/icecast.audio
+  Exclusively Kate Bush | The United Arab Emirates | 128k | "Kate Bush - Eat The Music" | http://2.mystreaming.net/er/katebush/icecast.audio
+  Exclusively Joni Mitchell | The United Arab Emirates | 128k | "Joni Mitchell - Taming The Tiger" | http://2.mystreaming.net/er/jonimitchell/icecast.audio
+  Exclusively Carole King | The United Arab Emirates | 128k | "Carole King - I Feel the Earth Move" | https://2.mystreaming.net/er/caroleking/icecast.audio
+  Exclusively Carly Simon | The United Arab Emirates | 128k | "Carly Simon - Misfit" | http://2.mystreaming.net/er/carlysimon/icecast.audio
+  Exclusively Gordon Lightfoot | The United Arab Emirates | 128k | "Gordon Lightfoot - She" | http://2.mystreaming.net/er/gordonlightfoot/icecast.audio
+  Telecaster | Germany | 128k | "The Derek Trucks Band - Down In The Flood" | http://stream.laut.fm/telecaster
+
+--- SMOOTH JAZZ (14) ---
+  101 SMOOTH JAZZ MELLOW MIX | The United States Of America | 192k | "Brian Culbertson - Days Gone By" | http://streaming.live365.com/b48071_128mp3
+  1.FM - Bay Smooth Jazz Radio | Switzerland | 256k | "Kim Scott - Emerge (feat. Jonathan Fritzen)" | http://strm112.1.fm/smoothjazz_mobile_mp3
+  Smooth Jazz Lounge | Brazil | 128k | "Paul Hardcastle - The Circle" | https://radio4.vip-radios.fm:18060/stream-128kmp3-SmoothJazzLounge
+  4Drive Jazz | Portugal | 192k | "Chris Geith - Whispers in the Night" | http://radio.streemlion.com:1150/stream
+  Smooth Jazz 247 (new) | The United States Of America | 192k | "Bob Baldwin - Lookin` for Another Pure Love" | http://streaming.live365.com/b75154_128mp3
+  SmoothJazz.com.pl 320k MP3 | Poland | 320k | "Michael Silverman - Clearwater Ft. Eric Marienthal" | https://bcast.vigormultimedia.com:48888/sjcompl320mp3
+  Smooth Jazz Mix New York | ? | 128k | "Scott Yahney - Jazz It Up" | http://hestia2.cdnstream.com/1078_128?cb=696226.mp3%20streamtype=%22mp3%22
+  AIRPORT LOUNGE RADIO | Canada | 128k | "Simon Le Grec - We Will Be Free" | https://az1.mediacp.eu/listen/airport-lounge-radio/radio.mp3
+  Costa del Mar - Smooth Sax | ? | 96k | "Paul Brown - Winelight" | http://stream.cdm-smoothsax.com:8024/stream-mp3-Smooth
+  Lounge.FM - 100% Austria | Austria | 128k | "Pale Jay - Under the Magnolia Tree" | https://s35.derstream.net/100austria.mp3
+  MajorFM | Nigeria | 128k | "Focalistic / Mr JazziQ / Lady Du / Mellow & Sleazy - Gupta -" | http://stream.zeno.fm/pkza99xshkhvv
+  Costa Del Mar Smooth Jazz | Spain | 96k | "Paul Brown - Winelight" | https://radio4.cdm-radio.com:18024/stream-mp3-Smooth
+  # 100 GREATEST JAZZ LOUNGE BAR | Canada | 192k | "Andrea Motis - He's Funny That Way" | https://cast1.torontocast.com:4640/stream
+  Euro Smooth Jazz | Germany | 128k | "Philippe Saisse - At world's edge" | http://stream.laut.fm/eurosmoothjazz
+
+--- SOUL (12) ---
+  Jazz Radio Soul | France | 128k | "Ain't nothing like the real thing (feat. TAMMI TERRELL) - MA" | http://jazz-wr10.ice.infomaniak.ch/jazz-wr10-128.mp3
+  54 Funk Soul Dance (laut.fm) | Germany | 128k | "Todd Terje - Strandbar" | http://54-funk-soul-dance.stream.laut.fm/54-funk-soul-dance
+  _Funky Corner Radio (USA) | The United States Of America | 192k | "Ollie & the Nightingales - I`ll Be Your Anything" | https://ais-sa2.cdnstream1.com/2447_192.mp3
+  .977 Jamz | The United States Of America | 128k | "The Weeknd - Acquainted" | http://26343.live.streamtheworld.com:3690/977_JAMZ_SC
+  Exclusively Michael Jackson | The United Arab Emirates | 128k | "Michael Jackson (Duet with Akon) - Hold My Hand" | https://streaming.exclusive.radio/er/michaeljackson/icecast.audio
+  181.FM - Soul | The United States Of America | 128k | "Mary J. Blige - Family Affair" | https://listen.181fm.com/181-soul_128k.mp3
+  The Funky Channel | Belgium | 192k | "Frankie Smith - Double Dutch Bus" | http://cast3.my-control-panel.com:8170/stream
+  SomaFM Seven Inch Soul (128k MP3) | The United States Of America | 160k | "Sly & The Family Stone - Everybody Is A Star" | https://ice6.somafm.com/7soul-128-mp3
+  NDR Blue | Germany | 128k | "Shadowboxing - Julien Baker" | http://icecast.ndr.de/ndr/ndrblue/live/mp3/128/stream.mp3
+  - 0 N - Disco on Radio | Germany | 128k | "Stars On 45 - Stars On 45" | https://0n-disco.radionetz.de/0n-disco.mp3
+  DiscoRhythm | Australia | 320k | "Wham! - Young Guns (Go for It)" | http://c3.radioboss.fm:8018/stream
+  1.FM - Slow Jamz Radio | Switzerland | 256k | "Trey Lorenz - Someone To Hold" | http://strm112.1.fm/slowjamz_mobile_mp3
+
+--- SOUNDTRACK (15) ---
+  Hit Radio FFH - Soundtrack | Germany | 128k | "Sam Smith & Renée Zellweger - Get Happy (Judy)" | http://mp3.ffh.de/ffhchannels/hqsoundtrack.mp3
+  - 0 N - Movies on Radio | Germany | 128k | "John Williams - Prologue (JFK)" | https://0n-movies.radionetz.de/0n-movies.mp3
+  StreamingSoundtracks.com Hi | The United States Of America | 192k | "Daniel Pemberton - Visions Brooklyn 1, 2, 3" | http://www.streamingsoundtracks.com/modules/Listen/MP3-hi.pls
+  Movie Soundtracks Hits Radio @ 1.fm | The United States Of America | 256k | "Pinocchio - When You Wish Upon A Star" | https://strm112.1.fm/moviesoundtracks_mobile_mp3
+  Laut.FM Chillharmonie | Germany | 128k | "André Rieu - The Windmills of Your Mind (from "The Thomas Cr" | https://chillharmonie.stream.laut.fm/chillharmonie
+  StreamingSoundtracks.com Lo | The United States Of America | 192k | "Daniel Pemberton - Visions Brooklyn 1, 2, 3" | http://www.streamingsoundtracks.com/modules/Listen/aacplus-lo.pls
+  laut.fm 007 | ? | 128k | "Burt Bacharach - Casino Royale Theme" | http://stream.laut.fm/007
+  StreamingSoundtracks.com | The United States Of America | 192k | "Daniel Pemberton - Visions Brooklyn 1, 2, 3" | http://hi5.streamingsoundtracks.com/
+  Soundtrack Radio Station | The Netherlands | 128k | "Charlotte Gray (Stephen Warbeck) - The Train" | http://quincy.torontocast.com:2410/stream
+  laut.fm Epicsounds FM | ? | 128k | "Lunatic Calm - Leave You Far Behind" | http://stream.laut.fm/epicsoundsfm
+  Gametation | ? | 128k | "The Elder Scrolls V Skyrim - Blood and Steel" | http://game-tation.stream.laut.fm/game-tation?t302=2018-03-10_04-54-29&uuid=70ec85a9-6e3c-4c6d-af29-8ef19a8c1dca
+  Star Trek Radio | Germany | 128k | "Jerry Goldsmith - Star Trek: First Contact (End Titles)" | http://startrek.stream.laut.fm/startrek
+  Oxygen Spencer-Hill | Hungary | 320k | "Franco Micalizzi - In due contro tutti" | https://oxygenmusic.hu:8443/oxygenspencerhillzenek
+  Oxygen Kids | Hungary | 320k | "Kiskal�sz zenekar - Nyuszimotor" | https://oxygenmusic.hu:8443/oxygenkids
+  RMF Gamemusic | Poland | 128k | "WE PRAY (TWICE Version) - Coldplay / Twice / Burna Boy" | http://195.150.20.243:8000/rmf_gamemusic
+
+--- SYNTHWAVE (15) ---
+  Synthradio | The Russian Federation | 192k | "Front Line Assembly - Blood" | http://77.51.212.205:8005/live192
+  Laut.FM SynthPop | Germany | 128k | "Jacques - A Moral Life (extended emmon vocal mix)" | http://stream.laut.fm/synthpop
+  Nightride FM | Germany | 320k | "Meteor - The Streets of Hell" | https://stream.nightride.fm/nightride.mp3
+  Yumi Co. Radio | France | 256k | "Android Apartment - Can I touch your heart feat Maitro" | https://yumicoradio.net/stream
+  Laut.fm Vaporwave | Germany | 128k | "Blank Banshee - Photosynthesis" | http://vaporwave.stream.laut.fm/vaporwave
+  PANORAMA80 | Germany | 128k | "Chinaski - Bomba" | http://panorama80.stream.laut.fm/panorama80
+  PetShopBoys | Germany | 128k | "Lady Gaga - Eh, Eh (Nothing Else I Can Say) (Pet Shop Boys E" | http://stream.laut.fm/petshopboys
+  XRaydio 1 – Your Kaleidoscope Of Sounds | Bulgaria | 160k | "Alan Hawkshaw - Astral Plain" | https://xraydio.ddns.net/live
+  Palmera Blanca radio - Daystream | Kazakhstan | 128k | "Lab023 - Groove Arp" | https://daystream.palmerablanca.com/daystream-128.mp3
+  Luxury Lounge Radio - Chillwave, Retrowave, Synthwave | The Russian Federation | 192k | "Hotel Pools - Snacks" | http://188.40.109.114:8000/ices2
+  Retrowave.One Radio | The Russian Federation | 192k | "lxst child - Singularity" | http://77.108.192.88:8000/stream
+  Sound-Check RadioStation | Germany | 128k | "Sweet & Lynch - Miracle" | http://stream.laut.fm/sound-check
+  Atomicwave FM | Germany | 128k | "NO ZU - Talking To A Stranger" | https://atomicwavefm.stream.laut.fm/atomicwavefm?ref=web-app&start_time=1739967212325&aw_0_req.userConsentV2=CQNBgcAQNBgcAAKA1ADEBdFsAP_gAEPgAAYgK1tX_G__bWlr8X73aftkeY1P99h77sQxBhbJE-4FzLvW_JwXx2E5NAz6tqIKmRIAu3TBIQNlHJDURVCgaogVrSDMaEyUoTNKJ6BkiFMRI2dYCFxvm4tjeQCY5vr991dx2B-t7dr83dzyy4hHn3a5_2S1WJCdAYetDfv9bROb-9IOd_x8v4v4_F7pE2_eT1l_tWvp7D9-cts_9XW99_fbff9Pn_-uF_-_X_vf_H37v4K0gEmGhUQBlkSEhBoGEECAFQVhARQIAgAASBogIATBgU5AwAXWEiAEAKAAYIAQAAgyABAAAJAAhEAEABQIAAIBAoAAwAIBgIAGBgADABYCAQAAgOgYpgQQCBYAJGZFApgQgAJBAS2VCCQBAgrhCEWeAQAIiYKAAAEAApAAEBYLA4kkBKxIIAuIJoAACABAIIAChFJ2YAggDNlqrwZNoytMCwfMFzymAZAEQRk5JsQgAAAA.YAAAAAAAAAAA&listenerid=5cf16a10306d888ab4ab8634c933fc9f&awparams=companionAds%3Atrue
+  CLIAMP Synthwave Nights | Norway | 128k | "Origami Repetika - Love Love What Can You Say Love" | https://radio.cliamp.stream/synthwave/stream
+  Magic City Radio WATA-DB | The United States Of America | 320k | "Brandon - Retro Dreams [4QlY]" | https://cast6.my-control-panel.com/proxy/magiccityradio/stream
+
+--- TECHNO (7) ---
+  1.FM - Deep Techno & Deep House | Switzerland | 256k | "Sary - Spacer Vol.2" | http://strm112.1.fm/deeptech_mobile_mp3
+  Traxx FM - Tech Minimal | Switzerland | 128k | "Adam Beyer & Alan Fitzpatrick - Human Reason (Len Faki Rmx)" | http://traxx020.ice.infomaniak.ch/traxx020-low.mp3
+  # Aktuelle HITS - 24H NON-STOP MUSIC - DANCE & DJ MIX RADIO @ TikTok Hits, Ibiza House, Sunset Lounge, Melodic Music, EDM, Deep House, Dance Music, Techno & Hypertechno, Rave Charts, Top 40 Charts, Latin, Reggaeton Music, Moombahton, Urban Hits, HipHop, Party & Clubbing Radio, Trending Chartmusic, R&B, Urban, Mixtape - & LIVE DJ SET | Germany | 192k | "NF - Let You Down  (Proppa Remix)" | https://breakz-2012-high.rautemusik.fm/?ref=radiobrowser-akthits
+  Deep Radio | The Netherlands | 320k | "Christian Hornbostel - Waiting At Potsdamer Chaussee" | http://stream.deep.radio/hd
+  Laut.fm Housebomb | Germany | 128k | "Ramon Tapia - I Call it Bass (Original)" | http://housebomb-fn.stream.laut.fm/housebomb-fn?t302=2018-02-10_16-10-52&uuid=bff87322-9a02-49f3-9ac6-a2c1457286dc
+  - 0 N - Electro on Radio | Germany | 128k | "Pølaroit - Far From Home" | https://0n-electro.radionetz.de/0n-electro.mp3
+  # REMIX & PARTYBREAKS - Your House - EDM - HipHop - RnB - Techno - TechHouse - Top 40 Charts - Latin - DJ Mixtape RADIO | Germany | 192k | "NF - Let You Down  (Proppa Remix)" | https://stream.breakz.fm/?ref=radiobrowser-remix-partybreaks-radio
+
+--- TRANCE (8) ---
+  DiscoverTranceRadio (MP3 HQ stereo 192kBit/s) | The Russian Federation | 192k | "TranceCoult - World Of True Trance 139 [Repeat]" | http://node-2.promo-cloud.com:8006//
+  1.FM - Amsterdam Trance Radio | Switzerland | 256k | "Susana - Closer (Original Mix Edit) [feat. Omnia & The Blizz" | http://strm112.1.fm/atr_mobile_mp3
+  Psyndora Psytrance | Greece | 128k | "Smoke Sign - Let It All Go (Original Mix)" | http://cast.magicstreams.gr:9111/stream
+  PulsRadio 90's | ? | 192k | "Ann Lee - 2 Times" | http://213.251.190.165/puls90HD.mp3
+  1.FM - Absolute Trance (Euro) Radio | Switzerland | 256k | "OPUL - Digital Soul" | http://strm112.1.fm/trance_mobile_mp3
+  ESKA GORĄCA 100 | Poland | 128k | "SYLWIA GRZESZCZAK - Słowa Na K" | http://ic1.smcdn.pl/6120-1.mp3
+  Beirut Nights Radio (AAC) | Lebanon | 256k | "JUL - Toi et Moi ( Benaset Remix )" | http://byblosnights.com:6190/
+  1Mix EDM Radio | The United Kingdom Of Great Britain And Northern Ireland | 320k | "Pablo Sonhar @pablosonhar - Daydreams Episode 502 [Replay]" | http://fr1.1mix.co.uk:8060/
+
+--- WORLD (7) ---
+  Tinder Radio - Bollywood | The United Arab Emirates | 128k | "Sunidhi Chauhan - Dance Like a Chammiya" | https://drive.uber.radio/uber/bollywoodmix/icecast.audio
+  RauteMusik K-POP | Germany | 192k | "Black Eyed Peas, Ozuna & J. Rey Soul - Mamacita" | https://streams.rautemusik.fm/k-pop/mp3-192?ref=radiobrowser
+  SWISS GROOVE | Switzerland | 128k | "Maceo Parker - Chicken" | https://relay2.swissgroove.ch/;
+  Le Bon Mix Radio 97.9 | France | 320k | "HER - Five Minutes (Her Rework)" | https://stream10.xdevel.com/audio13s976748-2017/stream/icecast.audio
+  Yammat FM | Croatia | 320k | "Izgubljeni Vikend feat. Neven Kolaric - Bon Voyage Farewell" | https://stream.yammat.fm/radio/8000/yammat.mp3
+  Radio is a Foreign Country | The United States Of America | 192k | "9 Countries - Wax Audio (riafc edit)" | https://s5.radio.co/s20251311a/listen
+  movement.radio 2 | Greece | 192k | "Gas - Zauberberg 1" | https://movementathens2.out.airtime.pro/movementathens2_a
