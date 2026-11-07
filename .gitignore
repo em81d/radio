@@ -7,3 +7,4 @@ __pycache__/
 *.db
 *.log
 taste_radio/pool.json
+my_spotify_data.zip
