@@ -8,3 +8,10 @@ __pycache__/
 *.log
 taste_radio/pool.json
 my_spotify_data.zip
+raw_export/
+playlists/
+library/
+profile/
+streaming_history/
+Liked Songs.csv
+taste_profile.json

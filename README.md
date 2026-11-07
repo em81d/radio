@@ -7,6 +7,13 @@ python -m venv .venv
 winget install --id VideoLAN.VLC -e
 ```
 
+## Spotify export → taste profile
+```powershell
+.\.venv\Scripts\python.exe export_to_csv.py
+.\.venv\Scripts\python.exe -m taste_radio.profile_builder
+.\.venv\Scripts\python.exe -m taste_radio.profile_builder --top 100
+```
+
 ## Run
 ```powershell
 .\.venv\Scripts\python.exe -m taste_radio.radio
@@ -31,7 +38,7 @@ Keys: `s` skip · `l` like · `q` quit
 ## Files to edit
 | File | Format |
 |---|---|
-| `seed_artists.txt` | `Artist` · `Artist \| 0.8` · `Artist - Title` |
+| `seed_artists.txt` | `Artist` · `Artist \| 0.8` · `Artist - Title` (overrides taste_profile.json when higher) |
 | `clean_stations.txt` | station name or stream URL per line |
 | `dirty_stations.txt` | station name or stream URL per line |
 | `config.toml` | see below |

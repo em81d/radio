@@ -32,12 +32,13 @@ class Scorer:
 
     def taste(self, artist, title):
         """(base score, reason) from the profile alone, ignoring explicit/freshness."""
-        bonus = self.profile.track_bonus(artist, title)
-        if bonus:
-            return 1.0 * bonus, "a song you love"
+        track = 1.0 * self.profile.track_bonus(artist, title)
         weight, name = self.profile.artist_weight(artist)
-        if weight:
-            return 0.8 * weight, f"artist you like: {name}"
+        by_artist = 0.8 * weight
+        if track and track >= by_artist:
+            return track, "a song you love"
+        if by_artist:
+            return by_artist, f"artist you like: {name}"
         # Step 4 adds: 0.5 × similarity (similar artists) + 0.3 × tag overlap
         return 0.0, "no profile match"
 

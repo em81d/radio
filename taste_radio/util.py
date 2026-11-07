@@ -25,6 +25,22 @@ def normalize(s):
     return _SPACES.sub(" ", s).strip()
 
 
+_SUFFIX = re.compile(
+    r"\s+[-–—]\s+[^-–—]*\b(remaster(ed)?|live|radio edit|edit|mono|stereo|version|"
+    r"mix|remix|from|feat\.?|ft\.?|acoustic|demo|bonus|single|recorded at|session|"
+    r"deluxe|instrumental|soundtrack|score)\b[^-–—]*$", re.I)
+
+
+def clean_title(title):
+    """Drop Spotify-style suffixes: 'Somebody - 2006 Remaster' -> 'Somebody'."""
+    t = (title or "").strip()
+    while True:
+        new = _SUFFIX.sub("", t).strip()
+        if new == t or not new:
+            return t
+        t = new
+
+
 def split_title(stream_title):
     """'Artist - Title' -> ('Artist', 'Title'); returns (None, None) if no separator."""
     if not stream_title:

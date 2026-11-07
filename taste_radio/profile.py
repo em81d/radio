@@ -1,13 +1,13 @@
 """Taste profile: artist and track weights.
 
-For now this reads seed_artists.txt. In step 3, profile_builder.py will write
-taste_profile.json and load_profile() will prefer it; the interface stays the same.
+load_profile() reads taste_profile.json (built by profile_builder.py) and merges
+seed_artists.txt on top as manual overrides. Without the JSON, the seed file alone is used.
 """
 import json
 import re
 
 from .config import ROOT, SEED_ARTISTS_FILE
-from .util import normalize, primary_artist, split_title
+from .util import clean_title, normalize, primary_artist, split_title
 
 PROFILE_JSON = ROOT / "taste_profile.json"
 
@@ -35,7 +35,7 @@ class Profile:
 
     def track_bonus(self, artist, title):
         """Weight if this exact song is in the profile, else 0."""
-        t = normalize(title)
+        t = normalize(clean_title(title))
         for name in self._credited(artist):
             if (name, t) in self.tracks:
                 return self.tracks[(name, t)]
@@ -61,7 +61,7 @@ def load_seed(path=SEED_ARTISTS_FILE):
         name = name.strip()
         a, t = split_title(name)
         if a:
-            tracks[(normalize(a), normalize(t))] = weight
+            tracks[(normalize(a), normalize(clean_title(t)))] = weight
             key = primary_artist(a)
             artists[key] = max(artists.get(key, (0, a)), (weight, a))
         else:
@@ -70,13 +70,21 @@ def load_seed(path=SEED_ARTISTS_FILE):
 
 
 def load_profile():
-    if PROFILE_JSON.exists():
-        data = json.loads(PROFILE_JSON.read_text(encoding="utf-8"))
-        artists = {normalize(a): (w, a) for a, w in data.get("artists", {}).items()}
-        tracks = {}
-        for key, w in data.get("tracks", {}).items():
-            a, t = split_title(key)
-            if a:
-                tracks[(normalize(a), normalize(t))] = w
-        return Profile(artists, tracks, source="taste_profile.json")
-    return load_seed()
+    """taste_profile.json if built, with seed_artists.txt merged in as overrides."""
+    seed = load_seed()
+    if not PROFILE_JSON.exists():
+        return seed
+    data = json.loads(PROFILE_JSON.read_text(encoding="utf-8"))
+    artists = {normalize(a): (w, a) for a, w in data.get("artists", {}).items()}
+    tracks = {}
+    for t in data.get("tracks", []):
+        key = (normalize(t["artist"]), normalize(clean_title(t["title"])))
+        tracks[key] = max(tracks.get(key, 0), t["weight"])
+    # seed entries win when they're higher (a way to boost what the export under-counts)
+    for k, v in seed.artists.items():
+        if v[0] > artists.get(k, (0, None))[0]:
+            artists[k] = v
+    for k, w in seed.tracks.items():
+        tracks[k] = max(tracks.get(k, 0), w)
+    source = "taste_profile.json" + (" + seed_artists.txt" if len(seed) else "")
+    return Profile(artists, tracks, source=source)
