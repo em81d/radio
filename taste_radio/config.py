@@ -29,9 +29,12 @@ def _load():
     if path.exists():
         with open(path, "rb") as f:
             data = tomllib.load(f)
-        cfg["lastfm_api_key"] = data.get("lastfm", {}).get("api_key")
-        for section in ("explicit", "radio"):
-            for k, v in data.get(section, {}).items():
+        # Accept both a flat file (api_key = ...) and [lastfm]/[explicit]/[radio] sections
+        cfg["lastfm_api_key"] = (data.get("lastfm", {}).get("api_key")
+                                 or data.get("lastfm_api_key") or data.get("api_key"))
+        flat = {k: v for k, v in data.items() if not isinstance(v, dict)}
+        for section in (flat, data.get("explicit", {}), data.get("radio", {})):
+            for k, v in section.items():
                 if k in DEFAULTS:
                     cfg[k] = v
     if cfg["unknown_explicit"] not in ("allow", "block"):
@@ -40,3 +43,10 @@ def _load():
 
 
 CONFIG = _load()
+
+
+def lastfm_key():
+    key = CONFIG.get("lastfm_api_key")
+    if not key:
+        raise SystemExit('No Last.fm API key: add  api_key = "..."  to config.toml')
+    return key

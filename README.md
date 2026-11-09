@@ -12,6 +12,8 @@ winget install --id VideoLAN.VLC -e
 .\.venv\Scripts\python.exe export_to_csv.py
 .\.venv\Scripts\python.exe -m taste_radio.profile_builder
 .\.venv\Scripts\python.exe -m taste_radio.profile_builder --top 100
+.\.venv\Scripts\python.exe -m taste_radio.enrich
+.\.venv\Scripts\python.exe -m taste_radio.enrich --top 500
 ```
 
 ## Run
@@ -32,7 +34,8 @@ Keys: `s` skip · `l` like · `q` quit
 ```powershell
 .\.venv\Scripts\python.exe -m taste_radio.stations
 .\.venv\Scripts\python.exe -m taste_radio.stations --refresh
-.\.venv\Scripts\python.exe -m taste_radio.stations --refresh --radio-browser
+.\.venv\Scripts\python.exe -m taste_radio.stations --refresh --no-radio-browser
+.\.venv\Scripts\python.exe -m taste_radio.stations --stats
 ```
 
 ## Files to edit

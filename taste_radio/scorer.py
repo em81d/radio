@@ -3,9 +3,11 @@ import time
 
 from . import db
 from .explicit import ALLOWED, PENDING
+from .lastfm import cached_tags
 from .nowplaying import is_music
 from .util import normalize, primary_artist, split_title
 
+W_TRACK, W_ARTIST, W_SIMILAR, W_TAG = 1.0, 0.8, 0.5, 0.3
 FRESH_SECONDS = 30
 FRESH_BONUS = 0.15
 REPEAT_HOURS = 3
@@ -14,9 +16,11 @@ ARTIST_REPEAT_PENALTY = 0.25  # per recent play of the same artist
 
 
 class Scorer:
-    def __init__(self, profile, explicit):
+    def __init__(self, profile, explicit, tag_lookup=None):
         self.profile = profile
         self.explicit = explicit
+        self.tag_lookup = tag_lookup      # lastfm.TagLookup for artists not in the profile
+        self._tag_memo = {}
         self._recent = (0.0, set(), {})
 
     def _recent_plays(self):
@@ -30,17 +34,42 @@ class Scorer:
             self._recent = (time.time(), songs, artists)
         return songs, artists
 
+    def _tags(self, artist):
+        """Cached Last.fm tags for an artist; queues a background lookup if missing."""
+        key = normalize(artist)
+        if key in self._tag_memo:
+            return self._tag_memo[key]
+        tags = cached_tags(artist)
+        if tags is None:
+            if self.tag_lookup:
+                self.tag_lookup.request(artist)
+            return []
+        self._tag_memo[key] = tags
+        return tags
+
     def taste(self, artist, title):
-        """(base score, reason) from the profile alone, ignoring explicit/freshness."""
-        track = 1.0 * self.profile.track_bonus(artist, title)
+        """(base score, reason) from the profile alone, ignoring explicit/freshness.
+
+        The best of: 1.0 × exact song, 0.8 × artist weight, 0.5 × similar artist,
+        0.3 × genre-tag overlap.
+        """
+        options = []
+        track = self.profile.track_bonus(artist, title)
+        if track:
+            options.append((W_TRACK * track, "a song you love"))
         weight, name = self.profile.artist_weight(artist)
-        by_artist = 0.8 * weight
-        if track and track >= by_artist:
-            return track, "a song you love"
-        if by_artist:
-            return by_artist, f"artist you like: {name}"
-        # Step 4 adds: 0.5 × similarity (similar artists) + 0.3 × tag overlap
-        return 0.0, "no profile match"
+        if weight:
+            options.append((W_ARTIST * weight, f"artist you like: {name}"))
+        sim, via = self.profile.similarity(artist)
+        if sim:
+            options.append((W_SIMILAR * sim, f"similar to {via}"))
+        if self.profile.genres and W_TAG >= max((s for s, _ in options), default=0):
+            overlap, tag = self.profile.tag_overlap(self._tags(artist))
+            if overlap:
+                options.append((W_TAG * overlap, f"genre match: {tag}"))
+        if not options:
+            return 0.0, "no profile match"
+        return max(options, key=lambda x: x[0])
 
     def score(self, station, state, now=None):
         """(score, reason, explicit verdict) for one station's current song."""

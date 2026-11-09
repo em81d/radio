@@ -10,6 +10,7 @@ import time
 from . import db
 from .config import CONFIG
 from .explicit import ALLOWED, BLOCKED, ExplicitChecker
+from .lastfm import TagLookup
 from .nowplaying import Poller, is_music
 from .player import Player
 from .profile import load_profile
@@ -27,6 +28,7 @@ REDRAW_EVERY = 2.0
 EXPLICIT_LOOKAHEAD = 5       # top candidates to explicit-check each tick
 HOME_LOOKAHEAD = 2           # best fallback stations to keep explicit-checked
 HOME_MARGIN = 0.05           # home must beat the current station's average by this much
+STARTUP_WAIT = 20            # seconds to wait for a matching song before going home
 
 
 class Radio:
@@ -36,9 +38,11 @@ class Radio:
         self.by_url = {s["url"]: s for s in self.pool}
         self.order = {s["url"]: i for i, s in enumerate(self.pool)}
         self.explicit = ExplicitChecker()
-        self.scorer = Scorer(self.profile, self.explicit)
+        self.tags = TagLookup() if self.profile.genres and CONFIG.get("lastfm_api_key") else None
+        self.scorer = Scorer(self.profile, self.explicit, self.tags)
         self.player = Player(volume=CONFIG["volume"])
-        self.poller = Poller(self.pool, CONFIG["poll_interval"], CONFIG["current_poll_interval"])
+        self.poller = Poller(self.pool, CONFIG["poll_interval"], CONFIG["current_poll_interval"],
+                             on_change=self._song_changed)
         self.avg = {}                 # url -> (mean score, n): picks the "home" station
         self.current = None
         self.cur_title = None
@@ -47,6 +51,19 @@ class Radio:
         self.scores = {}
         self.message = ""
         self.running = True
+        self.started_at = time.time()
+
+    def _song_changed(self, url, title):
+        """Poller callback (worker thread): learn how often each station fits your taste."""
+        station = self.by_url.get(url)
+        if not station or not is_music(title, station["name"]):
+            return
+        artist, song = split_title(title)
+        try:
+            score, _ = self.scorer.taste(artist, song)
+            db.record_station_song(url, station["name"], score)
+        except Exception:  # noqa: BLE001 - stats are best-effort
+            pass
 
     # ---- choosing stations -------------------------------------------------
     def home(self, exclude=None):
@@ -135,8 +152,11 @@ class Radio:
                 self.avg[url] = ((m * n + s) / (n + 1), min(n + 1, 200))
 
         if self.current is None:
-            target = self.home()
+            # Give the top candidates' explicit checks a few seconds before settling for home
+            target = self.best()
             if target:
+                self.tune(target, f"started on a match ({self.scores[target][1]})")
+            elif now - self.started_at > STARTUP_WAIT and (target := self.home()):
                 self.tune(target, "tuned to the home station")
             else:
                 self.message = "Checking songs for explicit lyrics before playing..."

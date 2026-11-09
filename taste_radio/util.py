@@ -41,10 +41,19 @@ def clean_title(title):
         t = new
 
 
+_BY_FORMAT = re.compile(r'^\s*"(?P<title>[^"]+)"\s+by\s+(?P<artist>.+?)(?:\s+from\s+".*")?\s*$', re.I)
+
+
 def split_title(stream_title):
-    """'Artist - Title' -> ('Artist', 'Title'); returns (None, None) if no separator."""
+    """'Artist - Title' -> ('Artist', 'Title'); returns (None, None) if no separator.
+
+    Also understands '"Title" by Artist from "Album"', which some stations send.
+    """
     if not stream_title:
         return None, None
+    m = _BY_FORMAT.match(stream_title)
+    if m:
+        return m.group("artist").strip(), m.group("title").strip()
     for sep in (" - ", " – ", " — ", " -- "):
         if sep in stream_title:
             artist, title = stream_title.split(sep, 1)

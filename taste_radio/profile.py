@@ -10,13 +10,34 @@ from .config import ROOT, SEED_ARTISTS_FILE
 from .util import clean_title, normalize, primary_artist, split_title
 
 PROFILE_JSON = ROOT / "taste_profile.json"
+ENRICHMENT_JSON = ROOT / "taste_enrichment.json"
 
 
 class Profile:
-    def __init__(self, artists=None, tracks=None, source=""):
+    def __init__(self, artists=None, tracks=None, source="", genres=None, similar=None):
         self.artists = artists or {}   # normalized artist -> (weight 0-1, display name)
         self.tracks = tracks or {}     # (normalized artist, normalized title) -> weight
+        self.genres = genres or {}     # cleaned Last.fm tag -> weight 0-1
+        self.similar = similar or {}   # normalized artist -> (score 0-1, display name, via)
         self.source = source
+
+    def similarity(self, artist):
+        """(score, via favorite) for the best-matching similar artist, or (0, None)."""
+        best = (0.0, None)
+        for name in self._credited(artist):
+            if name in self.similar and self.similar[name][0] > best[0]:
+                best = (self.similar[name][0], self.similar[name][2])
+        return best
+
+    def tag_overlap(self, tags):
+        """(0-1 overlap between an artist's [(tag, count)] and your genres, top shared tag)."""
+        total = sum(c for _, c in tags)
+        if not total or not self.genres:
+            return 0.0, None
+        hits = [(c * self.genres[t], t) for t, c in tags if t in self.genres]
+        if not hits:
+            return 0.0, None
+        return min(1.0, sum(h for h, _ in hits) / total), max(hits)[1]
 
     def _credited(self, artist):
         """Every artist credited in a stream's artist field, normalized."""
@@ -87,4 +108,11 @@ def load_profile():
     for k, w in seed.tracks.items():
         tracks[k] = max(tracks.get(k, 0), w)
     source = "taste_profile.json" + (" + seed_artists.txt" if len(seed) else "")
-    return Profile(artists, tracks, source=source)
+    genres, similar = {}, {}
+    if ENRICHMENT_JSON.exists():
+        enr = json.loads(ENRICHMENT_JSON.read_text(encoding="utf-8"))
+        genres = enr.get("genres", {})
+        similar = {normalize(name): (v["score"], name, v["via"])
+                   for name, v in enr.get("similar", {}).items()}
+        source += " + Last.fm"
+    return Profile(artists, tracks, source=source, genres=genres, similar=similar)
