@@ -29,6 +29,7 @@ HOME_LOOKAHEAD = 2           # best fallback stations to keep explicit-checked
 HOME_MARGIN = 0.05           # home must beat the current station's average by this much
 STARTUP_WAIT = 20            # seconds to wait for a matching song before going home
 SAME_START_SECONDS = 30      # same song on two stations: starts this close count as a tie
+SKIP_MEMORY_HOURS = 3        # how long a skipped song stays out of Next up
 
 
 class Radio:
@@ -53,6 +54,7 @@ class Radio:
         self.running = True
         self.started_at = time.time()
         self._last_frame = None       # last screen drawn (minus queue count)
+        self.skipped = {}             # song key -> when you skipped it
 
     def _song_changed(self, url, title):
         """Poller callback (worker thread): learn how often each station fits your taste."""
@@ -71,6 +73,9 @@ class Radio:
         """Best station on average whose current song is playable."""
         ok = [u for u, (_, _, v) in self.scores.items()
               if u != exclude and v == ALLOWED]
+        self._expire_skips()
+        # avoid stations playing a song you skipped, unless that's all there is
+        ok = [u for u in ok if not self._is_skipped(u)] or ok
         if not ok:
             # nothing confirmed clean: settle for a station on an ad/ID (not a song)
             ok = [u for u, (_, r, v) in self.scores.items()
@@ -88,13 +93,28 @@ class Radio:
         cands = sorted(((s, u, r) for u, (s, r, v) in self.scores.items()
                         if u != exclude and v == ALLOWED and s > 0),
                        key=lambda x: (-x[0], self.order[x[1]]))
+        self._expire_skips()
         keep = {}                                  # song key -> (score, url, reason)
         for c in cands:
-            artist, song = split_title(self.snap[c[1]]["title"])
-            key = (primary_artist(artist), normalize(clean_title(song)))
+            key = self._song_key(self.snap[c[1]]["title"])
+            if key in self.skipped:
+                continue
             if key not in keep or self._started_later(c[1], keep[key][1]):
                 keep[key] = c
         return sorted(keep.values(), key=lambda x: (-x[0], self.order[x[1]]))
+
+    @staticmethod
+    def _song_key(title):
+        """Same song across stations/versions: (primary artist, cleaned title)."""
+        artist, song = split_title(title)
+        return primary_artist(artist), normalize(clean_title(song))
+
+    def _expire_skips(self):
+        cutoff = time.time() - SKIP_MEMORY_HOURS * 3600
+        self.skipped = {k: t for k, t in self.skipped.items() if t >= cutoff}
+
+    def _is_skipped(self, url):
+        return self._song_key(self.snap.get(url, {}).get("title")) in self.skipped
 
     def _started_later(self, a, b):
         """True if station a's song clearly started after station b's (unknown = oldest)."""
@@ -141,6 +161,7 @@ class Radio:
         s, reason, _ = self.scores.get(self.current, (0, "", None))
         self.cur_reason = reason
         db.log_play(self.by_url[self.current]["name"], a, t, s, reason)
+        self.scorer.note_play(a, t)
 
     # ---- main loop -----------------------------------------------------------
     def tick(self):
@@ -225,6 +246,8 @@ class Radio:
                 self.running = False
             elif k == "s" and self.current:
                 a, t = split_title(self.cur_title)
+                if is_music(self.cur_title, self.by_url[self.current]["name"]):
+                    self.skipped[self._song_key(self.cur_title)] = time.time()
                 db.log_play(self.by_url[self.current]["name"], a, t, 0, "skipped", event="skip")
                 self.tune(self.best(self.current) or self.home(self.current), "skipped")
             elif k == "l" and self.current and self.cur_title:

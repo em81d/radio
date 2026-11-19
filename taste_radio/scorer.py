@@ -34,6 +34,15 @@ class Scorer:
             self._recent = (time.time(), songs, artists)
         return songs, artists
 
+    def note_play(self, artist, title):
+        """Count a play right away instead of waiting for the 30 s cache refresh."""
+        ts, songs, artists = self._recent
+        if not ts:
+            return                     # cache not loaded yet: the next load reads the db
+        pa = primary_artist(artist)
+        songs.add((pa, normalize(title)))
+        artists[pa] = artists.get(pa, 0) + 1
+
     def _tags(self, artist):
         """Cached Last.fm tags for an artist; queues a background lookup if missing."""
         key = normalize(artist)
