@@ -16,7 +16,7 @@ from .player import Player
 from .profile import load_profile
 from .scorer import Scorer
 from .stations import load_pool
-from .util import split_title
+from .util import clean_title, normalize, primary_artist, split_title
 
 try:
     import msvcrt
@@ -28,6 +28,7 @@ EXPLICIT_LOOKAHEAD = 5       # top candidates to explicit-check each tick
 HOME_LOOKAHEAD = 2           # best fallback stations to keep explicit-checked
 HOME_MARGIN = 0.05           # home must beat the current station's average by this much
 STARTUP_WAIT = 20            # seconds to wait for a matching song before going home
+SAME_START_SECONDS = 30      # same song on two stations: starts this close count as a tie
 
 
 class Radio:
@@ -78,13 +79,36 @@ class Radio:
             return None
         return max(ok, key=lambda u: (self.avg.get(u, (0, 0))[0], -self.order[u]))
 
+    def _next_up(self, exclude=None):
+        """Playable matches as (score, url, reason), best first, one station per song.
+
+        If several stations play the same song, keep the one where it started most
+        recently; starts within SAME_START_SECONDS count as a tie (higher score wins).
+        """
+        cands = sorted(((s, u, r) for u, (s, r, v) in self.scores.items()
+                        if u != exclude and v == ALLOWED and s > 0),
+                       key=lambda x: (-x[0], self.order[x[1]]))
+        keep = {}                                  # song key -> (score, url, reason)
+        for c in cands:
+            artist, song = split_title(self.snap[c[1]]["title"])
+            key = (primary_artist(artist), normalize(clean_title(song)))
+            if key not in keep or self._started_later(c[1], keep[key][1]):
+                keep[key] = c
+        return sorted(keep.values(), key=lambda x: (-x[0], self.order[x[1]]))
+
+    def _started_later(self, a, b):
+        """True if station a's song clearly started after station b's (unknown = oldest)."""
+        ta, tb = self.snap[a].get("changed_at"), self.snap[b].get("changed_at")
+        if ta is None:
+            return False
+        if tb is None:
+            return True
+        return ta - tb > SAME_START_SECONDS
+
     def best(self, exclude=None):
-        cands = [(s, u) for u, (s, _, v) in self.scores.items()
-                 if u != exclude and v == ALLOWED and s > 0]
-        if cands:
-            s, u = max(cands, key=lambda x: (x[0], -self.order[x[1]]))
-            if s >= CONFIG["score_threshold"]:
-                return u
+        cands = self._next_up(exclude)
+        if cands and cands[0][0] >= CONFIG["score_threshold"]:
+            return cands[0][1]
         return None
 
     def _mean(self, url):
@@ -220,8 +244,7 @@ class Radio:
         else:
             out.append("Not playing.")
         out += ["", self.message, "", "Next up:"]
-        ranked = sorted(((s, u, r) for u, (s, r, v) in self.scores.items()
-                         if u != self.current and v == ALLOWED and s > 0), reverse=True)[:3]
+        ranked = self._next_up(self.current)[:3]
         for s, u, r in ranked:
             out.append(f"  {s:4.2f}  {self.snap[u]['title'][:45]:45}  {self.by_url[u]['name'][:22]}  ({r})")
         if not ranked:
