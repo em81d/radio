@@ -24,7 +24,6 @@ except ImportError:          # not Windows: keys disabled
     msvcrt = None
 
 TICK = 1.0
-REDRAW_EVERY = 2.0
 EXPLICIT_LOOKAHEAD = 5       # top candidates to explicit-check each tick
 HOME_LOOKAHEAD = 2           # best fallback stations to keep explicit-checked
 HOME_MARGIN = 0.05           # home must beat the current station's average by this much
@@ -52,6 +51,7 @@ class Radio:
         self.message = ""
         self.running = True
         self.started_at = time.time()
+        self._last_frame = None       # last screen drawn (minus queue count)
 
     def _song_changed(self, url, title):
         """Poller callback (worker thread): learn how often each station fits your taste."""
@@ -227,24 +227,26 @@ class Radio:
         if not ranked:
             out.append("  (no station is playing a profile match right now)")
         live = sum(1 for v in self.snap.values() if v["title"])
-        out += ["", f"Profile: {len(self.profile)} artists from {self.profile.source}   "
-                    f"Stations: {live}/{len(self.pool)} reporting   "
-                    f"Explicit queue: {self.explicit._q.qsize()}",
-                "Keys: [s] skip  [l] like  [q] quit"]
+        stats = (f"Profile: {len(self.profile)} artists from {self.profile.source}   "
+                 f"Stations: {live}/{len(self.pool)} reporting   ")
+        out += ["", stats, "Keys: [s] skip  [l] like  [q] quit"]
+        # Only print when something changed; the queue count alone doesn't count
+        frame = "\n".join(out)
+        if frame == self._last_frame:
+            return
+        self._last_frame = frame
+        out[-2] = stats + f"Explicit queue: {self.explicit._q.qsize()}"
         sys.stdout.write("\n".join(out) + "\n")
         sys.stdout.flush()
 
     def run(self):
         self.poller.start()
         self.snap = {}
-        last_draw = 0.0
         try:
             while self.running:
                 self.tick()
                 self.keys()
-                if time.time() - last_draw >= REDRAW_EVERY:
-                    self.draw()
-                    last_draw = time.time()
+                self.draw()
                 time.sleep(TICK)
         except KeyboardInterrupt:
             pass
