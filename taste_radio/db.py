@@ -22,7 +22,7 @@ CREATE TABLE IF NOT EXISTS plays (
     title TEXT,
     score REAL,
     reason TEXT,
-    event TEXT DEFAULT 'play'   -- 'play' | 'like' | 'skip'
+    event TEXT DEFAULT 'play'   -- 'play' | 'like' | 'skip' | 'ads'
 );
 CREATE TABLE IF NOT EXISTS lastfm_cache (
     method TEXT,
@@ -119,6 +119,15 @@ def station_stats():
         rows = c.execute("SELECT url, name, songs_seen, matches, match_score_sum "
                          "FROM station_stats").fetchall()
     return {r[0]: r[1:] for r in rows}
+
+
+def ads_reports():
+    """{station name: times you reported its title hanging during ads}"""
+    c = conn()
+    with _lock:
+        rows = c.execute("SELECT station, COUNT(*) FROM plays WHERE event = 'ads' "
+                         "GROUP BY station").fetchall()
+    return dict(rows)
 
 
 def recent_plays(hours):

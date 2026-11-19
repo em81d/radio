@@ -1,7 +1,8 @@
 """Taste Radio main loop (console).
 
 Run: .\\.venv\\Scripts\\python.exe -m taste_radio.radio
-Keys: s = skip (switch now), l = like, q = quit
+Keys: s = skip (switch now), a = ads (leave + report the station's title lag),
+      l = like, q = quit
 """
 import os
 import sys
@@ -30,6 +31,7 @@ HOME_MARGIN = 0.05           # home must beat the current station's average by t
 STARTUP_WAIT = 20            # seconds to wait for a matching song before going home
 SAME_START_SECONDS = 30      # same song on two stations: starts this close count as a tie
 SKIP_MEMORY_HOURS = 3        # how long a skipped song stays out of Next up
+STALE_TITLE_SECONDS = 240    # reported stations: distrust a title showing longer than this
 
 
 class Radio:
@@ -55,6 +57,7 @@ class Radio:
         self.started_at = time.time()
         self._last_frame = None       # last screen drawn (minus queue count)
         self.skipped = {}             # song key -> when you skipped it
+        self.reported = set(db.ads_reports())  # station names whose title lags into ads
 
     def _song_changed(self, url, title):
         """Poller callback (worker thread): learn how often each station fits your taste."""
@@ -76,6 +79,7 @@ class Radio:
         self._expire_skips()
         # avoid stations playing a song you skipped, unless that's all there is
         ok = [u for u in ok if not self._is_skipped(u)] or ok
+        ok = [u for u in ok if not self._stale(u)] or ok
         if not ok:
             # nothing confirmed clean: settle for a station on an ad/ID (not a song)
             ok = [u for u, (_, r, v) in self.scores.items()
@@ -97,7 +101,7 @@ class Radio:
         keep = {}                                  # song key -> (score, url, reason)
         for c in cands:
             key = self._song_key(self.snap[c[1]]["title"])
-            if key in self.skipped:
+            if key in self.skipped or self._stale(c[1]):
                 continue
             if key not in keep or self._started_later(c[1], keep[key][1]):
                 keep[key] = c
@@ -115,6 +119,13 @@ class Radio:
 
     def _is_skipped(self, url):
         return self._song_key(self.snap.get(url, {}).get("title")) in self.skipped
+
+    def _stale(self, url):
+        """Reported station whose title has been up too long: probably ads by now."""
+        if self.by_url[url]["name"] not in self.reported:
+            return False
+        since = self.snap.get(url, {}).get("changed_at") or self.started_at
+        return time.time() - since > STALE_TITLE_SECONDS
 
     def _started_later(self, a, b):
         """True if station a's song clearly started after station b's (unknown = oldest)."""
@@ -250,6 +261,15 @@ class Radio:
                     self.skipped[self._song_key(self.cur_title)] = time.time()
                 db.log_play(self.by_url[self.current]["name"], a, t, 0, "skipped", event="skip")
                 self.tune(self.best(self.current) or self.home(self.current), "skipped")
+            elif k == "a" and self.current:
+                # the station's title is stuck on the last song during ads:
+                # report the station, but don't hold it against the song
+                name = self.by_url[self.current]["name"]
+                a, t = split_title(self.cur_title)
+                db.log_play(name, a, t, 0, "ads report", event="ads")
+                self.reported.add(name)
+                self.tune(self.best(self.current) or self.home(self.current),
+                          f"left: ads on {name} (station reported)")
             elif k == "l" and self.current and self.cur_title:
                 a, t = split_title(self.cur_title)
                 db.log_play(self.by_url[self.current]["name"], a, t, 0, "liked", event="like")
@@ -275,7 +295,7 @@ class Radio:
         live = sum(1 for v in self.snap.values() if v["title"])
         stats = (f"Profile: {len(self.profile)} artists from {self.profile.source}   "
                  f"Stations: {live}/{len(self.pool)} reporting   ")
-        out += ["", stats, "Keys: [s] skip  [l] like  [q] quit"]
+        out += ["", stats, "Keys: [s] skip  [a] ads  [l] like  [q] quit"]
         # Only print when something changed; the queue count alone doesn't count
         frame = "\n".join(out)
         if frame == self._last_frame:

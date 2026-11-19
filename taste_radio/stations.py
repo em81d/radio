@@ -329,15 +329,21 @@ def main():
 
 def show_stats():
     stats = db.station_stats()
+    ads = db.ads_reports()
     rows = [(m / n, n, m, name) for url, (name, n, m, _) in stats.items() if n]
-    if not rows:
+    if not rows and not ads:
         print("No station stats yet: they fill in while the radio runs.")
         return
     rows.sort(reverse=True)
-    print(f"{'match':>6} {'songs':>6}  station   (rate counts after {MIN_SONGS_FOR_RATE} songs)")
+    print(f"{'match':>6} {'songs':>6} {'ads':>4}  station   "
+          f"(rate counts after {MIN_SONGS_FOR_RATE} songs; ads = times you pressed [a])")
     for rate, n, m, name in rows:
         flag = "" if n >= MIN_SONGS_FOR_RATE else "  (too few songs yet)"
-        print(f"{rate:6.0%} {n:6}  {name}{flag}")
+        print(f"{rate:6.0%} {n:6} {ads.get(name, 0) or '':>4}  {name}{flag}")
+    seen = {name for _, _, _, name in rows}
+    for name, count in sorted(ads.items(), key=lambda x: -x[1]):
+        if name not in seen:
+            print(f"{'-':>6} {'-':>6} {count:>4}  {name}  (no song stats yet)")
 
 
 if __name__ == "__main__":
